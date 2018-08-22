@@ -11,7 +11,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.Sound;
-import org.bukkit.World;
 import org.bukkit.block.Chest;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Arrow;
@@ -35,6 +34,7 @@ import jp.archesporeadventure.main.magicscrolls.MagicScrollController;
 import jp.archesporeadventure.main.utils.ItemStackUtil;
 import jp.archesporeadventure.main.utils.LivingEntityUtil;
 import jp.archesporeadventure.main.utils.MagicalItemsUtil;
+import jp.archesporeadventure.main.utils.TreasureMapUtil;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
@@ -93,31 +93,8 @@ public class PlayerInteractListener implements Listener {
 						ItemStack treasureMap = event.getItem();
 						ItemMeta teasureMapMeta = treasureMap.getItemMeta();
 						if (!teasureMapMeta.hasLocalizedName()) {
-							ItemStack newTreasureMap = event.getItem().clone();
+							ItemStack newTreasureMap = TreasureMapUtil.generateMap(Bukkit.getWorld("ServerWorld"), treasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS));
 							ItemStackUtil.removeAmount(treasureMap, 1);
-							newTreasureMap.setAmount(1);
-							ItemMeta newTeasureMapMeta = newTreasureMap.getItemMeta();
-							//+1 is because the upper end is exclusive, meaning not included.
-							int xPos = (ThreadLocalRandom.current().nextInt(-1280, 1280 + 1));
-							int zPos = (ThreadLocalRandom.current().nextInt(-1280, 1280 + 1));
-							World mapWorld = event.getPlayer().getWorld();
-							int yPos = mapWorld.getHighestBlockYAt(xPos, zPos);
-							newTeasureMapMeta.setLocalizedName(xPos + "," + yPos + "," + zPos);
-							List<String> mapLoreList = new ArrayList<>();
-							mapLoreList.add("");
-							if (newTreasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS) <= 1) {
-								mapLoreList.add(ChatColor.GRAY.toString() + "X: " + xPos);
-								mapLoreList.add(ChatColor.GRAY.toString() + "Z: " + zPos);
-							}
-							if (newTreasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS) <= 2) {
-								mapLoreList.add(Math.min(mapLoreList.size(), 2), ChatColor.GRAY.toString() + "Y: " + yPos);
-								mapLoreList.add("");
-								mapLoreList.add(ChatColor.GRAY.toString() + "Biome: " + mapWorld.getBlockAt(xPos, yPos, zPos).getBiome());
-								mapLoreList.add("");
-							}
-							mapLoreList.add(ChatColor.GRAY.toString() + ChatColor.ITALIC.toString() + "(Opened Map)");
-							newTeasureMapMeta.setLore(mapLoreList);
-							newTreasureMap.setItemMeta(newTeasureMapMeta);
 							player.sendMessage(ChatColor.GREEN + "You unroll the treasure map...");
 							if (player.getInventory().firstEmpty() == -1) {
 								player.getWorld().dropItem(player.getLocation(), newTreasureMap);
