@@ -20,6 +20,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.metadata.FixedMetadataValue;
@@ -28,6 +29,7 @@ import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
+import jp.archesporeadventure.main.controllers.LootPoolController;
 import jp.archesporeadventure.main.enchantments.CustomEnchantment;
 import jp.archesporeadventure.main.generation.itempools.DefaultPoolFiles;
 import jp.archesporeadventure.main.magicscrolls.MagicScrollController;
@@ -109,6 +111,20 @@ public class PlayerInteractListener implements Listener {
 							String[] mapCoordsValues = mapCoords.split(",");
 							Location mapLocation = new Location(event.getPlayer().getWorld(), Integer.valueOf(mapCoordsValues[0]), Integer.valueOf(mapCoordsValues[1]), Integer.valueOf(mapCoordsValues[2]));
 							event.getPlayer().sendMessage(ChatColor.BLUE + "You are: " + Math.round(event.getPlayer().getLocation().distance(mapLocation)) + " blocks away.");
+							if (Math.round(event.getPlayer().getLocation().distance(mapLocation)) <= 5) {
+								LootPoolController lootPool = ArchesporeAdventureMain.getLootPoolController();
+								String[] allLootPools = lootPool.getLootPoolMap().keySet().toArray(new String[0]);
+								ItemStack[] mapLoot = lootPool.getRegisteredLootPool(allLootPools[ThreadLocalRandom.current().nextInt(allLootPools.length)]).generateItems(treasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS));
+								Inventory playerInventory = player.getInventory();
+								for (ItemStack loot : mapLoot) {
+									if (playerInventory.firstEmpty() > 0) { 
+										playerInventory.addItem(loot);
+										player.playSound(player.getLocation(), Sound.ENTITY_ITEM_PICKUP, .25f, 2.0f);
+									}
+									else { player.getWorld().dropItemNaturally(player.getLocation(), loot); }
+								}
+								ItemStackUtil.removeAmount(treasureMap, 1);
+							}
 						}
 						event.setCancelled(true);
 						event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ITEM_ARMOR_EQUIP_LEATHER, 1.0f, 1.0f);
