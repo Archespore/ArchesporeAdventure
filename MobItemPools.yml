@@ -1,0 +1,4079 @@
+ItemPools:
+  MOB_LEVEL_0:
+    DisplayName: "Mob Level 0+"
+    ArmorItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §7Improved Leather Helmet
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmbgCA31dPHNLy5hYNjayMzACeL6pCYC+UyKwmwMbI65+aV5JfadM0FgFgcDS3BOfgkDS0ZqYgoHAy/cWL/E3FQGkfTUvNSizGS9xJKSxORsl8TcxPRUoJn+BalFiSWZ+XlAKxmBRuBWzIDioDX3UR20s4gZ5iCoSXgcwws3vyg3vwjNFQwwV6CqYmAAACpsTKUuAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §7Improved Leather Tunic
+          internal: H4sIAAAAAAAAAIWOTwqCQBjFn1qigpvwHJ0gCMFNkLUIDzDZlw2lE+PnCVp1hLpH52nbMRoXSoXQ2z14f34B4GMSM2u5bZhStZN7SboOANgOvCxbJKmqGVb0dOC3dknCePuROnDjUjUVm6zjYbQ5KcY4P1DNHsJ+cyVKQlhQRVrmU6FLpc3S+kxasFSVKcOUB1L4/MdFff/PXm73P7/eWt3/MET9OrPIj4koRUE/KFaHMhgG3tHx2m0wAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §7Improved Leather Leggings
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmbgCA31dPHNLy5hYHB5zMzACeL6pCYC+Uy3tZgZ2Bxz80vzSkBqORhYgnPySxhYclLTizkYeOFG+iXmpjLwpqfmpRZlJuslFuXmFwEN8i9ILUosyczPA+plAOrFoooBxfq676jW675gg1lv3zkTBGbhd4II3PCSksTkbJfE3MT0VDSXMMJcglUxAwMAtnJk8i4BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §7Improved Leather Boots
+          internal: H4sIAAAAAAAAAH2OTwqCQBjFnymigpvwHF4hAjdC1kLcN9mnDDVOjJ+HaNuuth2q66QLBUN6uwfvzy8AfKy3zEaeOqZMn2UlybQBgJUNryjSJNMtwzpGNvzB7kgM/pHacLdKdw33WcuDk181w6mI2EM4Te6FIoQ1NWRkGQujtOmHDjcygqVu+i767kIKs/v8M79/x+54v7k/B73+I0TTOLMoL4lQoqYfEmskWQwDX1NIq1UuAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §5Hardened Leather Helmet
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+            DURABILITY: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §5Hardened Leather Tunic
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+            DURABILITY: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §5Hardened Leather Leggings
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+            DURABILITY: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §5Hardened Leather Boots
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+            DURABILITY: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Animated Golden Helmet
+          internal: H4sIAAAAAAAAAH2Q2wpBQRSG/21Lm3JBeQu5cy2lUA5JHmDYC1NmRmORZ1AegAtvo1x6EA9hyKbttO7++g9fKwOkka8yWzlcMrVNKMeS7CIDwPcRDAbNWtssGF6v6CN9ky0STieOFx+pqjJLzc6bCJDszwwjOSURBsg+KztCEbIT0mTlqCSsMtYVdedkBUujXRYu+8WF2Py6Hpv3TodUNF85A4+aPwi5qFyJdYPEjKe/MD6dMRSUt/FP6M0LZXe//X+UwnPArEiR5v6cKHzD8SKc727gCiBV/TW7AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Animated Golden Chestplate
+          internal: H4sIAAAAAAAAAIWOzQ7BQBSFD6UpiQWJZ7CztxKJBYmyaMR6tJdO0unI9BKvwlOJtYVHUaKkfu/uJuec76sCFTR6zEbO10yuDuRCkkmqACwLznQ67Ls6YRQ6LQuV6zsicf1PngW7p/Q65jRbdlDyIs0o+yEl7KD22BwLRagtKSYj/bYwSpt0abIiI1jqOC0jLX9IIce3z3n+UdkZv3sA7jO/HOrZuhLbAYmIw28e78mcC86znEuxEzxddrfb/3FpPgh6Q4pi9lZEwYtPIfP5nAYuqiMga74BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Animated Golden Leggings
+          internal: H4sIAAAAAAAAAH2OTQ7BUBSFDxUpiQGJbdiCSAxIlIGI8StXvaSvT15vxQ4k5gbsxC6MbUJiBVpR1N+d3eSc831loIRai9lIN2Jy9FTOJJmwDMCyYI9G3bajQwbmWwul5O2RiP/86WKh2FI6CjjJ2igMfc0o+OSFNiqPyb5QhIpHARk5aQijtImHBgsygqUO4i7i7pcUXvE518vi151iim8egfvMH4VqOq7EqkPC5/kvjc9kRgWbc1blMH6q7G63/69SfwD0khQFPFwQTd90cqnO9zRwBTEigS27AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Animated Golden Boots
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYORmYGbgBHF9UhNB/GmsbAxsjrn5pXkl9hcYwICDgSU4J7+EgSUtNbWEg4EXbqxfYm4qg2B6al5qUWayXm5ihUdqYk5JBtBA/4LUosSSzPw8qH4cKhmQncJw1wTFKUwN65lhTgGawojfGbwwwxOLcvOLcDkBVRWK9YzmJ1GtX7wVERIzwWAWfieIwv2XX5aam5pXElyQmpqC5hRGmFOwq2ZgAAAwyODAuwEAAA==
+    WeaponItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7Improved Stone Sword
+          internal: H4sIAAAAAAAAAHXMQQqCUBSF4SOGPIUm4jpaQ4KTIGsQLuCmN73Yey+e1721jzaUhTTrzH44fBmQIi9Vg1xn5dp3chMOUwYgimGa5lDVflJgeMZIP3lkWjp6cYKktH52us/xncHmcvcKY0ncQK4z2P7oE1lG0bPjIO2OVKkdK7LU8+KeHxxIxbuV+X8G3jQOQbWzAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7Swift Stone Sword
+          lore:
+          - §7Adrenaline I
+          enchants:
+            Adrenaline: 1
+          internal: H4sIAAAAAAAAAIWOTQ7BUBSFT1WaamIibMMWpAkDiZ9B0wVcetUL772mLhuwCnZgamYz1uJ1UEGIOzu5J9/5IqCFTixSqsVeeGoztVJc7iIADR9hmo6HU7sT4H7z0arihMnlxvHqI4i13Rv3RDNEM9laQahJmTWZLET7iZ2RZnRzNlyqZZ9EaLkZkqacHXNecEmirHEYOMzvMl6FPPbehUYmqIUGl1N15/9SvXpH2wNrNpIUzNmHlVdbfW8DD4LvWp5GAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Burning Stone Sword
+          enchants:
+            FIRE_ASPECT: 1
+          internal: H4sIAAAAAAAAAHXMQQqCUBSF4VOGPIUm0jpaQ4KTIG0QLuCmN73Ue0+e1zW0ppbSbrKIZp3ZD4cvBRJkuWqQ86Rc+lYuwmFMASwimLreF6UfFejvEZJ3HpjmXj4fMeLc+snpLsNnBqvTzSuMJXE9udZg/aMrsoxNx46DNFtSpeZakKWOZ/c4cCAV777M/zPwAjLpr52zAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Bone
+          enchants:
+            DAMAGE_ALL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7Improved Stone Axe
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYGycy8zACeL6pCaC+K9OsjGwOebml+aVOIgxgAEHA0twTn4JA0duYmZeRmJeCgcDL9xov8TcVAaR9NS81KLMZL3EkpLE5GyXxNzE9FSguf4FqUWJJZn5eVBjcCtmYAAAXRRsCLMAAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7Sturdy Stone Axe
+          internal: H4sIAAAAAAAAAIXQsU7DMBAG4D+kVGmlMiCY+g4srEioUhekFiRKJ6ZLchQTbFfOlZH3AAmJJ2CHhYFH4Cl4C1ykRDUixNvJ5/8+Xx/oYXck4lS6Ep7aXF0pdmUfQCdGMp+fjKe2FMBexOitywmTr7eGaYzuSNuV8ZfYTtCZ3VpBokmZazJ5gkEde0qasbdgw05lByRCWTEmTQv2mWdLdiTKGh8DH9PcjE1QNNkJQNHL0yYobgcN6hlOW9ckCbsCAu6Pwp18PncrwvHrw/o8tjOG1YDC2KxI/W/PuVSlkMka1/Pfm3BLN5ch8e2rJr5/HP6cduJ+NU7bO9ZsZLZkzn/hogr3dzfwDTHxFu9sAgAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Burning Stone Axe
+          enchants:
+            FIRE_ASPECT: 1
+          internal: H4sIAAAAAAAAAHXMQQqCUBSF4SOGPIUmES2jNSQ4CbQG4QJuerOLvffkeR22q9bSesqIZp3ZD4cvA1KsctUg50m58q1chMOYAYhimLreF5UfFdE9xEjnLJnmfjwTJLn1k9PdBp8ZLE43rzCWxF3JtQbLH30gy1h37DhIsyVVavqCLHX8do8DB1Lx7sv8PwMvswGiNbMAAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7Bow
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Swift Bow
+          enchants:
+            ARROW_KNOCKBACK: 1
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGbgCA31dPHNLy5hYJipyszACeL6pCYC+YxtJ9kY2Bxz80vzSux3zgSBWRwMLME5+SUMHLmJmXkZiXkpHAy8cKP9EnNTGUTTU/NSizKT9XLzy1JzU/NKggtSU1OABvsXpBYllmTm54HsBZqDRzUDAwCtpMnHtQAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Improved Bow
+          enchants:
+            DURABILITY: 1
+            ARROW_DAMAGE: 1
+  MOB_LEVEL_10:
+    DisplayName: "Mob Level 10+"
+    ArmorItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Animated Golden Helmet
+          internal: H4sIAAAAAAAAAH2Q2wpBQRSG/21Lm3JBeQu5cy2lUA5JHmDYC1NmRmORZ1AegAtvo1x6EA9hyKbttO7++g9fKwOkka8yWzlcMrVNKMeS7CIDwPcRDAbNWtssGF6v6CN9ky0STieOFx+pqjJLzc6bCJDszwwjOSURBsg+KztCEbIT0mTlqCSsMtYVdedkBUujXRYu+8WF2Py6Hpv3TodUNF85A4+aPwi5qFyJdYPEjKe/MD6dMRSUt/FP6M0LZXe//X+UwnPArEiR5v6cKHzD8SKc727gCiBV/TW7AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Animated Golden Chestplate
+          internal: H4sIAAAAAAAAAIWOzQ7BQBSFD6UpiQWJZ7CztxKJBYmyaMR6tJdO0unI9BKvwlOJtYVHUaKkfu/uJuec76sCFTR6zEbO10yuDuRCkkmqACwLznQ67Ls6YRQ6LQuV6zsicf1PngW7p/Q65jRbdlDyIs0o+yEl7KD22BwLRagtKSYj/bYwSpt0abIiI1jqOC0jLX9IIce3z3n+UdkZv3sA7jO/HOrZuhLbAYmIw28e78mcC86znEuxEzxddrfb/3FpPgh6Q4pi9lZEwYtPIfP5nAYuqiMga74BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Animated Golden Leggings
+          internal: H4sIAAAAAAAAAH2OTQ7BUBSFDxUpiQGJbdiCSAxIlIGI8StXvaSvT15vxQ4k5gbsxC6MbUJiBVpR1N+d3eSc831loIRai9lIN2Jy9FTOJJmwDMCyYI9G3bajQwbmWwul5O2RiP/86WKh2FI6CjjJ2igMfc0o+OSFNiqPyb5QhIpHARk5aQijtImHBgsygqUO4i7i7pcUXvE518vi151iim8egfvMH4VqOq7EqkPC5/kvjc9kRgWbc1blMH6q7G63/69SfwD0khQFPFwQTd90cqnO9zRwBTEigS27AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Animated Golden Boots
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYORmYGbgBHF9UhNB/GmsbAxsjrn5pXkl9hcYwICDgSU4J7+EgSUtNbWEg4EXbqxfYm4qg2B6al5qUWayXm5ihUdqYk5JBtBA/4LUosSSzPw8qH4cKhmQncJw1wTFKUwN65lhTgGawojfGbwwwxOLcvOLcDkBVRWK9YzmJ1GtX7wVERIzwWAWfieIwv2XX5aam5pXElyQmpqC5hRGmFOwq2ZgAAAwyODAuwEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Hardened Gold Helmet
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Hardened Gold Chestplate
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Hardened Gold Leggings
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GOLDEN_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Hardened Gold Boots
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Durable Chain Helmet
+          lore:
+          - §7Forging I
+          - §7Repairing I
+          enchants:
+            Forging: 1
+            DURABILITY: 1
+            Repairing: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Durable Chain Chestplate
+          lore:
+          - §7Forging I
+          - §7Repairing I
+          enchants:
+            Forging: 1
+            DURABILITY: 1
+            Repairing: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Durable Chain Leggings
+          lore:
+          - §7Forging I
+          - §7Repairing I
+          enchants:
+            Forging: 1
+            DURABILITY: 1
+            Repairing: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Durable Chain Boots
+          lore:
+          - §7Forging I
+          - §7Repairing I
+          enchants:
+            Forging: 1
+            DURABILITY: 1
+            Repairing: 1
+    WeaponItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Sharpened Stone Sword
+          lore:
+          - §7(+1 Damage from Sharpness)
+          enchants:
+            DURABILITY: 1
+            DAMAGE_ALL: 1
+          internal: H4sIAAAAAAAAAHXMwQnCQBCF4acbZBPwItZhD4FcBBMPkgLGZIyD7m7YTDqwPRuwF8H14s3jz3t8BZBjU6pGOc/KdejlIhynAsDCwLbtvqrDpMD7aZB/88CUevl4GaxKF2afRmQW2ekeFNaR+Cv53mL9YxtyjO3AnqN0O1Kl7laRo4GTeRw5kkrwiUFi/p+BDw9TZNmvAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Burning Iron Sword
+          enchants:
+            FIRE_ASPECT: 1
+          internal: H4sIAAAAAAAAAHXMMQrCQBCF4aeRsAnYiHgMz2AgjZBoIamsxmSMg+5u2Exu4z08gBczitj5uh8eXwokWGSqQU6DcukbOQuHPgUwiWCqapuXvlfgfoyQvLNgGnv6eMaIM+sHp5sVPjOYHW5eYSyJu5BrDOY/ekeWsWzZcZB6TapUX3Oy1PLo7jsOpOLdl/l/Bl6NyevmswAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Sharpened Iron Sword
+          lore:
+          - §7(+1 Damage from Sharpness)
+          enchants:
+            DURABILITY: 1
+            DAMAGE_ALL: 1
+          internal: H4sIAAAAAAAAAHXMsQ3CMBCF4QcOyImUBjEHO0RKg0SgQKmojuQIJ7CNnMs27MEALIZp6Ch/vaevAHKsKtUo50m5Cb1chONYAJgZ2Lbd1k0YFXieDPJv7phSz19vg2XlwuTTiIVFdrwHhXUk/kq+tyh/7J4cYz2w5yjdhlSpu9XkaOBkHh4cSSX4xCAx/8/AB1BVuL6vAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BLAZE_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Blaze Rod
+          enchants:
+            FIRE_ASPECT: 1
+          repair-cost: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Sharpened Stone Axe
+          lore:
+          - §7(+1 Damage from Sharpness)
+          enchants:
+            DURABILITY: 1
+            DAMAGE_ALL: 1
+          internal: H4sIAAAAAAAAAHXMsQ3CMBCF4QcG5ESiQczBBhSR0iAlUKAMcCRHOIHtyLnsxyyMQYVp6Ch/vacvBzJsCtUol0m5Dp1cheOYA5gZ2KY5lHUYFXi/DLJvVkyp5/unwapwYfJpxNJicX4EhXUk/ka+s1j/2CM5xrZnz1HaHalSey/JUc/JPA0cSSX4xCAx/8/AB5jZN/uvAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Burning Iron Axe
+          enchants:
+            FIRE_ASPECT: 1
+          internal: H4sIAAAAAAAAAHXMwQnCQBCF4ReUsAl4EUGwCGswkItg9CApYEzGOOjuyGbSg/3YoFHEm+/2w+PLgQzzwizKaTCutJWzcOxzAMkErq63ZaW9AY/lBNk7d0xjJ09NkRZeh2CbFT5zmB5vanCeJFwotA6zH70nz1h0HDhKsyYzaq4leep4dA93jmSi4cv8PwMvAMVPF7MAAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Sharpened Iron Sword
+          lore:
+          - §7(+1 Damage from Sharpness)
+          enchants:
+            DURABILITY: 1
+            DAMAGE_ALL: 1
+          internal: H4sIAAAAAAAAAHXMwQnCQBCF4RciYRPwIoJd2EMgF8HoQVLAmIxxiLsjm0kP9mODrhdvHn/e46uAEpvaLMp1MW51kJtwnCsAWQ7XdYem1dmA1y5H+c0jU+rsrTmK2usS0ojCYXV5qMF5knCnMDisf+yJPGM7cuAo/Z7MqJ8a8jRyMs9PjmSiITFIzP8z8AGkcw1SrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5Improved Bow
+          enchants:
+            DURABILITY: 1
+            ARROW_DAMAGE: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Burning Bow
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_FIRE: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Scavenger's Bow
+          enchants:
+            LOOT_BONUS_MOBS: 1
+          repair-cost: 1
+          internal: H4sIAAAAAAAAAIWOQQ7BUBRFLxWpJibCNmzAQEQnEmUgFvC0T/3w/5d6NbIJQ3ZgDdZhbif8DiohxJvdvJtzTwA00BqIZGqRC0c2UUvF2S4AUPXgz+ejMLI7AXpDD40ijplcrt4fHuoDbXPjnqj4qM02VuBrUmZFJvHRfGEnpBntlA1nKu6SCMXrkDSl7JjTLWckyhqHgcP8LuNN6HB7Fzpe66VQ/3Iq7vxfqlPuaLtnzUZmW+bkw6pSWn1vA0+/5e2RRgEAAA==
+  MOB_LEVEL_20:
+    DisplayName: "Mob Level 20+"
+    ArmorItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Hardened Chain Helmet
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Hardened Chain Chestplate
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Hardened Chain Leggings
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Hardened Chain Boots
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHardened+ Chain Helmet
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHardened+ Chain Chestplate
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHardened+ Chain Leggings
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: CHAINMAIL_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aHardened+ Chain Boots
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aAnimated+ Iron Helmet
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYPCRZGbgBHF9UhOBfMYuETYGNsfc/NK8EvsHDGDAwcASnJNfwsCSkZqYwsHACzfWLzE3lUEwPTUvtSgzWS83scIjNTGnJANooH9BalFiSWZ+HlQ/DpUMKE75zInqlFP7EE6ZCQaz8DtFFG5BfllqbmpeSXBBamoKmnMYYc7BrhrVST2HUZzEFJXADHMS0Cgm/M7hhVmQWJSbX4QrVFBVMTAAAHBxlDC7AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aAnimated+ Iron Chestplate
+          internal: H4sIAAAAAAAAAIXQTw7BQBQG8K9K00osSFzDwgVEYkGiLMTe0IdJOh2ZPuIGltbYuYg7OIFDOIAS/yrE273Ml+/9MnnAQ6nObORwzuTrQI4lmTgPwLbh9vuthq9jBvyzDe+6tkkku7XaO3DqSs8jrp1wGxfZXqgZudGUYnZRePZ2hCIUJxSRkaOKEssmiZCnSWN3Rkaw1NG94EcS7xYrc0xbDruXZXOb7R9L+XlBL0hRxL0ZUfDhsR6e7+mUCetqypQZJM93U1Ll/PEUHheEUdr8+pd0CrgAFTeOqL4BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aAnimated+ Iron Leggings
+          internal: H4sIAAAAAAAAAH3QTw7BQBQG8K9aUhILEks29q4gTSxI/FmIAwweJul0mukjdjbiDlzDym0cRYmiQt/uJd9875cpAUVUPWYjp2umgZ7LhSQTlQDYNtzJpNcZ6IiBYcNG8b72ScS7dbgUUPCUXgfcvuIxLpyxrxmOT8vIRflVOxSKUFlSQEbOWkpsuyR8XsWFo5CMYKmD5/s/SXxSLKeeppw3b8rxMadsSu11QG9IUcDjkGj+xbESzu90ioRdM0XK6b2dkOKqfDannBwQRmnz71fSKeAG9BeGLLsBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aAnimated+ Iron Boots
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYPhryczACeL6pCYC+Yxzu9kY2Bxz80vzSuwfMIABBwNLcE5+CQNLWmpqCQcDL9xYv8TcVAbB9NS81KLMZL3cxAqP1MSckgyggf4FqUWJJZn5eVD9OFQyoDhl43RUp+w1RzhlJhjMwu8UUbgF+WWpual5JcEFqakpaM5hhDkHu2pUJ9V3oTiJKesHM8xJQKOY8DuHF2ZBYlFufhGuUEFVxcAAAAop7Ci7AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aSacrificial Iron Helmet
+          lore:
+          - §7Sacrafice I
+          - §7Soulbound I
+          enchants:
+            DURABILITY: 1
+            Sacrafice: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aSacrificial Iron Chestplate
+          lore:
+          - §7Sacrafice I
+          - §7Soulbound I
+          enchants:
+            DURABILITY: 1
+            Sacrafice: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aSacrificial Iron Leggings
+          lore:
+          - §7Sacrafice I
+          - §7Soulbound I
+          enchants:
+            DURABILITY: 1
+            Sacrafice: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aSacrificial Iron Boots
+          lore:
+          - §7Sacrafice I
+          - §7Soulbound I
+          enchants:
+            DURABILITY: 1
+            Sacrafice: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 1
+    WeaponItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Sharpened Iron Sword
+          lore:
+          - §7(+1 Damage from Sharpness)
+          enchants:
+            DURABILITY: 1
+            DAMAGE_ALL: 1
+          internal: H4sIAAAAAAAAAHXMsQ3CMBCF4QcOyImUBjEHO0RKg0SgQKmojuQIJ7CNnMs27MEALIZp6Ch/vaevAHKsKtUo50m5Cb1chONYAJgZ2Lbd1k0YFXieDPJv7phSz19vg2XlwuTTiIVFdrwHhXUk/kq+tyh/7J4cYz2w5yjdhlSpu9XkaOBkHh4cSSX4xCAx/8/AB1BVuL6vAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aBleeding Iron Sword
+          lore:
+          - §7Hemorrhage I
+          - §7Crippling Strike I
+          - §7Lifesteal I
+          enchants:
+            Hemorrhage: 1
+            Lifesteal: 1
+            Cripple Strike: 1
+          internal: H4sIAAAAAAAAAHXMsQ3CMBCF4QcOyImUBjEHO0RKg0SgQKmojuQIJ7CNnMs27MEALIZp6Ch/vaevAHKsKtUo50m5Cb1chONYAJgZ2Lbd1k0YFXieDPJv7phSz19vg2XlwuTTiIVFdrwHhXUk/kq+tyh/7J4cYz2w5yjdhlSpu9XkaOBkHh4cSSX4xCAx/8/AB1BVuL6vAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aRouge's Stone Sword
+          lore:
+          - §7Cloaking I
+          - §7Crippling Strike I
+          enchants:
+            Cloaking: 1
+            Cripple Strike: 1
+          internal: H4sIAAAAAAAAAIXQMWoCURAG4H+zIk8hRUS7nMDCzloEiwRiLMQDjO6oT33vyTrGVIEcQ4/gDTyZneuz2MWNEacb+PnnY8pACZW2SKyHa+Gui/RYc7wqAwhDqMHgvdN1K0Hw+xqidFk/mPz+tFchim3j1lZ8tqBQ6C+cQBnSdko2UnjOaj/JMKoTthzrUYNEaDTvkKEJ+87ekmMS7ayvga+5H8Y1CMcoD/rZFFNQ67C9zO4xqpbeMe6LDVvpL5mjP6ogVf2fzrECauZZs3r2pyRJTo9JL9kR+n5jWsj03pNuk8AZekxITdEBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aBursting Iron Sword
+          lore:
+          - §7Blasting I
+          enchants:
+            Blasting: 1
+          internal: H4sIAAAAAAAAAHXMsQ3CMBCF4QcOyImUBjEHO0RKg0SgQKmojuQIJ7CNnMs27MEALIZp6Ch/vaevAHKsKtUo50m5Cb1chONYAJgZ2Lbd1k0YFXieDPJv7phSz19vg2XlwuTTiIVFdrwHhXUk/kq+tyh/7J4cYz2w5yjdhlSpu9XkaOBkHh4cSSX4xCAx/8/AB1BVuL6vAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BRICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aBrick
+          enchants:
+            KNOCKBACK: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Sharpened Iron Sword
+          lore:
+          - §7(+1 Damage from Sharpness)
+          enchants:
+            DURABILITY: 1
+            DAMAGE_ALL: 1
+          internal: H4sIAAAAAAAAAHXMwQnCQBCF4RciYRPwIoJd2EMgF8HoQVLAmIxxiLsjm0kP9mODrhdvHn/e46uAEpvaLMp1MW51kJtwnCsAWQ7XdYem1dmA1y5H+c0jU+rsrTmK2usS0ojCYXV5qMF5knCnMDisf+yJPGM7cuAo/Z7MqJ8a8jRyMs9PjmSiITFIzP8z8AGkcw1SrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aBleeding Iron Axe
+          lore:
+          - §7Hemorrhage I
+          - §7Crippling Strike I
+          - §7Lifesteal I
+          enchants:
+            Hemorrhage: 1
+            Lifesteal: 1
+            Cripple Strike: 1
+          internal: H4sIAAAAAAAAAHXMwQnCQBCF4RciYRPwIoJd2EMgF8HoQVLAmIxxiLsjm0kP9mODrhdvHn/e46uAEpvaLMp1MW51kJtwnCsAWQ7XdYem1dmA1y5H+c0jU+rsrTmK2usS0ojCYXV5qMF5knCnMDisf+yJPGM7cuAo/Z7MqJ8a8jRyMs9PjmSiITFIzP8z8AGkcw1SrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: STONE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aPowerful Stone Axe
+          lore:
+          - §7Hemorrhage I
+          - §7Jagged Edge I
+          - §cHeavy I
+          - §7(+2.5 Damage from Jagged Edge)
+          enchants:
+            DURABILITY: 3
+            Hemorrhage: 1
+            Heavy: 1
+            Jagged Edge: 1
+          internal: H4sIAAAAAAAAAIXRS07DMBAG4EkDVVqpGwTdcAQeGyTEjlbqBomCIPQArjOkVrAd2RO4AzeAI3AJFl2BxAFYsuMEsCWtSIQRJrOzNP7n00wXoANrQyIjpgXhWCfiUqCxXQBYDSGaTI5GY20J4P0jhM7ieYysfAdv221oD6UuFA36sKwIVuIrTRBJJtSMqSSCXh19wiTCeooKjeC7jIjxbMQkS7HMPc3RMBJafcf4m8FB7Xw6qNbgpkYdzveW1YzarOZkSvNsWo46RyssMcW9tv/+OMRg/8wlHuRhRSzzWs28Xr0GI7Xxgdwud0u3D+7pXp5/EoJmQt8Jv9BFOlNorc/iaXdRPHb38rpVn+7x6W5R982wjWqS1NcoUVGcIya/XEHl+rsb4AsvF0t4BQMAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aBursting Iron Axe
+          lore:
+          - §7Blasting I
+          enchants:
+            Blasting: 1
+          internal: H4sIAAAAAAAAAHXMwQnCQBCF4RciYRPwIoJd2EMgF8HoQVLAmIxxiLsjm0kP9mODrhdvHn/e46uAEpvaLMp1MW51kJtwnCsAWQ7XdYem1dmA1y5H+c0jU+rsrTmK2usS0ojCYXV5qMF5knCnMDisf+yJPGM7cuAo/Z7MqJ8a8jRyMs9PjmSiITFIzP8z8AGkcw1SrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §9Burning Bow
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_FIRE: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aScavenger's+ Bow
+          lore:
+          - §7Celerity I
+          enchants:
+            LOOT_BONUS_MOBS: 1
+            ARROW_DAMAGE: 1
+            Celerity: 1
+          repair-cost: 1
+          internal: H4sIAAAAAAAAAIWOQQ7BUBRFb1WkmpgI2zAxNBDRiUQZNBbw6FM//P+lXo1swloMrcPcTvgklRDizW7ezbknBOpoDkRyNS+EY5uqpeJ8FwKo+Ahms1EU250AvaGP+iOOmVyuXG8+agNtC+Oe8AJUk40VBJqUWZFJAzRe2AlpRitjw7ladEiEFuuINGXsmNMt5yTKGoeBw/wu403ocHkXOp5rpVD/1H3ef6l2uaPtnjUbSbbM6YeVV1p9bwN33wKUlEYBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aImproved+ Bow
+          enchants:
+            ARROW_KNOCKBACK: 1
+            DURABILITY: 1
+            ARROW_DAMAGE: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aArmored Bow
+          lore:
+          - §cHeavy II
+          enchants:
+            DURABILITY: 2
+            ARROW_DAMAGE: 2
+            Heavy: 2
+            ARROW_KNOCKBACK: 2
+          internal: H4sIAAAAAAAAAIXQPYoCQRAF4KcjMgoGmnoDA68ggoGCP+AippZjqc3Y3dJTgpnX8CIeYHMDj2Qv7IiDPxMWvHr1UVWggkZXxKnlQXhkV2qt2CVVAEGAcDYb9EY2ERRaNkDlbxwy+bl4/g1Q7mp7MOKzpRCln50VhJqU2ZJZhag9asekGbUNG3YqapPT1vmyyZ4dibLG78Pvv0nhmYDrJUtY9MspoXMD/mtyGM30QGxsFC8piqecqETIRPwJ9W0nQyzsT1niPH7+UjGfV09PaTr2mXay/YR6TQJ3ZeapCM8BAAA=
+  MOB_LEVEL_30:
+    DisplayName: "Mob Level 30+"
+    ArmorItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aAnimated+ Iron Helmet
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYPCRZGbgBHF9UhOBfMYuETYGNsfc/NK8EvsHDGDAwcASnJNfwsCSkZqYwsHACzfWLzE3lUEwPTUvtSgzWS83scIjNTGnJANooH9BalFiSWZ+HlQ/DpUMKE75zInqlFP7EE6ZCQaz8DtFFG5BfllqbmpeSXBBamoKmnMYYc7BrhrVST2HUZzEFJXADHMS0Cgm/M7hhVmQWJSbX4QrVFBVMTAAAHBxlDC7AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aAnimated+ Iron Chestplate
+          internal: H4sIAAAAAAAAAIXQTw7BQBQG8K9K00osSFzDwgVEYkGiLMTe0IdJOh2ZPuIGltbYuYg7OIFDOIAS/yrE273Ml+/9MnnAQ6nObORwzuTrQI4lmTgPwLbh9vuthq9jBvyzDe+6tkkku7XaO3DqSs8jrp1wGxfZXqgZudGUYnZRePZ2hCIUJxSRkaOKEssmiZCnSWN3Rkaw1NG94EcS7xYrc0xbDruXZXOb7R9L+XlBL0hRxL0ZUfDhsR6e7+mUCetqypQZJM93U1Ll/PEUHheEUdr8+pd0CrgAFTeOqL4BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aAnimated+ Iron Leggings
+          internal: H4sIAAAAAAAAAH3QTw7BQBQG8K9aUhILEks29q4gTSxI/FmIAwweJul0mukjdjbiDlzDym0cRYmiQt/uJd9875cpAUVUPWYjp2umgZ7LhSQTlQDYNtzJpNcZ6IiBYcNG8b72ScS7dbgUUPCUXgfcvuIxLpyxrxmOT8vIRflVOxSKUFlSQEbOWkpsuyR8XsWFo5CMYKmD5/s/SXxSLKeeppw3b8rxMadsSu11QG9IUcDjkGj+xbESzu90ioRdM0XK6b2dkOKqfDannBwQRmnz71fSKeAG9BeGLLsBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aAnimated+ Iron Boots
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYPhryczACeL6pCYC+Yxzu9kY2Bxz80vzSuwfMIABBwNLcE5+CQNLWmpqCQcDL9xYv8TcVAbB9NS81KLMZL3cxAqP1MSckgyggf4FqUWJJZn5eVD9OFQyoDhl43RUp+w1RzhlJhjMwu8UUbgF+WWpual5JcEFqakpaM5hhDkHu2pUJ9V3oTiJKesHM8xJQKOY8DuHF2ZBYlFufhGuUEFVxcAAAAop7Ci7AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eScorching Iron Helmet
+          lore:
+          - §7Molten III
+          - §7Forging I
+          enchants:
+            Molten: 3
+            Forging: 1
+            PROTECTION_FIRE: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy756P3tyBEdp60sDJwgIZ/UxOKS9SEKhTb3zveyMbA55uaX5pXYP2AAAw4GluCc/BIGlozUxBQOBl648X6JuakMIumpealFmcl6iSUlicnZLom5iempzAyc/gWpRYklmfl5UCPAinkckRQxIDkoYubO/U5L3ZuRHdQrsmFHfr6ZANxBDgzEOIgX7qCi3PwiXC5hdQTJMjAAAImEkSQyAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eScorching Iron Chestplate
+          lore:
+          - §7Molten III
+          - §7Forging I
+          enchants:
+            Molten: 3
+            Forging: 1
+            PROTECTION_FIRE: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy55H39Zaa6NTxwLAydIyCc1sbhk/tXO2V94Fr9jY2BzzM0vzSuxf8AABhwMLME5+SUMrMkZqcUlHAy8cPP9EnNTGUTSU/NSizKT9RJLShKTs10ScxPTU5kZOP0LUosSSzLz86BmgBXzOCIpYkByUcfHG8YF1325kV00S3XmtLa+tdfhLnKQIMpFvHAXFeXmF+FyCqsjSJaBAQAJPqF1NAEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eScorching Iron Leggings
+          lore:
+          - §7Molten III
+          - §7Forging I
+          enchants:
+            Molten: 3
+            Forging: 1
+            PROTECTION_FIRE: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy55+kX81LatHv9YGDhBQj6picUlHdn+fZcaOWewMbA55uaX5pXYP2AAAw4GluCc/BIGlpzU9GIOBl648X6JuakMIumpealFmcl6iSUlicnZLom5iempzAyc/gWpRYklmfl5UCPAinkckRQxIDnoULF9r2++831kB83m9T14QcfBAe4gBxFiHMQLd1BRbn4RLpewOoJkGRgAhjOpvjIBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eScorching Iron Boots
+          lore:
+          - §7Molten III
+          - §7Forging I
+          enchants:
+            Molten: 3
+            Forging: 1
+            PROTECTION_FIRE: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy7pPb+ibaK7fzMLAydIyCc1sbhkN3tHBUP24/9sDGyOufmleSX2DxjAgIOBJTgnv4SBJS01tYSDgRduvF9ibiqDSHpqXmpRZrJeYklJYnK2S2JuYnoqMwOnf0FqUWJJZn4e1AiwYh5HJEUMSA5aw1klUn/AcQOygxp0Die7/WCcAneQAwMxDuKFO6goN78Il0tYHUGyDAwAKb4pjTIBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eParrying Iron Helmet
+          lore:
+          - §7Reinforced II
+          enchants:
+            Reinforced: 2
+            DURABILITY: 2
+            PROTECTION_PROJECTILE: 2
+            THORNS: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eParrying Iron Chestplate
+          lore:
+          - §7Reinforced II
+          enchants:
+            Reinforced: 2
+            DURABILITY: 2
+            PROTECTION_PROJECTILE: 2
+            THORNS: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eParrying Iron Leggings
+          lore:
+          - §7Reinforced II
+          enchants:
+            Reinforced: 2
+            DURABILITY: 2
+            PROTECTION_PROJECTILE: 2
+            THORNS: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eParrying Iron Boots
+          lore:
+          - §7Reinforced II
+          enchants:
+            Reinforced: 2
+            DURABILITY: 2
+            PROTECTION_PROJECTILE: 2
+            THORNS: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eLightweight+ Iron Helmet
+          lore:
+          - §7Quickening I
+          - §7Soulbound I
+          enchants:
+            PROTECTION_FALL: 1
+            Quickening: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 1
+          internal: H4sIAAAAAAAAAH2OTQqCQBzFnx+ICm6irtEmaBtCmyBtIR5gyn810MzIOEbH6C7dpPMUZJJ9Eb3dg/d+/EIgQC82RvNlbShRBV9z0lUIwHbg5/lsmqjKAOnVQXCvc2JNt/nRgxcLVUszuaCNDzfbKQN3S6zwET2xKROEaEOSNF8NmRZKN7BFSZoZruTj+2OFdwXr0P9UGJ9fCqdRm/8Kgw4u1J4ESZOVRMWXitWp/F4DN9CELzQ0AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eLightweight+ Iron Chestplate
+          lore:
+          - §7Quickening I
+          - §7Soulbound I
+          enchants:
+            PROTECTION_FALL: 1
+            Quickening: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 1
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmbgCA31dPHNLy5hYHj7i5mBE8T1SU0E8hk/3GNjYHPMzS/NK3EQZwADDgaW4Jz8EgbW5IzU4hIOBl64uX6JuakMvOmpealFmcl6iUW5+UVA0/wLUosSSzLz86CasahiQHYDY6MkihuYSg7C3WC/2RgMCLhBFGZ6bn5Zam5qXklwQWpqCppbGGFuwa6agQEAdoTbcjYBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eLightweight+ Iron Leggings
+          lore:
+          - §7Quickening I
+          - §7Soulbound I
+          enchants:
+            PROTECTION_FALL: 1
+            Quickening: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 1
+          internal: H4sIAAAAAAAAAH2OwQqCQBiEpxRTwUvRa3TpGpTQJcg6iKdOW/7Jgrsr69q1h+reQ/REmaRgSHMbmPn4fMDDNDRG83NlKFIpv3LSpQ9gbMFNkt02UqUBTk8L3qfuidV9/HIcOKFQlTSbGZq4sONcGdg5ZaWLoMMemCAEGUnS/LJgWihdw44FaWa4kt/vwAo9Bbr3FVaTTmH9WDb5rzBv4ULdSJA0cUGU/qiMWpXhNfAG8PHMdzQBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eLightweight+ Iron Boots
+          lore:
+          - §7Quickening I
+          - §7Soulbound I
+          enchants:
+            PROTECTION_FALL: 1
+            Quickening: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 1
+          internal: H4sIAAAAAAAAAH2OQQqCUBiEJxVRwU3QNVrUAURoE2QtRGhr+RsPej55/rbpKHWLrtO2W7TIJItCmt3AzMfnAS6GIbMWm5opUpnIBenKA2CYcJJkPotUxcDpasJ91gWlTTduExt2KFVdcHBHGwdWvFcMKydiB/4bu0wlwd9RQVpsx6mWSjewVUk6ZaGK17dnhS+FY/CtsD5/FC7TNv8VRh1cqgNJKjguibIflUGn0r8GHmuXKYc0AQAA
+    WeaponItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aRouge's Iron Sword
+          lore:
+          - §7Cloaking I
+          - §7Crippling Strike I
+          enchants:
+            Cloaking: 1
+            Cripple Strike: 1
+          internal: H4sIAAAAAAAAAIXQMWoCURAG4H+zIk8hRUS7nMDCzloEiwRiLMQDjO6oT33vyTrGVIEcQ4/gDTyZneuz2MWNEacb+PnnY8pACZW2SKyHa+Gui/RYc7wqAwhDqMHgvdN1K0Hw+xqidFk/mPz+tFchim3j1lZ8tqBQ6C+cQBnSdko2UnjOaj/JMKoTthzrUYNEaDTvkKEJ+87ekmMS7ayvga+5H8Y1CMcoD/rZFFNQ67C9zO4xqpbeMe6LDVvpL5mjP6ogVf2fzrECauZZs3r2pyRJTo9JL9kR+n5jWsj03pNuk8AZekxITdEBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBurning+ Iron Sword
+          enchants:
+            FIRE_ASPECT: 2
+          internal: H4sIAAAAAAAAAHXMMQrCQBCF4RciYROwEfEYltYG0giJFpIDjMkYB93dsJmc0cK7eAajiJ2v++HxZUCKRa4a5DQqV76Vs3AYMgBRDFPXu6LygwKbZ4z0nSXT1NH9kSDJrR+dblf4zGB2vHmFsSTuQq41mP/oPVnGsmPHQZo1qVJzLchSx5N76DmQindf5v8ZeAE/RRiSswAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eSharpened+ Iron Sword
+          lore:
+          - §7Hemorrhage I
+          - §7(+2 Damage from Sharpness)
+          enchants:
+            Hemorrhage: 1
+            DAMAGE_ALL: 3
+          internal: H4sIAAAAAAAAAHXMsQ3CMBCF4QcOyImUBjEHO0RKg0SgQKmojuQIJ7CNnMs27MEALIZp6Ch/vaevAHKsKtUo50m5Cb1chONYAJgZ2Lbd1k0YFXieDPJv7phSz19vg2XlwuTTiIVFdrwHhXUk/kq+tyh/7J4cYz2w5yjdhlSpu9XkaOBkHh4cSSX4xCAx/8/AB1BVuL6vAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eSwift+ Iron Sword
+          lore:
+          - §7Adrenaline II
+          - §7(+1 Damage from Sharpness)
+          enchants:
+            Adrenaline: 2
+            DAMAGE_ALL: 1
+          internal: H4sIAAAAAAAAAIWOTQ7BUBSFD0WqiQFhaAsmFiBNOpH4GYgFXO3FC++9pi5ja2JuD5ZjIh5JJRXhzE5y8p0vAOpohSKZWuyFxzZRS8XZLgBQ9uDP58NobHcC3K8e6s86YnK9dDnVUAu13RsZnPuv+KjMtlbga1JmTSbx0XijJ6QZnRUbzlTc0/bAmo3MUubEgacpZyTKGvdbcpwfaxS0js2i1q3r5VoOVf2v1M5PSITiTUSaVvxhhNzo6xh4AHZTu5RGAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: ORANGE_TULIP
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eFire Flower
+          enchants:
+            FIRE_ASPECT: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aPowerful Iron Axe
+          lore:
+          - §7Hemorrhage I
+          - §7Jagged Edge I
+          - §cHeavy I
+          - §7(+2.5 Damage from Jagged Edge)
+          enchants:
+            DURABILITY: 3
+            Hemorrhage: 1
+            Heavy: 1
+            Jagged Edge: 1
+          internal: H4sIAAAAAAAAAIXRS07DMBAG4EkDVVqpGwTdcAQeGyTEjlbqBomCIPQArjOkVrAd2RO4AzeAI3AJFl2BxAFYsuMEsCWtSIQRJrOzNP7n00wXoANrQyIjpgXhWCfiUqCxXQBYDSGaTI5GY20J4P0jhM7ieYysfAdv221oD6UuFA36sKwIVuIrTRBJJtSMqSSCXh19wiTCeooKjeC7jIjxbMQkS7HMPc3RMBJafcf4m8FB7Xw6qNbgpkYdzveW1YzarOZkSvNsWo46RyssMcW9tv/+OMRg/8wlHuRhRSzzWs28Xr0GI7Xxgdwud0u3D+7pXp5/EoJmQt8Jv9BFOlNorc/iaXdRPHb38rpVn+7x6W5R982wjWqS1NcoUVGcIya/XEHl+rsb4AsvF0t4BQMAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eBurning+ Iron Axe
+          enchants:
+            FIRE_ASPECT: 2
+          internal: H4sIAAAAAAAAAHXMMQrCQBCF4RciYROwESsPYWltII2QaCE5wJiMcdDdDZvJGS28i2cwitj5uh8eXwakWOSqQU6jcuVbOQuHIQMQxTB1vSsqPyiwecZI31kyTR3dHwmS3PrR6XaFzwxmx5tXGEviLuRag/mP3pNlLDt2HKRZkyo114IsdTy5h54DqXj3Zf6fgRfwGF2sswAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eSharpened+ Iron Axe
+          lore:
+          - §7Hemorrhage I
+          - §7(+2 Damage from Sharpness)
+          enchants:
+            Hemorrhage: 1
+            DAMAGE_ALL: 3
+          internal: H4sIAAAAAAAAAHXMwQnCQBCF4RciYRPwIoJd2EMgF8HoQVLAmIxxiLsjm0kP9mODrhdvHn/e46uAEpvaLMp1MW51kJtwnCsAWQ7XdYem1dmA1y5H+c0jU+rsrTmK2usS0ojCYXV5qMF5knCnMDisf+yJPGM7cuAo/Z7MqJ8a8jRyMs9PjmSiITFIzP8z8AGkcw1SrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePowerful+ Iron Axe
+          lore:
+          - §7Hemorrhage I
+          - §7Jagged Edge I
+          - §cHeavy II
+          - §7(+2.5 Damage from Jagged Edge)
+          enchants:
+            DURABILITY: 3
+            Hemorrhage: 1
+            Heavy: 2
+            Jagged Edge: 1
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWbgCA31dPHNLy5hYFjUwczACeL6pCYC+UxNWmwMbI65+aV5JfYPGMCAg4ElOCe/hIEjNzEzLyMxL4WDgRdutF9ibiqDdHpqXmpRZrJedl5+cnZSYnJ2UGpxZnFJYl5yKtB4/4LUosSSzPw8qGkE9TCgOHGNEooTGS8LMsOcCPIOYefxwqxKLMrNL8LlIFRVqE74wI8aSsHGyE5gIuwEMRTDQ/JL0zPyUouLcbkFh3IURzFGv0d1VAMjsqPYCDtKBG5LSQkw/F0ScxPTccYXVsUMDABBu5VPagIAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §aArmored Bow
+          lore:
+          - §cHeavy II
+          enchants:
+            DURABILITY: 2
+            ARROW_DAMAGE: 2
+            Heavy: 2
+            ARROW_KNOCKBACK: 2
+          internal: H4sIAAAAAAAAAIXQPYoCQRAF4KcjMgoGmnoDA68ggoGCP+AippZjqc3Y3dJTgpnX8CIeYHMDj2Qv7IiDPxMWvHr1UVWggkZXxKnlQXhkV2qt2CVVAEGAcDYb9EY2ERRaNkDlbxwy+bl4/g1Q7mp7MOKzpRCln50VhJqU2ZJZhag9asekGbUNG3YqapPT1vmyyZ4dibLG78Pvv0nhmYDrJUtY9MspoXMD/mtyGM30QGxsFC8piqecqETIRPwJ9W0nQyzsT1niPH7+UjGfV09PaTr2mXay/YR6TQJ3ZeapCM8BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eShadow Bow
+          lore:
+          - §7Stealth I
+          - §7Celerity II
+          enchants:
+            Stealth: 1
+            Celerity: 2
+          internal: H4sIAAAAAAAAAH2NQQrCMBBFf6mUtOhGEG/hFaTgRrC6KD1ANKMGzKSkU4/hwp3exNuZbFz6dw8+71VAiXktEuxxFGq8sWdLYagAZDlU1203jR8EeCxzlAl3pCNnz2mBonZ+ZFl/XmlvhUl78wLltOWrZqMw+6n32hEWF2IK9rRy/k6OWNqeyETxoaegxXpO3ej58wa+s4tv3rUAAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePiercing Bow
+          lore:
+          - §7Pierce I
+          enchants:
+            DURABILITY: 2
+            ARROW_DAMAGE: 2
+            Pierce: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eTwin-Strike Bow
+          lore:
+          - §7Multi-Shot I
+          enchants:
+            ARROW_DAMAGE: 1
+            Multi-Shot: 1
+            ARROW_FIRE: 1
+  MOB_LEVEL_40:
+    DisplayName: "Mob Level 40+"
+    ArmorItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eParrying Iron Helmet
+          lore:
+          - §7Reinforced II
+          enchants:
+            Reinforced: 2
+            DURABILITY: 2
+            PROTECTION_PROJECTILE: 2
+            THORNS: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eParrying Iron Chestplate
+          lore:
+          - §7Reinforced II
+          enchants:
+            Reinforced: 2
+            DURABILITY: 2
+            PROTECTION_PROJECTILE: 2
+            THORNS: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eParrying Iron Leggings
+          lore:
+          - §7Reinforced II
+          enchants:
+            Reinforced: 2
+            DURABILITY: 2
+            PROTECTION_PROJECTILE: 2
+            THORNS: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eParrying Iron Boots
+          lore:
+          - §7Reinforced II
+          enchants:
+            Reinforced: 2
+            DURABILITY: 2
+            PROTECTION_PROJECTILE: 2
+            THORNS: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Blast-Resistant+ Iron Helmet
+          lore:
+          - §7Forging II
+          - ''
+          - Armor specifically designed
+          - to fight creepers. Wearing
+          - a full set will allow you
+          - to take a full creeper blast
+          - and live to tell the tale.
+          enchants:
+            DURABILITY: 2
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 2
+            PROTECTION_EXPLOSIONS: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Blast-Resistant+ Iron Chestplate
+          lore:
+          - §7Forging II
+          - ''
+          - Armor specifically designed
+          - to fight creepers. Wearing
+          - a full set will allow you
+          - to take a full creeper blast
+          - and live to tell the tale.
+          enchants:
+            DURABILITY: 2
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 2
+            PROTECTION_EXPLOSIONS: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Blast-Resistant+ Iron Leggings
+          lore:
+          - §7Forging II
+          - ''
+          - Armor specifically designed
+          - to fight creepers. Wearing
+          - a full set will allow you
+          - to take a full creeper blast
+          - and live to tell the tale.
+          enchants:
+            DURABILITY: 2
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 2
+            PROTECTION_EXPLOSIONS: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Blast-Resistant+ Iron Boots
+          lore:
+          - §7Forging II
+          - ''
+          - Armor specifically designed
+          - to fight creepers. Wearing
+          - a full set will allow you
+          - to take a full creeper blast
+          - and live to tell the tale.
+          enchants:
+            DURABILITY: 2
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 2
+            PROTECTION_EXPLOSIONS: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Safeguarding Diamond Helmet
+          lore:
+          - ''
+          - A magical set of armor
+          - that protects the wearer
+          - from most forms of damage.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Safeguarding Diamond Chestplate
+          lore:
+          - ''
+          - A magical set of armor
+          - that protects the wearer
+          - from most forms of damage.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Safeguarding Diamond Leggings
+          lore:
+          - ''
+          - A magical set of armor
+          - that protects the wearer
+          - from most forms of damage.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Safeguarding Diamond Boots
+          lore:
+          - ''
+          - A magical set of armor
+          - that protects the wearer
+          - from most forms of damage.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Loyal Diamond Helmet
+          lore:
+          - §7Sacrafice III
+          - §7Soulbound I
+          - §7Repairing I
+          - ''
+          - Upon taking lethal damage,
+          - the armor will sacrifice
+          - itself for the wearer granting
+          - them a second chance.
+          enchants:
+            DURABILITY: 2
+            Sacrafice: 3
+            Soulbound: 1
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Loyal Diamond Chestplate
+          lore:
+          - §7Sacrafice III
+          - §7Soulbound I
+          - §7Repairing I
+          - ''
+          - Upon taking lethal damage,
+          - the armor will sacrifice
+          - itself for the wearer granting
+          - them a second chance.
+          enchants:
+            DURABILITY: 2
+            Sacrafice: 3
+            Soulbound: 1
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Loyal Diamond Leggings
+          lore:
+          - §7Sacrafice III
+          - §7Soulbound I
+          - §7Repairing I
+          - ''
+          - Upon taking lethal damage,
+          - the armor will sacrifice
+          - itself for the wearer granting
+          - them a second chance.
+          enchants:
+            DURABILITY: 2
+            Sacrafice: 3
+            Soulbound: 1
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Loyal Diamond Boots
+          lore:
+          - §7Sacrafice III
+          - §7Soulbound I
+          - §7Repairing I
+          - ''
+          - Upon taking lethal damage,
+          - the armor will sacrifice
+          - itself for the wearer granting
+          - them a second chance.
+          enchants:
+            DURABILITY: 2
+            Sacrafice: 3
+            Soulbound: 1
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Bolstering Diamond Helmet
+          lore:
+          - ''
+          - Armor said to improve the
+          - strength of the wearer
+          - significantly increasing
+          - their damage.
+          internal: H4sIAAAAAAAAAI2QSwrCQBBEK0ZCDLgR8QguvYIE3Ah+Fn72Y2zjoMnIpHMUQfESeg3P4gHcaRR/kUTsXUF11aMcoISKy6zlJGbqqqmcSdKRA8A0YY9G7VZXRQyj55ko3WSHxE2fNhYsN1BxyM0z7mejOFgqRnFOYmqj/IrtiYBQ9ikkLb2G0IHSSVh/RVqwVOHjN8OFTwSMdymEwvFgPhGSBON3fS0VPFSxPw8pivI4cuxpoMs6BeTUt+9N9v9sUn21MAtv0RKB8OkLyXgiZZqBK+7mWT7DAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Bolstering Diamond Chestplate
+          lore:
+          - ''
+          - Armor said to improve the
+          - strength of the wearer
+          - significantly increasing
+          - their damage.
+          internal: H4sIAAAAAAAAAIWOwWrCQBRF7xiVKLgR8SskIH5AEdwUmnZh8wFjfMahTabMvCz8GunaTZf+jCt/pCMYcSTq8vHuved0gQ76U2ajFiVTrJdqpcjYLoAgQJgkr7NYWwYOuwCd0/lG0t2NbRSgPc11WbgnmiGa82/NaKVrshyid9l8lzmhl1FBRqWRNLk2bunjh4xkpQtXhivXpODxJ0ef/7u55osn/KG3/KnLbF2QtfdE7sQ9IyHGnpHYj9qV0csfcN57ZDW4YJhl+jWTuczoxklUTrVh4B9E3kqSwgEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Bolstering Diamond Leggings
+          lore:
+          - ''
+          - Armor said to improve the
+          - strength of the wearer
+          - significantly increasing
+          - their damage.
+          internal: H4sIAAAAAAAAAH2OzQ7BQBSFT7WRamIjIpaegL2NkG4kfhbY2QyumlQ7MnP7XvZ2HsBLeBGVIEZay5Occ74vAGpoDJm13GRMU7WTe0naBABcF/5qNQ6nyjAwil3UnnFCIs+V+8VFdZioLOVn14e3OCqGd6TI+Kh/LmciIdQjSknLbVfoROn8aH4iLViqNN8i3xa0YOEXbRvfu33jnf/4lnW8VFl0SMmYMo+Sui207lhCzrVffQsNzsDr749U80NhFts4FImI6EfJeSsVloEHax3hAr8BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Bolstering Diamond Boots
+          lore:
+          - ''
+          - Armor said to improve the
+          - strength of the wearer
+          - significantly increasing
+          - their damage.
+          internal: H4sIAAAAAAAAAI2QTQ7BUBSFT1WkbWIiYgFGBmIL0jCR+BnQBTxc9UL75PV2X6zByAJMrMRIlPjJExV3dpJzz/lyPMBFxWfWcpoyDdRcLiTpxANg23CCoNcdqISBy9GGe5N9EpkunOollPxIpTG3z7ifg+J4rRjFBRE7KL9ihyIilEOKSctZS+hI6SxstCEtWKr48fvFBQOhQybCYWc/EbIE63d9zQieqDRcxpQkeRw5dhMobBpA1r7x3mT7zybVVwuzmK26IhIhfSBZT6SvZuAK/IN4ycMBAAA=
+    WeaponItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDiamond Sword
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4aeRkhbciOcQPEKhIAWrC+kBxnasgyYp6fSELryWcePO5c97fAWQY1OqRrnOyk3o5SYcpwLAwsC2bV01YVLg8DLIv3lkSr3cvw2y0oXZpxGZxeryDArrSPydfG+x/rEncoztwJ6jdDtSpe5RkaOBk3keOZJK8IlBYv6fgQ+tl9klrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Industrial Diamond Sword
+          lore:
+          - §7Repairing III
+          - §7Blasting I
+          - §7Soulbound I
+          - ''
+          - Legends say that no one has
+          - been able to break this
+          - sword, I'm sure you'll
+          - find a way though.
+          enchants:
+            DURABILITY: 3
+            Blasting: 1
+            KNOCKBACK: 2
+            Repairing: 3
+            Soulbound: 1
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4aeRkhbciOcQPEKhIAWrC+kBxnasgyYp6fSELryWcePO5c97fAWQY1OqRrnOyk3o5SYcpwLAwsC2bV01YVLg8DLIv3lkSr3cvw2y0oXZpxGZxeryDArrSPydfG+x/rEncoztwJ6jdDtSpe5RkaOBk3keOZJK8IlBYv6fgQ+tl9klrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Quickening Diamond Sword
+          lore:
+          - §7Adrenaline III
+          - §7Lifesteal II
+          - §7(+1.5 Damage from Sharpness)
+          - ''
+          - You feel lighter when using
+          - this sword. You may find
+          - that your swings are faster
+          - and movement is quicker.
+          enchants:
+            Adrenaline: 3
+            DAMAGE_ALL: 2
+            Lifesteal: 2
+          internal: H4sIAAAAAAAAAIXRQUrDQBQG4D9JCWmhC0UP4AXcdS2FIgpWwdIDPJvXdrAzU6av4jHc6kJwL7j2Ah7EE3gC43SR0LENmd1jfv75eNMB2jjsizh1txYe2lxNFbtVB0ArQTYeXw6GdiXAz1uC9ma8YvJz9HWSIO1ruzb+EmmG1mhhBZkmZeZk8gzdqvaaNONoxoadmpySCE3uB6Rpxr7zZsmORFnja+Br6sPYBkW9aQCKe+dpCTr7fN6cl2bUcfmOtg+s2choyZz/U0Wlan86ZN2+h6z4e3tPcTPpoHqEHi+YFjKvW9JuMqDgtQgpH08VpSiK32ZKt/oFp62rY4Qp4A+e/IDEVAIAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Assassin's Diamond Sword
+          lore:
+          - §7Crippling Strike II
+          - §7Cloaking I
+          - ''
+          - The sword of choice for an
+          - assassin. Has a chance to
+          - cripple the enemy to prevent
+          - them from running.
+          enchants:
+            DAMAGE_ALL: 4
+            Cloaking: 1
+            Cripple Strike: 2
+          internal: H4sIAAAAAAAAAHXMMQrCQBCF4acrYROwEc/hHQJpBBMLSWU1JmMcdHfDZnIb7+EBvJhrY2f58x5fAeTYlKpRLrNyHXq5CsepALAwsG27r+owKfA8G+TfPDClXr7eBlnpwuzTiMxidXoEhXUk/ka+t1j/2IYcYzuw5yjdjlSpu1fkaOBkHkeOpBJ8YpCY/2fgAw0r1KevAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Wounding Diamond Sword
+          lore:
+          - §7Jagged Edge I
+          - §7(+1.5 Damage from Sharpness)
+          - §7(+2.5 Damage from Jagged Edge)
+          - ''
+          - A sword with a blade sharper
+          - than the rest. It's high
+          - damage comes with a price,
+          - it dulls faster than normal.
+          enchants:
+            Jagged Edge: 1
+            DAMAGE_ALL: 2
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4aeRkhbciOcQPEKhIAWrC+kBxnasgyYp6fSELryWcePO5c97fAWQY1OqRrnOyk3o5SYcpwLAwsC2bV01YVLg8DLIv3lkSr3cvw2y0oXZpxGZxeryDArrSPydfG+x/rEncoztwJ6jdDtSpe5RkaOBk3keOZJK8IlBYv6fgQ+tl9klrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: SIGN
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: §6Zistonian Battlesign
+          lore:
+          - ''
+          - I swear I've seen this sign
+          - before somewhere...
+          enchants:
+            DAMAGE_ALL: 3
+            KNOCKBACK: 2
+            FIRE_ASPECT: 1
+          blockMaterial: SIGN
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: WOODEN_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Baseball Bat
+          lore:
+          - ''
+          - A quick way to tell people
+          - you are not interested.
+          enchants:
+            KNOCKBACK: 4
+          Unbreakable: true
+          internal: H4sIAAAAAAAAAHXMQQrCMBBG4b9GJC24Ec/hFaTQjWB1IT3A2I51qEkknR7AowkezAjizuWDx1cAOValapTzpFyHTi7CcSwAZAa2aXZVHUZFtn0a5J/cM6WePV4Gi9KFyWt6YTE/3YLCOhJ/Jd9ZLH/sgRxj3bPnKO2GVKkdKnLUczKPd46kEvyX+T8Db2n3XwGvAAAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §eDiamond Axe
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4acRTQtuxHMIHqFQkILVhfQAYzvWQZOUdHpCF17LuHHn8uc9vhzIsClUo1wn5Tp0chOOYw5gZmCbpirrMCpweBlk3zwypZ7v3wbLwoXJpxEri8XlGRTWkfg7+c5i/WNP5Bjbnj1HaXekSu2jJEc9J/M8cCSV4BODxPw/Ax9mQgItrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Unbreakable Diamond Axe
+          lore:
+          - §7Crippling Strike III
+          - §7Repairing III
+          - §7Armor Crush I
+          - ''
+          - A legendary axe that is
+          - nearly unbreakable. It
+          - also has the ability to
+          - slowly repair itself.
+          enchants:
+            DURABILITY: 4
+            Repairing: 3
+            Armor Crush: 1
+            Cripple Strike: 3
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4acRTQtuxHMIHqFQkILVhfQAYzvWQZOUdHpCF17LuHHn8uc9vhzIsClUo1wn5Tp0chOOYw5gZmCbpirrMCpweBlk3zwypZ7v3wbLwoXJpxEri8XlGRTWkfg7+c5i/WNP5Bjbnj1HaXekSu2jJEc9J/M8cCSV4BODxPw/Ax9mQgItrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Life Draining Diamond Axe
+          lore:
+          - §7Hemorrhage II
+          - §7Lifesteal III
+          - §7Repairing III
+          - §7(+1.5 Damage from Sharpness)
+          - ''
+          - Grasping the handle of
+          - the axe makes you feel
+          - slightly fatigued. Killing
+          - and enemy with it will
+          - drain their life.
+          enchants:
+            Hemorrhage: 2
+            DAMAGE_ALL: 2
+            Repairing: 3
+            Lifesteal: 3
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4acRTQtuxHMIHqFQkILVhfQAYzvWQZOUdHpCF17LuHHn8uc9vhzIsClUo1wn5Tp0chOOYw5gZmCbpirrMCpweBlk3zwypZ7v3wbLwoXJpxEri8XlGRTWkfg7+c5i/WNP5Bjbnj1HaXekSu2jJEc9J/M8cCSV4BODxPw/Ax9mQgItrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Crushing Diamond Axe
+          lore:
+          - §7Armor Crush II
+          - §7Hemorrhage II
+          - §cHeavy I
+          - §7(+2 Damage from Sharpness)
+          - ''
+          - A large axe that is capable
+          - of crushing enemies and
+          - their armor as well as
+          - providing defense for the
+          - wielder.
+          enchants:
+            DURABILITY: 3
+            Hemorrhage: 2
+            DAMAGE_ALL: 3
+            Heavy: 1
+            Armor Crush: 2
+          internal: H4sIAAAAAAAAAIXRsUoDQRAG4P9yR7wE0ohKeluxsUwVSBMwWsRUVpPceFl0d4+9OfV1fAYbOwufwM5XEF/CVbhwKx433cDPPx/MEBhgfyri1LoSXthM3Sh25RBAEiNdreazhS0F0eQxxuBnPWfye+/jIUZ/qm1lxGf3UiTLOytINSmzJZOlGO1qL0gzDnI27NTmlERoczsjTTn7zsuCHYmyxtfA17SH0QTh5CUARc/vTVDSDRrtbjhtXZskTIWEr+uQ8DluEnrdhKOg/MpW+dZwWbZZWuIhqngKH6WP+zXq9e3sd7phh/Ulbe9Zs5FlwZz9cUW16/808A2wtjFxXgIAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Jagged Diamond Axe
+          lore:
+          - §7Jagged Edge II
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - An axe with a jagged edge
+          - that rips through flesh,
+          - but also takes more
+          - durability to use.
+          enchants:
+            Jagged Edge: 2
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4acRTQtuxHMIHqFQkILVhfQAYzvWQZOUdHpCF17LuHHn8uc9vhzIsClUo1wn5Tp0chOOYw5gZmCbpirrMCpweBlk3zwypZ7v3wbLwoXJpxEri8XlGRTWkfg7+c5i/WNP5Bjbnj1HaXekSu2jJEc9J/M8cCSV4BODxPw/Ax9mQgItrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §ePiercing Bow
+          lore:
+          - §7Pierce I
+          enchants:
+            DURABILITY: 2
+            ARROW_DAMAGE: 3
+            Pierce: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Electrical Bow
+          lore:
+          - §7Electrical I
+          - ''
+          - Picking up the bow sends
+          - an electrical shock through
+          - your body.
+          enchants:
+            DURABILITY: 1
+            ARROW_DAMAGE: 4
+            Electrical: 1
+            ARROW_FIRE: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Heavenly Bow
+          lore:
+          - §7Rain of Arrows I
+          - §7Celerity I
+          - ''
+          - A bow from the heavens,
+          - calls down arrows from the
+          - skies when an arrow fired
+          - from the bow hits a target.
+          enchants:
+            Rain of Arrows: 1
+            ARROW_DAMAGE: 2
+            Celerity: 1
+          internal: H4sIAAAAAAAAAIWOMQrCQBREJyZIErBQsPUIgieQgIWi0SLkAKv5moXsbthsxNJraG3jCW1di4iK4u+GP7x5IRCgFxmj+bo2FKuMbznpKgTQcuGn6WwSq8oAl6OL4BEXxGxuDW4u2pFQtbRPeD68pFAGvmBc5kxmPjpP7JIJQndHkjTfDAU7TIkVJrfAVUmaGa6kZcAyfjTxquK4ybvKfNRuVMbX0+PO/3X6zxG1J0HSJCVR9qHkNErf28Ad10RMwkABAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Assassin's Bow
+          lore:
+          - §7Stealth II
+          - §7Celerity II
+          - §7Backstep I
+          - ''
+          - The bow of an assassin.
+          - Firing an arrow from this
+          - magical bow engulfs you in
+          - invisibility and speed.
+          enchants:
+            ARROW_DAMAGE: 1
+            Celerity: 2
+            Stealth: 2
+            Backstep: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Hunter's Bow
+          lore:
+          - §7Celerity II
+          - ''
+          - The preferred bow of a hunter,
+          - has the unique ability to
+          - increase the amount of items
+          - an entity can drop.
+          enchants:
+            DURABILITY: 2
+            ARROW_DAMAGE: 2
+            Celerity: 2
+            LOOT_BONUS_MOBS: 3
+          internal: H4sIAAAAAAAAAIWOMQrCQBBFf4zIRrARPYY2VlYipBGMFpIDjGaMi+5uSCb2gjfyEN7JyihEUBSn+/B489pAgO5UJNfrUjhyid5qzos2gIYPFcezMHKFAOOTj+Ax50zVbgzOPlpT40orD1ahuTo4gTKk7Y5sotB5aRdkGL2ULed6MyQR2uxDMpRy5VxmnJNoZysNKs1vGG9B19tbkHeJW3XQ5DJ63v+ofv3HuCMbtrLKmJOPKq+u+k4Dd/M4UBpGAQAA
+  MOB_LEVEL_50:
+    DisplayName: "Mob Level 50+"
+    ArmorItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Loyal Diamond Helmet
+          lore:
+          - §7Sacrafice III
+          - §7Soulbound I
+          - §7Repairing I
+          - ''
+          - Upon taking lethal damage,
+          - the armor will sacrifice
+          - itself for the wearer granting
+          - them a second chance.
+          enchants:
+            DURABILITY: 2
+            Sacrafice: 3
+            Soulbound: 1
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Loyal Diamond Chestplate
+          lore:
+          - §7Sacrafice III
+          - §7Soulbound I
+          - §7Repairing I
+          - ''
+          - Upon taking lethal damage,
+          - the armor will sacrifice
+          - itself for the wearer granting
+          - them a second chance.
+          enchants:
+            DURABILITY: 2
+            Sacrafice: 3
+            Soulbound: 1
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Loyal Diamond Leggings
+          lore:
+          - §7Sacrafice III
+          - §7Soulbound I
+          - §7Repairing I
+          - ''
+          - Upon taking lethal damage,
+          - the armor will sacrifice
+          - itself for the wearer granting
+          - them a second chance.
+          enchants:
+            DURABILITY: 2
+            Sacrafice: 3
+            Soulbound: 1
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Loyal Diamond Boots
+          lore:
+          - §7Sacrafice III
+          - §7Soulbound I
+          - §7Repairing I
+          - ''
+          - Upon taking lethal damage,
+          - the armor will sacrifice
+          - itself for the wearer granting
+          - them a second chance.
+          enchants:
+            DURABILITY: 2
+            Sacrafice: 3
+            Soulbound: 1
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Sacrificium, The Armor of Revival
+          lore:
+          - §7Sacrafice III
+          - §7Repairing I
+          - ''
+          - A sentient set of armor
+          - that will sacrifice itself
+          - upon the wearer taking
+          - fatal damage.
+          enchants:
+            DURABILITY: 3
+            Sacrafice: 3
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Sacrificium, The Armor of Revival
+          lore:
+          - §7Sacrafice III
+          - §7Repairing I
+          - ''
+          - A sentient set of armor
+          - that will sacrifice itself
+          - upon the wearer taking
+          - fatal damage.
+          enchants:
+            DURABILITY: 3
+            Sacrafice: 3
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Sacrificium, The Armor of Revival
+          lore:
+          - §7Sacrafice III
+          - §7Repairing I
+          - ''
+          - A sentient set of armor
+          - that will sacrifice itself
+          - upon the wearer taking
+          - fatal damage.
+          enchants:
+            DURABILITY: 3
+            Sacrafice: 3
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Sacrificium, The Armor of Revival
+          lore:
+          - §7Sacrafice III
+          - §7Repairing I
+          - ''
+          - A sentient set of armor
+          - that will sacrifice itself
+          - upon the wearer taking
+          - fatal damage.
+          enchants:
+            DURABILITY: 3
+            Sacrafice: 3
+            Repairing: 1
+            PROTECTION_ENVIRONMENTAL: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Armor of Protection
+          lore:
+          - §7Soulbound I
+          - ''
+          - A staple set of enchanted
+          - armor. Used by many adventurers
+          - in their exploits.
+          enchants:
+            DURABILITY: 3
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Armor of Protection
+          lore:
+          - §7Soulbound I
+          - ''
+          - A staple set of enchanted
+          - armor. Used by many adventurers
+          - in their exploits.
+          enchants:
+            DURABILITY: 3
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Armor of Protection
+          lore:
+          - §7Soulbound I
+          - ''
+          - A staple set of enchanted
+          - armor. Used by many adventurers
+          - in their exploits.
+          enchants:
+            DURABILITY: 3
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Armor of Protection
+          lore:
+          - §7Soulbound I
+          - ''
+          - A staple set of enchanted
+          - armor. Used by many adventurers
+          - in their exploits.
+          enchants:
+            DURABILITY: 3
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Armor of Wind
+          lore:
+          - §7Quickening I
+          - §7Repairing II
+          - §7Soulbound I
+          - ''
+          - Armor that lightens your
+          - body, allows you to move
+          - more freely than most sets
+          - of armor in exchange for
+          - a little defensive power.
+          enchants:
+            PROTECTION_FALL: 4
+            Quickening: 1
+            Repairing: 2
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy7Z/1kwN/a/hyoLAydIyCc1sbhk78vamMLTBVfZGNgcc/NL80rs/zCAAQcDS3BOfgkDS0ZqYgoHAy/ceL/E3FQGsfTUvNSizGS9xKLc/KKQ/NL0jLzU4mJmBk7/gtSixJLM/DyoIWDlHDA3MSA5x/pe2bTzvT7zkZ3TEhuj6vS/ux3uHAc2YpzDi+IcklzB5LBv0vub7uIoruB+JFo8R9wUESibjcEAvytEYa7IzS9LzU3NKwkuSE1NQXMNI6ZrGADWr9N2wQEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Armor of Wind
+          lore:
+          - §7Quickening I
+          - §7Repairing II
+          - §7Soulbound I
+          - ''
+          - Armor that lightens your
+          - body, allows you to move
+          - more freely than most sets
+          - of armor in exchange for
+          - a little defensive power.
+          enchants:
+            PROTECTION_FALL: 4
+            Quickening: 1
+            Repairing: 2
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy6ZFnbZU3Ki3xYWBk6QkE9qYnFJ/8nXs3UvXFBiY2BzzM0vzSux/8MABhwMLME5+SUMrMkZqcUlHAy8cPP9EnNTGcTSU/NSizKT9RKLcvOLQvJL0zPyUouLmRk4/QtSixJLMvPzoKaAlXPAHMWA5J72xN3CDslO/5Dds5H/h6uvr3kP3D0O4kS5hxfFPSQ5Q1P91rVH0f4pyM6YcuJVGGuGexQiWDYbgwEBZ4jCnJGbX5aam5pXElyQmpqC5hxGTOcwAAA5fuy/xAEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Armor of Wind
+          lore:
+          - §7Quickening I
+          - §7Repairing II
+          - §7Soulbound I
+          - ''
+          - Armor that lightens your
+          - body, allows you to move
+          - more freely than most sets
+          - of armor in exchange for
+          - a little defensive power.
+          enchants:
+            PROTECTION_FALL: 4
+            Quickening: 1
+            Repairing: 2
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy6ZqbBOcE6k8zcWBk6QkE9qYnFJ8zxbE+PHS7TZGNgcc/NL80rs/zCAAQcDS3BOfgkDS05qejEHAy/ceL/E3FQGsfTUvNSizGS9xKLc/KKQ/NL0jLzU4mJmBk7/gtSixJLM/DyoIWDlHDA3MSA555X4dRG7eJ8MZOdMnT5zYYzz5udw5ziIE+McXhTnkOSKxakqCaedXWYju2K3Zen870UlGxCBstkYDPC7QhTmitz8stTc1LyS4ILU1BQ01zBiuoYBAA9W5aDBAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Armor of Wind
+          lore:
+          - §7Quickening I
+          - §7Repairing II
+          - §7Soulbound I
+          - ''
+          - Armor that lightens your
+          - body, allows you to move
+          - more freely than most sets
+          - of armor in exchange for
+          - a little defensive power.
+          enchants:
+            PROTECTION_FALL: 4
+            Quickening: 1
+            Repairing: 2
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy7R2s2n/UHN9yALAydIyCc1sbhkltSWH6GcvyvZGNgcc/NL80rs/zCAAQcDS3BOfgkDS1pqagkHAy/ceL/E3FQGsfTUvNSizGS9xKLc/KKQ/NL0jLzU4mJmBk7/gtSixJLM/DyoIWDlHDA3MSA5xzjzJ7OUg28lsnPm9yR7p6wXYYU7x4GNGOfwojiHJFek/xGIsQ3zmILsinUO0po6LFnbEYGy2RgM8LtCFOaK3Pyy1NzUvJLggtTUFDTXMGK6hgEAVHy9lcEBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Molten Armor
+          lore:
+          - §7Molten V
+          - §7Forging II
+          - ''
+          - A burning hot set of armor.
+          - Has a chance of igniting
+          - the attacker and removing
+          - the fire resistance potion
+          - effect.
+          enchants:
+            Molten: 5
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 1
+            PROTECTION_FIRE: 4
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy6J/eb5auY3z1UsDJwgIZ/UxOKSfkatGivhQC42BjbH3PzSvBIHBgjgYGAJzskvYWDJSE1M4WDghRvvl5ibyiCWnpqXWpSZrJdYlJtfFJJfmp6Rl1pczMzA6V+QWpRYkpmfBzUErJwD5iYGJOfElze7LrjvuxXZOdOOLXhdX3PTGeEcDmKcw4viHJJcwWO4qnrVU4cIZFdsKVC4Jld12BjuCvsPxLhCBO6KkpLE5GyXxNzE9FTCjmEAAA77r7vAAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Molten Armor
+          lore:
+          - §7Molten V
+          - §7Forging II
+          - ''
+          - A burning hot set of armor.
+          - Has a chance of igniting
+          - the attacker and removing
+          - the fire resistance potion
+          - effect.
+          enchants:
+            Molten: 5
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 1
+            PROTECTION_FIRE: 4
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy6ZGl2T/krBXYSFgRMk5JOaWFyyvmL1gmavPns2BjbH3PzSvBL7DwxgwMHAEpyTX8LAmpyRWlzCwcALN98vMTeVQSQ9NS+1KDNZL7GkJDE52yUxNzE9lZmB078gtSixJDM/D2oGWDEHzEkMSK6ZtPD5hrB4hzRk1zSsfhqqu2hmDNw1DgpEuYYX7pqi3PwikpxhcMMtwv6U40RkZ3SYKt0q4z+ninAGA1HOEENxRkh+aXpGXmpxMWH3MAAA0M6UeMMBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Molten Armor
+          lore:
+          - §7Molten V
+          - §7Forging II
+          - ''
+          - A burning hot set of armor.
+          - Has a chance of igniting
+          - the attacker and removing
+          - the fire resistance potion
+          - effect.
+          enchants:
+            Molten: 5
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 1
+            PROTECTION_FIRE: 4
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy45sczms6G5TzkLAydIyCc1sbhki6Py84n83y3YGNgcc/NL80ocGCCAg4ElOCe/hIElJzW9mIOBF268X2JuKoNYempealFmsl5iUW5+UUh+aXpGXmpxMTMDp39BalFiSWZ+HtQQsHIOmJsYkJyzaebG4sjrPguRnbP60UPVDXJGyxDOkSDGObwoziHJFeuXryy0YfJoQ3bF7kihYJtZKtpwV9h/IMYVInBXlJQkJme7JOYmpqcSdgwDACNl4NfAAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Molten Armor
+          lore:
+          - §7Molten V
+          - §7Forging II
+          - ''
+          - A burning hot set of armor.
+          - Has a chance of igniting
+          - the attacker and removing
+          - the fire resistance potion
+          - effect.
+          enchants:
+            Molten: 5
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 1
+            PROTECTION_FIRE: 4
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy75EjSnxm+CZyULAydIyCc1sbhk5cOHvy60v9NiY2BzzM0vzStx4GAAAw4GluCc/BIGlrTU1BIOBl648X6JuakMvOmpealFmcl6iUW5+UXMDJz+BalFiSWZ+XlQvWBVHDCnMCC5Qjcq22l+iSM3sit2RznUnLnTJAZ3hf0HYlwhAndFSUlicrZLYm5ieipJjvmRcbHq1ka3rciOmTHD/quYtddFRJAwEOMYMZQgCckvTc/ISy0uJuwcBgBZrjnywAEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Immortal Armor
+          lore:
+          - ''
+          - A set of armor that greatly
+          - increases the health of the
+          - wearer. Said to have been
+          - worn by gods during times
+          - of battle.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy7xTNR0/PLcQ5+FgRMk5JOaWFyy6cKMni9Ho7TYGNgcc/NL80ocOBjAgIOBJTgnv4SBJSM1MYWDgRduvF9ibioDb3pqXmpRZrJeYlFufhEzA6d/QWpRYklmfh5UL1gVB8wpDEiuyImeERpT4vkM2RV7XfafPWyldQHuCvsDxLhCEOaK3MQKj9TEnJIMNJcwYrqEAQDLIsyTLgEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Immortal Armor
+          lore:
+          - ''
+          - A set of armor that greatly
+          - increases the health of the
+          - wearer. Said to have been
+          - worn by gods during times
+          - of battle.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy45eu//2kZdlwMsDJwgIZ/UxOKSPtmplxfEzaxjY2BzzM0vzStxUGAAAw4GluCc/BIG1uSM1OISDgZeuPl+ibmpDLzpqXmpRZnJeolFuflFzAyc/gWpRYklmfl5UM1gVRwwtzAgOSPmX6b73g3O75GdMdsrczJPtsMtuDPsDxDlDEGYM3ITKzxSE3NKMtCcwojpFAYA282oNTABAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Immortal Armor
+          lore:
+          - ''
+          - A set of armor that greatly
+          - increases the health of the
+          - wearer. Said to have been
+          - worn by gods during times
+          - of battle.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy65bxavG2PqwsjCwAkS8klNLC7pny1Wvrdd7AYbA5tjbn5pXomDBAMYcDCwBOfklzCw5KSmF3Mw8MKN90vMTWXgTU/NSy3KTNZLLMrNL2Jm4PQvSC1KLMnMz4PqBavigDmFAckVKj+fzjt22kkc2RUTj0fdijswJQPuCvsDxLhCEOaK3MQKj9TEnJIMNJcwYrqEAQBCTi+ULgEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Immortal Armor
+          lore:
+          - ''
+          - A set of armor that greatly
+          - increases the health of the
+          - wearer. Said to have been
+          - worn by gods during times
+          - of battle.
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy5Z3WB+YuEEbxMWBk6QkE9qYnHJKr62pJJ9a7awMbA55uaX5pU4cDCAAQcDS3BOfgkDS1pqagkHAy/ceL/E3FQG3vTUvNSizGS9xKLc/CJmBk7/gtSixJLM/DyoXrAqDphTGJBcwbEhepWukvtZZFdMCnskueyMtSXcFfYHiHGFIMwVuYkVHqmJOSUZaC5hxHQJAwDmLtoOLgEAAA==
+    WeaponItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Scaling Diamond Sword
+          lore:
+          - ''
+          - A sword that is weak by
+          - itself but has the unique
+          - ability to grow even stronger
+          - from additional sources of
+          - attack damage.
+          enchants:
+            MENDING: 1
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmbgCA31dPHNLy5hYPTYyczACeL6pCYC+UzCs5kZ2Bxz80vzSoBqmTkYWIJz8ksYOHITM/MyEvNSOBh44cb6JeamMoikp+alFmUm6yWWlCQmZ7sk5iampwLN9C9ILUosyczPAxrDADQGt2IGZAcxZB1DcRDjhVg2mIPsr/rft06JkqWOoxjxO4oBAKxNZaVEAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Sword of Assassins
+          lore:
+          - §7Hemorrhage I
+          - §7Crippling Strike III
+          - §7Cloaking I
+          - §7(+3 Damage from Sharpness)
+          - ''
+          - A blade once used by an
+          - assassin, crafted carefully
+          - to ensure a quick dead.
+          enchants:
+            DURABILITY: 3
+            Hemorrhage: 1
+            DAMAGE_ALL: 5
+            Cloaking: 1
+            Cripple Strike: 3
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4aeRkhbciOcQPEKhIAWrC+kBxnasgyYp6fSELryWcePO5c97fAWQY1OqRrnOyk3o5SYcpwLAwsC2bV01YVLg8DLIv3lkSr3cvw2y0oXZpxGZxeryDArrSPydfG+x/rEncoztwJ6jdDtSpe5RkaOBk3keOZJK8IlBYv6fgQ+tl9klrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Supernova
+          lore:
+          - §7Blasting III
+          - ''
+          - A weapon said to contain
+          - the energy of a star.
+          - Upon contact with an enemy,
+          - some of the energy is
+          - released.
+          enchants:
+            DURABILITY: 3
+            Blasting: 3
+            KNOCKBACK: 2
+            SWEEPING_EDGE: 4
+            FIRE_ASPECT: 2
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4aeRkhbciOcQPEKhIAWrC+kBxnasgyYp6fSELryWcePO5c97fAWQY1OqRrnOyk3o5SYcpwLAwsC2bV01YVLg8DLIv3lkSr3cvw2y0oXZpxGZxeryDArrSPydfG+x/rEncoztwJ6jdDtSpe5RkaOBk3keOZJK8IlBYv6fgQ+tl9klrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Nether Blade
+          lore:
+          - §7Hemorrhage III
+          - §7Crippling Strike III
+          - §7Jagged Edge II
+          - §cHeavy I
+          - §cCursed I
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - A blade forged in the depths
+          - of the nether. Causes great
+          - damage and pain to enemies,
+          - but also curses it's wielder.
+          enchants:
+            Cursed: 1
+            DURABILITY: 3
+            Hemorrhage: 3
+            Heavy: 1
+            FIRE_ASPECT: 3
+            Cripple Strike: 3
+            Jagged Edge: 2
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4aeRkhbciOcQPEKhIAWrC+kBxnasgyYp6fSELryWcePO5c97fAWQY1OqRrnOyk3o5SYcpwLAwsC2bV01YVLg8DLIv3lkSr3cvw2y0oXZpxGZxeryDArrSPydfG+x/rEncoztwJ6jdDtSpe5RkaOBk3keOZJK8IlBYv6fgQ+tl9klrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Rage
+          lore:
+          - §7Adrenaline III
+          - §7Lifesteal III
+          - §7Armor Crush II
+          - §7Jagged Edge I
+          - §7(+2 Damage from Sharpness)
+          - §7(+2.5 Damage from Jagged Edge)
+          - ''
+          - A sword forged from the rage
+          - of a warrior. The bloodlust
+          - held within the blade makes
+          - it a fearsome weapon.
+          enchants:
+            Adrenaline: 3
+            DAMAGE_ALL: 3
+            Jagged Edge: 1
+            Armor Crush: 2
+            Lifesteal: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYFQTZ2bgBHF9UhNB/C4eNgY2x9z80rwSBykGMOBgYAnOyS9h4MhNzMzLSMxL4WDghRvtl5ibyiCSnpqXWpSZrJdYUpKYnO2SmJuYngo0178gtSixJDM/D2oMbsUMyI5iaFBHddQ/W7ij7HfOBIFZhB0lCrMnN78sNTc1ryS4IDU1Bc1VjDBXYVeN6qyJl1GdtVWKGeas/////yPsJEG4JYkVHqmJOSUZuAIJUyUDAwDu8ydO1QEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4NullPointerException
+          lore:
+          - §7Void I
+          - ''
+          - §5§k§ojava.lang.NullPointerException
+          enchants:
+            DURABILITY: 10
+            Void: 1
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4aeRkhbciOcQPEKhIAWrC+kBxnasgyYp6fSELryWcePO5c97fAWQY1OqRrnOyk3o5SYcpwLAwsC2bV01YVLg8DLIv3lkSr3cvw2y0oXZpxGZxeryDArrSPydfG+x/rEncoztwJ6jdDtSpe5RkaOBk3keOZJK8IlBYv6fgQ+tl9klrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: GUNPOWDER
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Creeper Heart
+          lore:
+          - §7Blasting IV
+          - ''
+          - Heart of a creeper, explodes
+          - upon contact with anything.
+          enchants:
+            Blasting: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: FLINT_AND_STEEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Flint and Burn
+          lore:
+          - ''
+          - Need a light?
+          enchants:
+            FIRE_ASPECT: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Scaling Diamond Axe
+          lore:
+          - ''
+          - An axe that is weak by
+          - itself but has the unique
+          - ability to grow even stronger
+          - from additional sources of
+          - attack damage.
+          enchants:
+            MENDING: 1
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmbgCA31dPHNLy5hYPiRy8zACeL6pCYC+UyPatkY2Bxz80vzShx4GMCAg4ElOCe/hIEjNzEzLyMxL4WDgRdutF9ibiqDSHpqXmpRZrJeYklJYnK2S2JuYnoq0Fz/gtSixJLM/DyoMbgVMyA7ipHbCtVRuzLgjrK/6n/fOiVKljqOYsTvKAYAC0qZWEgBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Rapidus, Axe of Swiftness
+          lore:
+          - §7Adrenaline III
+          - §7(+3 Damage from Sharpness)
+          - ''
+          - A highly offensive axe.
+          - It's strength comes at a
+          - price however, and slightly
+          - lowers defensive capabilities
+          enchants:
+            Adrenaline: 3
+            DURABILITY: 1
+            DAMAGE_ALL: 5
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYWbgCA31dPHNLy5hYIzewMzACeL6pCaC+MvK2BjYHHPzS/NK7E/OBIFZHAwswTn5JQwcuYmZeRmJeSkcDLxwo/0Sc1MZRNNT81KLMpP1cvPLUnNT80qCC1JTU4AG+xekFiWWZObnAe1lBJqDRzUDirNaxFGd9VuNGeas/////yXsJF6YJYlFuflFaE5hgDkFVRWqE8xvoDrh/UF4yOzfSWzISMMsyM7LT85OSkzODkotziwuScxLTsXlKHx6UJzI0GyA4kQmuXfwUAKax07YeSJw/5eUAO1xScxNTMfpLqyKGRgAew0ju2wCAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Testudo
+          lore:
+          - §7Repairing III
+          - §7Lifesteal IV
+          - §7Soulbound I
+          - §cHeavy I
+          - §7(+1.5 Damage from Sharpness)
+          - ''
+          - Once a defensive formation,
+          - now a magical axe that provides
+          - great defensive abilites.
+          enchants:
+            DURABILITY: 4
+            DAMAGE_ALL: 2
+            KNOCKBACK: 2
+            Heavy: 1
+            Soulbound: 1
+            Repairing: 3
+            Lifesteal: 4
+          internal: H4sIAAAAAAAAAJXSMUvDQBQH8JdG0rTQoaIuzuLm6KgUOihYC9ZOTtfkmRzp3YW7F/E7ODvoNxDE1dHFwcXPoB/D0SuY0JPGYLaD//3fj3vpAnRgfUCk+awgHKmYX3LUpgsAgQ/hdHo8HClD4O23fegsjifI7Ln12vchGAhVSLJZP4S1yVwRhIJxmTIZh9Crak+ZQOgnKFHzaE+w6yNkc0pt4ThHzYgraTvAdtQkwaGEuy7lYGeZ0m6mbJQDGBGLsiETLME6zcqwA4J34YJu83++Ta+aoYXSdRI35RLo0SWIj2VCq5mw5ZSfqyJJJRpTZ6mJu4u6eHNQ3o0MStThJ8BPXwNsu5yUSRVlM7uCMzTcEJNR7c7+uuO+29ezS3waV8SXh7vFd99M3Kx+WHWFAiVNcsT4F84rcavTAN+d/CVijAMAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Inferno
+          lore:
+          - §7Blasting III
+          - §7Crippling Strike III
+          - ''
+          - An axe with a fiery explosion.
+          - Hitting an enemy with this
+          - enchanted weapon will release
+          - a burst of energy.
+          enchants:
+            DURABILITY: 3
+            Blasting: 3
+            KNOCKBACK: 2
+            FIRE_ASPECT: 3
+            Cripple Strike: 3
+          internal: H4sIAAAAAAAAAHXMQQrCMBCF4acRTQtuxHMIHqFQkILVhfQAYzvWQZOUdHpCF17LuHHn8uc9vhzIsClUo1wn5Tp0chOOYw5gZmCbpirrMCpweBlk3zwypZ7v3wbLwoXJpxEri8XlGRTWkfg7+c5i/WNP5Bjbnj1HaXekSu2jJEc9J/M8cCSV4BODxPw/Ax9mQgItrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Infrangible, The Unbreaking Axe
+          lore:
+          - §7Repairing III
+          - §7Blasting II
+          - §7Armor Crush II
+          - §7Soulbound I
+          - §7(+1 Damage from Sharpness)
+          - ''
+          - A weapon with unmeasurable
+          - tenacity. Hitting an enemy
+          - will not damage the blade,
+          - but instead crush the defender.
+          enchants:
+            DURABILITY: 4
+            DAMAGE_ALL: 1
+            KNOCKBACK: 2
+            Soulbound: 1
+            Blasting: 2
+            Repairing: 3
+            Armor Crush: 2
+          internal: H4sIAAAAAAAAAIWOOwrCQBRFL4loErARcQ82gksIBEQwWvhprJ7JMxl0ZmTysjlbC7dl0oiCn/LC4dwTASEGsYhTh1o4tbk6KnZVBMDzEWy38yS1lQD7sY+wnQumZnvXnY9urG1tpGUDdNZnKwg0KVOSyQP0n9olacaoYMNOZRNy2rqNrYvScFU11tWFHYmyphGhEf3C8RY1u71HTe+vUb3/UcPniwhlp4Q0Ffwt6SMMPABaNkyCRAEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Axe of Equivalent Exchange
+          lore:
+          - ''
+          - A weapon which doubles
+          - it's base damage in exchange
+          - for half of the wielder's
+          - base health.
+          enchants:
+            DURABILITY: 3
+            MENDING: 1
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmbgCA31dPHNLy5hYNh/lpmBE8T1SU0E8pnqfrIxsDnm5pfmlRxQYQADDgaW4Jz8EgaO3MTMvIzEvBQOBl640X6JuakMgumpealFmcl6uYkVHqmJOSUZQEP9C1KLEksy8/OgZuBQyYDsHEa9XlTnWIcxw5wDNIWPsFNEYBYklpQkJme7JOYmpqficg1WxQwMAP0Pudo+AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6Heavenly Bow
+          lore:
+          - §7Rain of Arrows I
+          - §7Celerity I
+          - ''
+          - A bow from the heavens,
+          - calls down arrows from the
+          - skies when an arrow fired
+          - from the bow hits a target.
+          enchants:
+            Rain of Arrows: 1
+            ARROW_DAMAGE: 2
+            Celerity: 1
+          internal: H4sIAAAAAAAAAIWOMQrCQBREJyZIErBQsPUIgieQgIWi0SLkAKv5moXsbthsxNJraG3jCW1di4iK4u+GP7x5IRCgFxmj+bo2FKuMbznpKgTQcuGn6WwSq8oAl6OL4BEXxGxuDW4u2pFQtbRPeD68pFAGvmBc5kxmPjpP7JIJQndHkjTfDAU7TIkVJrfAVUmaGa6kZcAyfjTxquK4ybvKfNRuVMbX0+PO/3X6zxG1J0HSJCVR9qHkNErf28Ad10RMwkABAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Bow of the Heavens
+          lore:
+          - §7Rain of Arrows III
+          - §7Celerity II
+          - §7Soulbound I
+          - ''
+          - An enchanted bow that rains
+          - arrows upon your enemies.
+          - Hitting your target will
+          - call upon power from the
+          - heavens to assist.
+          enchants:
+            DURABILITY: 2
+            Rain of Arrows: 3
+            ARROW_DAMAGE: 3
+            Celerity: 2
+            Soulbound: 1
+          internal: H4sIAAAAAAAAAHXMsQrCQBCE4dELcglY6FvY+A4BC4VEC0lpsSarWcjdhcsGfHJrz8bO8meGrwBybEvVKPdZuQ6dPITjVABYGNimOR3qMCmwuxnk36yYUi/bt8GqdGH2aURmkV2HoLCOxPfkO4v1jz2TY2ye7DlKu3f0OjIN2ifwMnIkleCTgWT8eQIfRoNkTqkAAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Heart Piercer
+          lore:
+          - §7Pierce I
+          - §7Stealth II
+          - §7Celerity II
+          - §7Backstep I
+          - ''
+          - A bow once used by a master
+          - assassin. Able to deal
+          - massive damage to targets,
+          - and fade into the shadows.
+          enchants:
+            ARROW_DAMAGE: 4
+            Celerity: 2
+            Stealth: 2
+            Pierce: 1
+            Backstep: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Jack of all Bows
+          lore:
+          - §7Multi-Shot I
+          - §7Heavy Impact I
+          - §7Pierce I
+          - ''
+          - An experiment done by an
+          - enchanter to see how many
+          - different enchantments he
+          - could fit on a weapon.
+          enchants:
+            DURABILITY: 3
+            ARROW_DAMAGE: 2
+            ARROW_INFINITE: 1
+            ARROW_KNOCKBACK: 2
+            Multi-Shot: 1
+            ARROW_FIRE: 1
+            Heavy Impact: 1
+            Pierce: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Sword-Bow
+          lore:
+          - §7Hemorrhage II
+          - §7Jagged Edge I
+          - §7(+2.5 Damage from Jagged Edge)
+          - ''
+          - A bow that has bladed edges
+          - allowing it to act as a
+          - close-quarter weapon as
+          - well. Used by a legendary
+          - archer who liked the idea.
+          enchants:
+            DURABILITY: 3
+            Hemorrhage: 2
+            ARROW_DAMAGE: 3
+            KNOCKBACK: 2
+            ARROW_KNOCKBACK: 2
+            Jagged Edge: 1
+          internal: H4sIAAAAAAAAAIWOTQ7BUBSFTxVpJSbCNmxBmnQi8TMQU8nVXvXCe0/qshd2YBsmbMTIBgw9gwpC3NnJPfnOVwNCNCKRXE03wn2bqpnifF0DUPIRjMfduG/XAlyPPsJH7DG57F3OPqqRthvjnqgEKI+WVhBoUmZOJg1Qf2IHpBnNjA3nKmmTCCWLmDRl7JjDFeckyhqHgcP8LuNVyPNub0KlyalaCHUOu8ft/0u1ih1tt6zZyGjFnH5YeYXV9zZwB1GnxR5GAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4Bow of Storms
+          lore:
+          - §7Electrical I
+          - §7Rain of Arrows II
+          - §7Repairing II
+          - ''
+          - A hybrid bow that calls on
+          - powers from both the heavens
+          - and sky to bring wrath to a
+          - target.
+          enchants:
+            Rain of Arrows: 2
+            ARROW_DAMAGE: 3
+            Electrical: 1
+            ARROW_FIRE: 1
+            Repairing: 2
+  MOB_LEVEL_60:
+    DisplayName: "Mob Level 60+"
+    ArmorItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Refugium, Armor of Protection
+          lore:
+          - §7Fortress II
+          - §7Soulbound I
+          - ''
+          - A set of armor enchanted
+          - with divine power to
+          - enchance protection.
+          enchants:
+            DURABILITY: 4
+            MENDING: 1
+            Fortress: 2
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Refugium, Armor of Protection
+          lore:
+          - §7Fortress II
+          - §7Soulbound I
+          - ''
+          - A set of armor enchanted
+          - with divine power to
+          - enchance protection.
+          enchants:
+            DURABILITY: 4
+            MENDING: 1
+            Fortress: 2
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Refugium, Armor of Protection
+          lore:
+          - §7Fortress II
+          - §7Soulbound I
+          - ''
+          - A set of armor enchanted
+          - with divine power to
+          - enchance protection.
+          enchants:
+            DURABILITY: 4
+            MENDING: 1
+            Fortress: 2
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Refugium, Armor of Protection
+          lore:
+          - §7Fortress II
+          - §7Soulbound I
+          - ''
+          - A set of armor enchanted
+          - with divine power to
+          - enchance protection.
+          enchants:
+            DURABILITY: 4
+            MENDING: 1
+            Fortress: 2
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Immortal Armor
+          lore:
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kAn unknown armor set that
+          - §kincreases the health of
+          - §kthe wearer.
+          enchants:
+            DURABILITY: 4
+            Repairing: 3
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYLjUyMzACeL6pCYC+UzS65gZ2Bxz80vzSkBqORhYgnPySxhYMlITUzgYeOFG+iXmpjLwpqfmpRZlJuslFuXmFwEN8i9ILUosyczPA+plAOrFoooBxXqzL6jWz/vIBrPe/gIDA9QYPE4QhBmem1jhkZqYU5KB5gxGmDMwVaI6pe8FilOY5+gihwQjfmeIofgxJL80PSMvtbgYV5DgUM7AAACz699uuQEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Immortal Armor
+          lore:
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kAn unknown armor set that
+          - §kincreases the health of
+          - §kthe wearer.
+          enchants:
+            DURABILITY: 4
+            Repairing: 3
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAIWQPQrCQBSEJ0YlCiJaWFhbW9pKwELBn0LFetWnWUiysvsCnsHKxgsI3sfDeAAjGDH+lgPzZr43RaCAqsus5TxiGqilXEnSpgjAtuFMp73OQBmG1WrYKNxkn0SsM/WjjbwbqCjk2Os4yI59xcgtPDLsoPTIHIqAUFpTSFoumkIHSsdJow1pwVKFuF0j+8GF537sTql+61LOJ/3tM3CP+cVQSdIDse2S8Nl74bASjndnmmU/S7HkDnjewvrDUUt9OVHR2gvJmG+jfLEDV0ou/0K8AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Immortal Armor
+          lore:
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kAn unknown armor set that
+          - §kincreases the health of
+          - §kthe wearer.
+          enchants:
+            DURABILITY: 4
+            Repairing: 3
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAH2QTQ7BQBTH/1VpWmLBwjFcQSQWJD4WSCRWg6cmaTsyM024gIM4kUvYWthY2BiJikEtX97/4/deCQhQa2kt+TzV1BdLvuIkVQmA68KfTLrtvlAauJ5dBI+xR8zMhdnBhdeKRZqYJTwfxVEkNIoRhcpH5RU5YDGhElJCki8aTMZCmqDhhiTTXCTGC+P9oYJVP91b9c7p4mX1zSPwjPmDUM3CY7btEIv0+gPDyTC+lRaKswsslPJt8/4J5z9G3bpxLNJwnZBSeS/JkQN38K4syLkBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Immortal Armor
+          lore:
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kAn unknown armor set that
+          - §kincreases the health of
+          - §kthe wearer.
+          enchants:
+            DURABILITY: 4
+            Repairing: 3
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAH2QTQ4BQRCFX2uRGYkFC1s3cAIhEgsSPxFmZ9ModGKmpacmcQ43cBcHcBU3MBIjGmNZyfv56pUBH7Uus9XLhGlk1nqjycZlAFLCC4JBb2RihpieJPzHOSSV3gXdkCh1Q5NE/NB6KM72hlHcELGHyityrEJCZUsRWb1qKhsamwZNDmQVaxOlXqTeHyo49frm1ItLq5TVd67AM+YPQjULD9WxT2rPuw8MkWF8Kx0UtBcOiryd35cQ/zHqzo9zk2x3EcVx3iQ5cuAOdfeAZrkBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Spark, Armor of Energy
+          lore:
+          - §7Quickening I
+          - §7Forging II
+          - §7Conductive IV
+          - ''
+          - A highly conductive set of
+          - armor. Slightly increases
+          - damage and has a chance to
+          - shock attackers.
+          enchants:
+            DURABILITY: 3
+            Quickening: 1
+            MENDING: 1
+            OXYGEN: 3
+            Conductive: 4
+            PROTECTION_ENVIRONMENTAL: 3
+            Forging: 2
+          internal: H4sIAAAAAAAAAH2OTQqCUBSFTxmigpOIltCwLUTQJOhnUC3gZjd7lL54XhfSEpo0DlpIbSBo2i5SqEjQhgfOOd/nAS6afRGjlqnwWK/UWrFJPACWBWexGA7GOhFgdrfg5nHElOXa5WrB7kc6jSXvOmjMdlrQ2DCtHPjfywlFDD/kmI0KumQibbKj6Z4NidJxtkW2LWnhF1+jZxF/6vzi6//x7cLxXKfhJuYkqfKoqBeEcDsWhOqHs/0R6j2A998fqdaXIkLBdkARhVylVFoGXl6wiqO/AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Spark, Armor of Energy
+          lore:
+          - §7Quickening I
+          - §7Forging II
+          - §7Conductive IV
+          - ''
+          - A highly conductive set of
+          - armor. Slightly increases
+          - damage and has a chance to
+          - shock attackers.
+          enchants:
+            DURABILITY: 3
+            Quickening: 1
+            MENDING: 1
+            Conductive: 4
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAIWOQQ7BUBRFb1uaamIiYhlmxiIxkSgDuoCvnvqh/fL/61KswBqMbMYKugZtgviJMrx5991zQqCD3oRZy03BFKmt3EnSJgTgeQjieDaNlGGgTDx06jgnUWX3Ij34k0wVeXVEEKC1OipGO9mT4QDd9+ZCZIRuSjlpmQyFzpSulpYn0oKlylF/o/WlBYt/c2z+8fTJd//wB9byWhXpPidjmkQa6rZRObKMnOvZfxmN78Bz75dV/41hFslhKjKRUpPT1zLwALzvL/DCAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Spark, Armor of Energy
+          lore:
+          - §7Quickening I
+          - §7Forging II
+          - §7Conductive IV
+          - ''
+          - A highly conductive set of
+          - armor. Slightly increases
+          - damage and has a chance to
+          - shock attackers.
+          enchants:
+            DURABILITY: 3
+            Quickening: 1
+            MENDING: 1
+            Conductive: 4
+            Forging: 2
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAH2OQQ7BQBiFH5WmrdRCxM7GAVxBJN1IlAUOMOpXE9qRmb8713AJR7BzEwexUAliErV8yXvv+wLAR3vErOWqYIrVWm4kaRMAcBx4y+U4ipVh1Fp9B/4zTkg88/3kwB1lqsi57LoeGvO9YjT2lBoP4edyKjJCmFJOWiYDoTOly6PZgbRgqfJyi3L7owULH50tfP3a+8bX/+O71vFCFek2J2OqPCrqlhAOF1vo2HTfQsMb8Pr7I9X5UJhFsotEJlKqUvpZBh75qYa8vwEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Spark, Armor of Energy
+          lore:
+          - §7Quickening I
+          - §7Forging II
+          - §7Conductive IV
+          - ''
+          - A highly conductive set of
+          - armor. Slightly increases
+          - damage and has a chance to
+          - shock attackers.
+          enchants:
+            DURABILITY: 3
+            Quickening: 1
+            MENDING: 1
+            Conductive: 4
+            PROTECTION_ENVIRONMENTAL: 3
+            DEPTH_STRIDER: 3
+            Forging: 2
+          internal: H4sIAAAAAAAAAH2OTQqCUBSFjymhQZOodlEtoQInRT+DcgEvu9qj9MXz2gqat5Z2FK2iYQoVCerwwDnn+1qAg86UWctdyrRUexlI0kkLgGnC9ryZu1QJwxj0TDh5XJDI821iojmNVBpz3rVhbU6KYQVEbKP9u1yJiNAOKSYt/aHQkdLZ0fpMWrBUcbZFti1p4R+Py7OIf43+8Y16fL9wvFVpeIgpSao8KuoFIeMwLwg17tfmV2j8AD5/NVLdH4VZ+EdXRCKkKqXSMvAGUE1wWL8BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Armor of Protection
+          lore:
+          - §7Fortress III
+          - §7Quickening I
+          - §7Soulbound I
+          - ''
+          - §kA set of armor from unknown
+          - §korigins, what strength does
+          - §kit come with?
+          enchants:
+            DURABILITY: 4
+            Quickening: 1
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 5
+            Fortress: 3
+          internal: H4sIAAAAAAAAAH2OMQ6CQBBFPywxQEJj4QXsvYOJjVG0UA6wygibyI7ZXTpKz2btHbyIa2MgEcuf+f+9SYEE06VzRp1aRzmX6qLI2BRAKBAXxXqVs3VA9xBIPnFL0ufgOReYLBtutT9CxIgOV3aIapJljOyL3MmGkFWkyajzQpqGjQftb2SkU6z9Fn77o4W+Pri/Bvqw2/T14X/9bAA+clvVmqwd+2OkDrwBD/DlQi4BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Armor of Protection
+          lore:
+          - §7Fortress III
+          - §7Quickening I
+          - §7Soulbound I
+          - ''
+          - §kA set of armor from unknown
+          - §korigins, what strength does
+          - §kit come with?
+          enchants:
+            DURABILITY: 4
+            Quickening: 1
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 5
+            Fortress: 3
+          internal: H4sIAAAAAAAAAIWOPQrCQBCFX36UTSCNoMcQPELARjBaaCqrVSfJgtmV3cntvIDXsPcOJo0kYLB8zHvfNzEQYZYyW3VumDJzVYUi62IAfgCR55t1ZhwDr3mAqItbkm32nkWAaVqbRrdHCIHwcDOMyaUixwLJl7mTNSEpSZNVl6W0tbEtaX8nK1kZjW6N8EcLfb93eg/8/urR9/t//IsB+WiastLk3NgjI3XgA+vA+FgwAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Armor of Protection
+          lore:
+          - §7Fortress III
+          - §7Quickening I
+          - §7Soulbound I
+          - ''
+          - §kA set of armor from unknown
+          - §korigins, what strength does
+          - §kit come with?
+          enchants:
+            DURABILITY: 4
+            Quickening: 1
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 5
+            Fortress: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmbgCA31dPHNLy5hYIgzY2bgBHF9UhOBfKaH6swMbI65+aV5QEkGNg4GluCc/BIGlpzU9GIOBl64kX6JuakMvOmpealFmcl6iUW5+UVAg/wLUosSSzLz84B6GYB6sahiQLH+DCOK9YyLJyBbz4TfejEUg0PyS9Mz8lKLi3G5A4dyBgYANDy4Ri4BAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Armor of Protection
+          lore:
+          - §7Fortress III
+          - §7Quickening I
+          - §7Soulbound I
+          - ''
+          - §kA set of armor from unknown
+          - §korigins, what strength does
+          - §kit come with?
+          enchants:
+            DURABILITY: 4
+            Quickening: 1
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 5
+            Fortress: 3
+          internal: H4sIAAAAAAAAAH2OMQrCQBREJ9kgSSCNhZ1X8A5BG8FooTnAqj/JgtmV3Z9jip2dBxA8hGsjBozlwMx7kwIJxjmzVfuOqTBHVSmyLgUQCsRluVwUxjGC+VMgeccVSZ/D20NglLem0+y7Ika0PRlGVBFxjOyDXMuWkNWkyarDTNrWWA/anMlKVkb7Lfz2Rws9/fTa0wf3y7c+/K+f9MA709WNJueGfgzUgRffNYZKLgEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Armor of the Ascended
+          lore:
+          - §7Quickening I
+          - §7Soulbound I
+          - ''
+          - An armor set that bolters
+          - the wearer's strength.
+          - Greatly increases the damage
+          - of the wearer in exchange
+          - for some protection.
+          enchants:
+            DURABILITY: 3
+            Quickening: 1
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 2
+          internal: H4sIAAAAAAAAAI3OPQrCQBCG4S8mSCLYiOQQFnbWIqQR/CmiB1h1TBaTrGwmF9LOk+iNLF3BKCsqlgMf7zwtIEBnxKzlqmKaqo3cStJlC4Drwl8ux9FUlQyHYhfB/ZyQMHfjkLlojnJVFWy2jg8vzhTDS0lsfLSfyZnICWFCBWm57gudK71QVZIWVJamON+TFixVYSIwkV9zWKD+yQYNes0aNLwCj94PVNv68s1ir2xCeLQJ6eVFOP9D6D7jzGK9i0QuEnqTOLXk4xi4AUSBLK7DAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Armor of the Ascended
+          lore:
+          - §7Quickening I
+          - §7Soulbound I
+          - ''
+          - An armor set that bolters
+          - the wearer's strength.
+          - Greatly increases the damage
+          - of the wearer in exchange
+          - for some protection.
+          enchants:
+            DURABILITY: 3
+            Quickening: 1
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 2
+          internal: H4sIAAAAAAAAAIWOSw4BQRRFb+smTWIiYhm2IBITic8ACyjtaRWqS6peb8PUXqxAzC1CJNagJIgSn+HLuznnVIAyam1mI6c5U1/P5FySsRUAYYh4Mul2+toycDyHKN/OHgl3F1QjRKmtdJ65J4IY0WilGcVkQZZjVJ/MgVCERkoZGZk0hVHajHWeLjKy1iGHazKCpc4cBY7yaw6v6LLxi3an16LoT1HVU3wL8VeeP4i2vv+gSg9/aw/cMb8a6k86s0iWHaFESm8pwSPl4xi4Ap/DAJfCAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Armor of the Ascended
+          lore:
+          - §7Quickening I
+          - §7Soulbound I
+          - ''
+          - An armor set that bolters
+          - the wearer's strength.
+          - Greatly increases the damage
+          - of the wearer in exchange
+          - for some protection.
+          enchants:
+            DURABILITY: 3
+            Quickening: 1
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 2
+          internal: H4sIAAAAAAAAAH2OXQ7BQBRGvxppquFFROzAGwvwIBIvEj8PWMCoqya0IzPT9UjsQWzBOqzESLQxQh9v7pdzTgjU0BwZo8QmMzSTW7ETpHQIgDEE6/VkPJPaAPMzQ+11Tonbu9LtMPijRGapfcILUF0epUH1SLEO0CiQc54Q2jGlpETU4yqRaiWzeJ+S1pa4OJHiRsjUQmAhZXM4QZe6GxQOPoNYeVDDMfzrcFeu/tF39N715uf64R14Y0oSWgXcGB4dxjzhMX2VeHnJzzHwBDHS/0a/AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Armor of the Ascended
+          lore:
+          - §7Quickening I
+          - §7Soulbound I
+          - ''
+          - An armor set that bolters
+          - the wearer's strength.
+          - Greatly increases the damage
+          - of the wearer in exchange
+          - for some protection.
+          enchants:
+            DURABILITY: 3
+            Quickening: 1
+            MENDING: 1
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 2
+          internal: H4sIAAAAAAAAAI3QTw7BQBTH8V8VqSY2IuIGdtZ2IulG4s8CBxi81oR2ZPp6K5ews3IGcQo7RuLfCGL5Mi/f98n4QAmVDrOW04ypr+YylKRTH4DrwptMukFfpQy0ti5K17FHwszOueCi2IlVlphHOB7yo5Vi5EMi9lB+JAciJtQiSkjLWVPoWOmxyqJFQmlqisM1acFSJSYCE/m1jleQ06hboFxDFe+g9gm49X6gytaVbxZ7yyLguLH/5LB/Enb/EKqPOLOYLQMRi4jeJM5d8nEZuAAlYOVHwwEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Retaliation Armor
+          lore:
+          - §7Molten V
+          - §7Reinforced III
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA great amount of energy
+          - §kis stored in the armor,
+          - §kcan you handle it?
+          enchants:
+            DURABILITY: 4
+            Soulbound: 1
+            THORNS: 4
+            PROTECTION_ENVIRONMENTAL: 4
+            Molten: 5
+            Reinforced: 3
+            Repairing: 3
+          internal: H4sIAAAAAAAAAH2OvQ4BQRSFzxqRXYlGofEOSq1INBI/iZ9COXYvO1k7IzOzKu+j9xY6ld4DeAcjQUxhy5N77ne+OhCh2bdWi3VhaawSsRGkTR0AYwiXy+FgrIwFHneG6BVHxF2u3LoMtX6uCumOqISoznfKopoST0I0vsgJzwmtLUnSIu5wnSu9UMU2lWSMI073pLkVSjoIHKSsjl+h4HDwhIJz8CvEyoUa3sI/D7/lzeN48edPq9pnvncF3pgShfYHnkkVZ2seZzMywlguY/onVPYDPAGALVlGzQEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Retaliation Armor
+          lore:
+          - §7Molten V
+          - §7Reinforced III
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA great amount of energy
+          - §kis stored in the armor,
+          - §kcan you handle it?
+          enchants:
+            DURABILITY: 4
+            Soulbound: 1
+            THORNS: 4
+            PROTECTION_ENVIRONMENTAL: 4
+            Molten: 5
+            Reinforced: 3
+            Repairing: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYDScz8zACeL6pCaC+EtXMzOwOebml+aVANUycTCwBOfklzCwJmekFpdwMPDCzfRLzE1lEEtPzUstykzWSyzKzS8KyS9Nz8hLLS4GGulfkFqUWJKZnwc0hQFoCj7lDCguCmtBcRHTwyfILuIg4CJeFCtwOQRVFar9dX9Q7c86wAaz3/4CAwPUGHxukIaZnp2Xn5ydlJicHZRanFlckpiXnIrLRfj0MDAAADYgVanQAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Retaliation Armor
+          lore:
+          - §7Molten V
+          - §7Reinforced III
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA great amount of energy
+          - §kis stored in the armor,
+          - §kcan you handle it?
+          enchants:
+            DURABILITY: 4
+            Soulbound: 1
+            THORNS: 4
+            PROTECTION_ENVIRONMENTAL: 4
+            Molten: 5
+            Reinforced: 3
+            Repairing: 3
+          internal: H4sIAAAAAAAAAH2OSwrCMBRFr1ZKLThx4MQtiBMXIKITwQ/4WUBanzW0TSRJZ05cijtxCe5B3IYYQcUM2uHl3XfuCYEm2iNjFI8KQ3O543tOSocAPA/BdjudzKU2QO/pofmOM2I2109nD/4ol4WwR9QDNNaZNGhklOgArR9ywXJCJyFBisd9pnKpNrJIDoK0tsTlkRQzXAoLgYVU1fEvVBtfXaHB/V/IrxZqOQtlHm7Lmcfl4c5Hxv/OD2/AB1Oh0P3CUyHjNGJxuiLNtWEipjKhqh/gBeYPpx/NAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Retaliation Armor
+          lore:
+          - §7Molten V
+          - §7Reinforced III
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA great amount of energy
+          - §kis stored in the armor,
+          - §kcan you handle it?
+          enchants:
+            DURABILITY: 4
+            Soulbound: 1
+            THORNS: 4
+            PROTECTION_ENVIRONMENTAL: 4
+            Molten: 5
+            Reinforced: 3
+            Repairing: 3
+          internal: H4sIAAAAAAAAAH2OSwrCMBiEByvSKt0oCOIdRLyACN0IPsDHVkjrXw21iSR/j+bWM3gkK6gYsF0OzMz3tYEA3RmzkXHBtNRHmUoytg3A8+Dv9/NoqS0D6cBD8IoLEmVuBGMPrVmuC8Wvro/m9qIZzZSIfYTfy5XICeGJFBmZjITJtSmP1lcygqVW5Rbl9k8LDv5wc/H36BffqMf3neOdLk5nRdZWeVTUXaFdzxWadFofoekDeP/VSA0/lEzpJItFkm3ISstCJVRlVrcBntkLwmjNAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Strength Armor
+          lore:
+          - §7Quickening I
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA set of armor that draws
+          - §kthe power of the universe
+          - §kto increase damage.
+          enchants:
+            DURABILITY: 4
+            Quickening: 1
+            Repairing: 3
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYIgDcjlBXJ/URCCfcWUZGwObY25+aV6JAxMDGHAwsATn5JcwsGSkJqZwMPDCjfVLzE1l4E1PzUstykzWSyzKzS8CGuZfkFqUWJKZnwfVi0UVA4oTou6jOIEpzooZ5gSgCYz4rRdDMTgkvzQ9Iy+1uBiXO3AoR3XQsemoDrqQBA8T+xvEhIkI3JaSksTkbJfE3MT0VDQnMcKchFUxAwMAhvPhj8MBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Strength Armor
+          lore:
+          - §7Quickening I
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA set of armor that draws
+          - §kthe power of the universe
+          - §kto increase damage.
+          enchants:
+            DURABILITY: 4
+            Quickening: 1
+            Repairing: 3
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAIWOzQ7BQBSFD6WpJjYitnaWXkEkNhJlQR9g1FUT2pGZ2wex9i54CAuPYySIET/Lm3vO+b4QqKHRZ9ZyXjBFaiGXkrQJAXgegjgeDiJlGDiePNRu54iEvcvjvQe/n6kit0/4ASrTjWJUkxUZDlB/bo5FRqinlJOWSVfoTGm7NNmSFixVbsuw5Q8pOPzd0eWf26/80h9+y1meqSJd5WTMN5EvcddodnCNOpH/MOpdgPveL6vmE8MskvVAZCKlN6fSw+ljGLgCT9XfQMIBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Strength Armor
+          lore:
+          - §7Quickening I
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA set of armor that draws
+          - §kthe power of the universe
+          - §kto increase damage.
+          enchants:
+            DURABILITY: 4
+            Quickening: 1
+            Repairing: 3
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAI2QzwoBURjFzxhpKJtJUt7BEyimZkH5s8DC8uIzLu5c3fvN61h5KC+jDDEZId/u1PnO+XUqQBl+wGzkImEa6pVcSzK2AsB14c1m/XCoLQNz30X5JgckUl04nkooBUonMXd93M9DcbLXjOKeIuuhmsWOhCJUI4rJyGVLGKVNGjY+kBEsdfz4/eDCK4LTvOQRVM99IqQJzu/6ei54qpNoE5O13zi+2HNA2CIP1G5km3TO/2xSy1qYxXIXCiUiekNynkgfzcAVsq0XMMMBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Strength Armor
+          lore:
+          - §7Quickening I
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA set of armor that draws
+          - §kthe power of the universe
+          - §kto increase damage.
+          enchants:
+            DURABILITY: 4
+            Quickening: 1
+            Repairing: 3
+            Soulbound: 1
+            PROTECTION_ENVIRONMENTAL: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmbgCA31dPHNLy5hYNixmZmBE8T1SU0E8hlfz2NjYHPMzS/NK3FgYgADDgaW4Jz8EgaWtNTUEg4GXrixfom5qQy86al5qUWZyXqJRbn5RUDD/AtSixJLMvPzoHqxqGJAcULkchQnMJ2SYYY5AWgCI37rxVAMDskvTc/ISy0uxuUOHMpRHWQ1HTVMdqvDw8T+BjFhIgK3paQkMTnbJTE3MT0VzUmMMCdhVczAAAAjNFMBwwEAAA==
+    WeaponItems:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Surreption, Bow of Stealth
+          lore:
+          - §7Stealth II
+          - §7Celerity II
+          - §7Backstep I
+          - §7Multi-Shot I
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - A bow that engulfs the
+          - wielder in void. A great
+          - option for those looking
+          - to strike from the shadows.
+          enchants:
+            ARROW_DAMAGE: 4
+            Celerity: 2
+            Soulbound: 1
+            ARROW_KNOCKBACK: 2
+            Multi-Shot: 1
+            Repairing: 3
+            ARROW_FIRE: 1
+            Stealth: 2
+            Backstep: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Heart-Piercer Bow
+          lore:
+          - §7Pierce I
+          - §7Repairing III
+          - ''
+          - A divine bow able to fire
+          - arrows that pierce the
+          - heart of entities and
+          - continue travelling.
+          enchants:
+            DURABILITY: 3
+            ARROW_DAMAGE: 5
+            ARROW_INFINITE: 1
+            ARROW_FIRE: 1
+            Repairing: 3
+            Pierce: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Bow of Nature's Wrath
+          lore:
+          - §7Electrical I
+          - §7Celerity II
+          - §7Repairing III
+          - ''
+          - A bow able to manipulate
+          - nature itself. Packs a
+          - powerful, and electrical,
+          - punch.
+          enchants:
+            DURABILITY: 3
+            ARROW_DAMAGE: 5
+            Electrical: 1
+            Celerity: 2
+            Repairing: 3
+            ARROW_KNOCKBACK: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Earthquake Bow
+          lore:
+          - §7Heavy Impact II
+          - ''
+          - Great power is stored inside
+          - the bow. An arrow launched
+          - from this weapon will create
+          - a quake wherever it hits.
+          enchants:
+            DURABILITY: 4
+            ARROW_DAMAGE: 5
+            MENDING: 1
+            ARROW_FIRE: 1
+            Heavy Impact: 2
+          internal: H4sIAAAAAAAAAIXMQQrCMBCF4VerkhbcuPUO3qHgRrAKSg8wTUcdahNJpkfzAoL3Mt24dfnDe18JFFhXqkHaUbn2nVyFQywBZDlM0+x3tY+KbPHJUUx5YEo9e79yLKvBj06nrcH88vAKM5C4O7nOYPVjjzQwNjd2HMRue+dt35LtzxwlKjnLiT49OZCKd0lD0v5+gC/a6CcyvQAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Bow of the Gods
+          lore:
+          - §7Rain of Arrows III
+          - §7Celerity II
+          - §7Soulbound I
+          - ''
+          - A divine bow that rains
+          - arrows from the sky. A
+          - gift from the gods.
+          enchants:
+            DURABILITY: 3
+            Rain of Arrows: 3
+            ARROW_DAMAGE: 4
+            MENDING: 1
+            Celerity: 2
+            Soulbound: 1
+            ARROW_FIRE: 1
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy7Z827rZpMZzsUsDJwgIZ/UxOKSaffj5GZZ2x1kY2BzzM0vzStxEGAAAw4GluCc/BIGjtzEzLyMxLwUDgZeuBV+ibmpDILpqXmpRZnJermJFR6piTklGcwMnP4FqUWJJZn5eVAzwCo5YE5iYAAAv5KrrawAAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Bow of Heavens
+          lore:
+          - §7Repairing III
+          - §7Rain of Arrows IV
+          - §7Celerity II
+          - §7Soulbound I
+          - ''
+          - §kA weapon with the power
+          - §kof the universe. How will
+          - §kyou use it?
+          enchants:
+            DURABILITY: 4
+            Rain of Arrows: 4
+            ARROW_DAMAGE: 5
+            MENDING: 1
+            ARROW_INFINITE: 1
+            Celerity: 2
+            Soulbound: 1
+            Repairing: 3
+            ARROW_FIRE: 1
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy6xP2d8pTLM+xsLAydIyCc1sbhkc9yCp7xc5yrZGNgcc/NL80ocRBjAgIOBJTgnv4SBIzcxMy8jMS+Fg4EXboVfYm4qg2B6al5qUWayXm5ihUdqYk5JBjMDp39BalFiSWZ+HtQMsEoOmJMYGABBg/udrAAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Bow of Impact
+          lore:
+          - §7Repairing III
+          - §7Heavy Impact III
+          - §7Soulbound I
+          - ''
+          - §kA weapon forged in an
+          - §kunknown land yet to be
+          - §kwielded.
+          enchants:
+            DURABILITY: 5
+            ARROW_DAMAGE: 6
+            ARROW_INFINITE: 1
+            Soulbound: 1
+            ARROW_FIRE: 1
+            Repairing: 3
+            Heavy Impact: 3
+          internal: H4sIAAAAAAAAAIWOMQ6CQBRERzAGSGwsbLyDpbElsdAomqgUlsvyhQ2ya3aXy3gKT+KZXAuNFIRy8ue/eREQYhJbq0XWWEpULq6CtIkAeD6CNN2sEmUs8Fz4CD9xR8xlb3vxMYpr1Uh3xCDA8HRTFkHNhCyZzAOMf9g9qwmzgiRpweeVVLzKGK+OZISxTHJy6MOdNLNCSUeDo/X+oKX3WLf1lq9/Pb9fb/qdYrpW+qyaopRkTJdZRx14AywNWnZSAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Bow of Piercing
+          lore:
+          - §7Pierce II
+          - §7Soulbound I
+          - ''
+          - §kA weapon of destruction,
+          - §kbut will you be able to
+          - §kmaster it?
+          enchants:
+            DURABILITY: 4
+            ARROW_DAMAGE: 6
+            MENDING: 1
+            ARROW_INFINITE: 1
+            Soulbound: 1
+            ARROW_FIRE: 1
+            Pierce: 2
+          internal: H4sIAAAAAAAAAH2NQQrCMBBFf62UtOBG8BpeQQpuBKuL0qWLaEYdMUlJp95FT+BVvJXJxqV/9+DzXgWUmNcigY+jUOMNn5nCUAHIcqiu26wbPwiywztHmXBLOvIEtwJFbf3oZPV5pr0Upu3dC5TV7K7aGYXZT73TlrC4kKPAp6X1D7LkpO2JTBTvewpa2LvUjZ4/b+AL88fIwrUAAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Multi-Shot Bow
+          lore:
+          - §7Repairing III
+          - §7Multi-Shot IV
+          - §7Soulbound I
+          - ''
+          - §kAn immense amount of energy
+          - §kis stored in this weapon,
+          - §khow did it get there?
+          enchants:
+            DURABILITY: 4
+            ARROW_DAMAGE: 7
+            ARROW_INFINITE: 1
+            Soulbound: 1
+            ARROW_KNOCKBACK: 2
+            Multi-Shot: 4
+            Repairing: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Bedrock Sword
+          lore:
+          - §7Repairing III
+          - §7Blasting III
+          - §7Armor Crush II
+          - §7Soulbound I
+          - §7(+1.5 Damage from Sharpness)
+          - ''
+          - A magical sword with the
+          - durability and strength
+          - of bedrock. Able to pack a
+          - punch without ever breaking.
+          enchants:
+            DURABILITY: 4
+            DAMAGE_ALL: 2
+            KNOCKBACK: 2
+            MENDING: 1
+            Soulbound: 1
+            Blasting: 3
+            Repairing: 3
+            Armor Crush: 2
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy5ZsPHasV8h/sosDJwgIZ/UxOKSPieHTfq6TUlsDGyOufmleSUOEgxgwMHAEpyTX8LAkZuYmZeRmJfCwcALt8IvMTeVQSQ9NS+1KDNZL7GkJDE52yUxNzE9lZmB078gtSixJDM/D2oMWDEHzFUMSA76fSeWd9F919fIDpq/Wjrx28P/ixEOYiDWQWJwBxXl5heF5JemZ+SlFheT5KSa38pW9zx87yE7aXUv/5rE+uU1cCfZXyDWSdIwJ2Xn5SdnJwGDKSi1OLO4JDEvmYigYgAAeVzhedoBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Sword of Wrath
+          lore:
+          - §7Hemorrhage II
+          - §7Adrenaline III
+          - §7Lifesteal III
+          - §7Armor Crush II
+          - §7Jagged Edge I
+          - §7(+2.5 Damage from Sharpness)
+          - §7(+2.5 Damage from Jagged Edge)
+          - ''
+          - A devestating weapon filled
+          - with anger. Unleashes wrath
+          - on targets hit dealing great
+          - damage.
+          enchants:
+            Hemorrhage: 2
+            DAMAGE_ALL: 4
+            FIRE_ASPECT: 2
+            Adrenaline: 3
+            Jagged Edge: 1
+            Armor Crush: 2
+            Lifesteal: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZmHgCA31dPHNLy4pWPBO/PcUl50sDJwgIZ/UxOKSjix926dmTT/YGNgcc/NL80ocZBjAgIOBJTgnv4SBIzcxMy8jMS+Fg4EXboVfYm4qg0h6al5qUWayXmJJSWJytktibmJ6KjMDp39BalFiSWZ+HtQYsGIOmKsYkBzkc2P2nhZbrzBkB3X9ivD/uHfFPbiDDggQ6yBBmINyEys8UhNzSjJIcs0vfsedUo6OAsiumTlNvjvqOdcNuGvsd84EgVmEXSMKd01+WWpual5JcEFqagqaixgxXcQAAPphS+7PAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Sword of Immortality
+          lore:
+          - §7Repairing III
+          - §7Lifesteal IV
+          - §7Jagged Edge I
+          - §7Armor Crush II
+          - §cHeavy I
+          - §7(+2.5 Damage from Jagged Edge)
+          - ''
+          - A divine blade said to
+          - grant a psuedo-immortality.
+          - Provides great defensive
+          - bonuses to the wielder.
+          enchants:
+            DURABILITY: 4
+            KNOCKBACK: 2
+            MENDING: 1
+            Heavy: 1
+            Repairing: 3
+            Jagged Edge: 1
+            Armor Crush: 2
+            Lifesteal: 4
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZWHgCA31dPHNLy7x81GVSWby38fCwAkS8klNLC6ZNJF/0b/ItPVsDGyOufmleSUOEgxgwMHAEpyTX8LAkZuYmZeRmJfCwcALt8IvMTeVQSQ9NS+1KDNZL7GkJDE52yUxNzE9lZmB078gtSixJDM/D2oMWDEHzFUMSA465L94NXusvy2ygxZ7qO/KZ9vDi3CQCLEOEoQ5KDexwiM1MackgyTXTL7bb+m03P8lsmtmuuhY3bE5w4VwDQexruGFB09Rbn4RSS45+vXHIfUrnueQXbJIiF1BXuZaHsIlDMS6RAzFJSH5pekZeanFxSQ5yfD7v3+LbV30kJ007aTXSsHSiUfgTrK/QKyTpGFOys7LT85OAiafoNTizOKSxLxkIpIQAwCBdfOp8gIAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Silhouette, Sword of Shadows
+          lore:
+          - §7Hemorrhage III
+          - §7Crippling Strike III
+          - §7Adrenaline I
+          - §7Cloaking I
+          - §7(+3.5 Damage from Sharpness)
+          - ''
+          - A sword that engulfs the
+          - wielder in the void. A
+          - great choice of weapon for
+          - those looking to strike
+          - from the shadows.
+          enchants:
+            Adrenaline: 1
+            DURABILITY: 4
+            Hemorrhage: 3
+            DAMAGE_ALL: 6
+            Cloaking: 1
+            Cripple Strike: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy55oPZkSpa8z1YWBk6QkE9qYnFJb/UR7ciIGV5sDGyOufmleSUOEgxgwMHAEpyTX8LAkZuYmZeRmJfCwcALt8IvMTeVQSQ9NS+1KDNZL7GkJDE52yUxNzE9lZmB078gtSixJDM/D2oMWDEHzFUMSA6Sr/jPwdbpoo7soMVMsu92HbquDHeQ/c6ZIDCLsINEYQ7KzS9LzU3NKwkuSE1NQXMRI6aLGABVJ/bpQQEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §33rd Sacred Relic
+          lore:
+          - §7Jagged Edge II
+          - §7Adrenaline III
+          - §7(+3.5 Damage from Sharpness)
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - A relic weapon of the past,
+          - designed to deal massive
+          - damage in a single blow.
+          enchants:
+            Adrenaline: 3
+            Jagged Edge: 2
+            DAMAGE_ALL: 6
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy6pqDfmD1noeJKFgRMk5JOaWFyywqRBxabONIeNgc0xN780r8RBggEMOBhYgnPySxg4chMz8zIS81I4GHjhVvgl5qYyiKSn5qUWZSbrJZaUJCZnuyTmJqanMjNw+hekFiWWZObnQY0BK+aAuYoByUHT+f5K5lzy80N2UPttwUlfLBJj4A6yXzkTBGZRx0GMmA5iAACpBfd2QAEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Agile Sword
+          lore:
+          - §7Cripple Strike III
+          - §7Adrenaline III
+          - §7Repairing III
+          - §7Soulbound I
+          - §7(+3.5 Damage from Sharpness)
+          - ''
+          - §kAn immense amount of energy
+          - §kis stored in this weapon,
+          - §khow did it get there?
+          enchants:
+            DURABILITY: 4
+            DAMAGE_ALL: 6
+            Soulbound: 1
+            SWEEPING_EDGE: 4
+            Cripple Strike: 3
+            FIRE_ASPECT: 2
+            Adrenaline: 3
+            Repairing: 3
+          internal: H4sIAAAAAAAAAIWOMQrCQBBFv4loErBQPIcXsAqkUFBTSA4wxjFZzO5KMoJ38IweQaztXAslImL54fH+i4AQo1ikVpuj8NJu1U5x3UQAPB9Bls2TpW0EnendR/icCya3vfPVRy/W9mjEsf0A3XVlBYEmZUoy2wCDt3ZFmjEu2HCt8gmJUL5PSFPBzpkeuCZR1jgNnOY3jHYQbpfPoDRqB3n/g4avD02nGVMl5a+abxJ4AAF6SkA6AQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Sword of Knowledge
+          lore:
+          - §7Knowledge V
+          - §7Lifesteal IV
+          - §7Particle I
+          - §7Repairing III
+          - §7(+3 Damage from Sharpness)
+          - ''
+          - §kA weapon of destruction,
+          - §kbut will you be able to
+          - §kmaster it?
+          enchants:
+            DURABILITY: 4
+            Knowledge: 5
+            DAMAGE_ALL: 5
+            MENDING: 1
+            Particle: 1
+            Repairing: 3
+            LOOT_BONUS_MOBS: 5
+            Lifesteal: 4
+          internal: H4sIAAAAAAAAAIWOzQnCQBCFn4mEJOBFtADxLliBBHIR/DlIChiTMS66uyGONmAV2olNWYPrIYKiOLfHPL73xUCEbiJSq/VReG4LtVFcH2IAno8wy6bp3B4EGN99RM84Y3LZG2Y+gkTbo3FPBCHaq70VhJqU2ZIpQnRe2AVpRq9kw7XKRyRC+S4lTSU75rLimkRZ4zBwmN9lvAud34XSQdAITW6X513/S/WbHW1PrNnIqmIuPqxajdX3NvAAj0bfH0YBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Sword of Combat
+          lore:
+          - §7Jagged Edge II
+          - §7Adrenaline IV
+          - §7Repairing III
+          - §7Soulbound I
+          - §7(+4 Damage from Sharpness)
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - §kA weapon with the power
+          - §kof the universe. How will
+          - §kyou use it?
+          enchants:
+            Adrenaline: 4
+            DURABILITY: 3
+            DAMAGE_ALL: 7
+            Soulbound: 1
+            Repairing: 3
+            Jagged Edge: 2
+          internal: H4sIAAAAAAAAAK2QTQ4BQRCFH4O0SWyEa1jZyyQ2Ej8LmQMUU+jQ3TJTnMDSXriBU0jcwd5RzCxIJmFB1O6lXr76Uj5QRT0QifVkIzxwkZ5pjhMfgOdBhWGvO3CJAIe2h2oW+0xpLu4uHiqBcRubLqEUSuOVEyhD2i7IRgq1F3ZIhtGYs+VYT1skQtNllwzNOWWO1hyTaGeRcVD6XEZOaF/OCRWuq8pTqHM+ZnP6j1ThC6lbLf+le/iDVPN5x7gtG7YyXjNHn6zet4EHU9UM/tsBAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Disabling Sword
+          lore:
+          - §7Hemorrhage V
+          - §7Cripple Strike IV
+          - §7Armor Crush II
+          - §7Repairing III
+          - §7Soulbound I
+          - §7(+3.5 Damage from Sharpness)
+          - ''
+          - §kA weapon forged in an
+          - §kunknown land yet to be
+          - §kwielded.
+          enchants:
+            DURABILITY: 4
+            Hemorrhage: 5
+            DAMAGE_ALL: 6
+            Soulbound: 1
+            Cripple Strike: 4
+            FIRE_ASPECT: 2
+            Repairing: 3
+            Armor Crush: 2
+          internal: H4sIAAAAAAAAAIWOwQoBURSGf0aMKRvxDkp5BanZKMNCHuAwx7hx751mzngUxRvYeTJ7G7kWo4ic3d/5+/4vAJpoj0QytSyEIxurteIsDwBUPfiLxTiMbC7Areeh+YwTJperh6mH+kjbwrgnGj5q850V+JqU2ZCJfbRe2ClpRidhw5laDUiEVtuQNCXsmLOUMxJljcPAYX6X8SbUv7wJVe7Xeik0PB+fd/ov1S13tN2zZiPzlDn+sKqUVt/bwANf8cAmRgEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Laceration, Axe of Trauma
+          lore:
+          - §7Hemorrhage IV
+          - §7Crippling Strike III
+          - §7Jagged Edge II
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - A divine axe that bring
+          - trauma to it's victims.
+          - Getting hit once is all it
+          - takes to severely cripple
+          - an entity.
+          enchants:
+            DURABILITY: 3
+            Hemorrhage: 4
+            Jagged Edge: 2
+            FIRE_ASPECT: 3
+            Cripple Strike: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy6ZzCzru8fccSULAydIyCc1sbikNbqt3L/YyZSNgc0xN780r8RBhgEMOBhYgnPySxg4chMz8zIS81I4GHjhVvgl5qYyiKSn5qUWZSbrJZaUJCZnuyTmJqanMjNw+hekFiWWZObnQY0BK+aAuYqBAQAoVKjcrwAAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Undying Rage, The Axe of War
+          lore:
+          - §7Crippling Strike III
+          - §7Armor Crush II
+          - §7(+3.5 Damage from Sharpness)
+          - ''
+          - An axe filled with the
+          - spirit of war. Able to land
+          - devestating, critical blows
+          - on target hit.
+          enchants:
+            DURABILITY: 4
+            DAMAGE_ALL: 6
+            Armor Crush: 2
+            FIRE_ASPECT: 2
+            Cripple Strike: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy6ZPnfrqexYfzkWBk6QkE9qYnFJW6Pn+nPSbb/YGNgcc/NL80ocZBjAgIOBJTgnv4SBIzcxMy8jMS+Fg4EXboVfYm4qg0h6al5qUWayXmJJSWJytktibmJ6KjMDp39BalFiSWZ+HtQYsGIOmKsYkBzE1BL917bHJQfZQZvTgzkOtGwNhDvIfudMEJhF2EGiMAfl5pel5qbmlQQXpKamoLmIEdNFDAALH+jVQQEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Axe of Immortality
+          lore:
+          - §7Repairing III
+          - §7Lifesteal IV
+          - §7Jagged Edge I
+          - §7Armor Crush II
+          - §cHeavy I
+          - §7(+2.5 Damage from Jagged Edge)
+          - ''
+          - A divine axe said to
+          - grant a psuedo-immortality.
+          - Provides great defensive
+          - bonuses to the wielder.
+          enchants:
+            DURABILITY: 4
+            KNOCKBACK: 2
+            MENDING: 1
+            Heavy: 1
+            Repairing: 3
+            Jagged Edge: 1
+            Armor Crush: 2
+            Lifesteal: 4
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZWHgCA31dPHNLy55m61pG3TVbwMLAydIyCc1sbhkes0TjtAfAifZGNgcc/NL80ocRBjAgIOBJTgnv4SBIzcxMy8jMS+Fg4EXboVfYm4qg2B6al5qUWayXm5ihUdqYk5JBjMDp39BalFiSWZ+HtQMsEoOmJMYkFxzVtngziwTnyBk16z0iT7kfN+gGOEaDmJdwwtzTWJRbn4RSS4Jtv+ZeHSfgwGyS+Yujlt742MTC8IlDMS6RAzFJSH5pekZeanFxSQ5ye2f5yG3rz6TkJ006+hpH91nSZ0IJ8kQ6yQRuJNKShKTs10ScxPTU0lyULa4/UPdS56qyA7qcu5qkZu5xAPuIPsLxDpIGuag7Lz85OwkoJuCUoszi0sS85KJcBcDAG324gHyAgAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §37th Sacred Relic
+          lore:
+          - §7Jagged Edge II
+          - §7Adrenaline III
+          - §7(+3.5 Damage from Sharpness)
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - A relic weapon of the past,
+          - designed to deal massive
+          - damage in a single blow.
+          enchants:
+            Adrenaline: 3
+            Jagged Edge: 2
+            DAMAGE_ALL: 6
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy5ZYBktzCHh2sHCwAkS8klNLC7ZPLPcK3zVrQw2BjbH3PzSvBIHGQYw4GBgCc7JL2HgyE3MzMtIzEvhYOCFW+GXmJvKIJKempdalJmsl1hSkpic7ZKYm5ieyszA6V+QWpRYkpmfBzUGrJgD5ioGJAcp2J9WYXjo+xbZQVNXFOfdNvBLhTvIfuVMEJhFHQcxYjqIAQBVIBlBQAEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3Hypernova, Axe of Destruction
+          lore:
+          - §7Blasting III
+          - §7Crippling Strike III
+          - §7Jagged Edge II
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - An axe of destruction
+          - reforged into a weapon.
+          - Unleashes explosions of
+          - energy on foes during combat.
+          enchants:
+            DURABILITY: 4
+            Blasting: 3
+            KNOCKBACK: 2
+            Jagged Edge: 2
+            FIRE_ASPECT: 3
+            Cripple Strike: 3
+          internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy55umj++jQmd1cWBk6QkE9qYnHJfPkDFqHLb7SwMbA55uaX5pU4yDGAAQcDS3BOfgkDR25iZl5GYl4KBwMv3Aq/xNxUBpH01LzUosxkvcSSksTkbJfE3MT0VGYGTv+C1KLEksz8PKgxYMUcMFcxMAAA84Ic468AAAA=
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Exploding Axe
+          lore:
+          - §7Blasting IV
+          - §7Cripple Strike III
+          - §7Armor Crush II
+          - §7Repairing III
+          - §7Soulbound I
+          - ''
+          - §kA weapon of destruction,
+          - §kbut will you be able to
+          - §kmaster it?
+          enchants:
+            DURABILITY: 5
+            Blasting: 4
+            Soulbound: 1
+            Repairing: 3
+            Armor Crush: 2
+            Cripple Strike: 3
+          internal: H4sIAAAAAAAAAIWQwWrCUBBFb0zQGChicdd/cOVeBBcWagsWV67GZEwe8b1XkhGE/km33fVrxF/wR/oKRgwlurxw59zDREAXjxORQq13wnObqI3ioowA+D7C5fJ5OrelwFuNfHT/4guTy61T5KM90XZnxHU7IYL3rRWEmpTJyCQhHi7YV9KMQcqGCxUPSYTifEqaUnbMtw8uSJQ1DgOHaS7jWgjH77rQz7FdCY0PwJl2R+qp2smNjfO1m1pwqUohEze63bqpKXq9r7ri5+D6Z8F9vX41pWk/Y9pK1iT1vwn8AmhCk0ndAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Axe of Unbreaking
+          lore:
+          - §7Hemorrhage III
+          - §7Blasting II
+          - §7Jagged Edge II
+          - §7Repairing III
+          - §7Soulbound I
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - §kAn immense amount of energy
+          - §kis stored in this weapon,
+          - §khow did it get there?
+          enchants:
+            DURABILITY: 5
+            Hemorrhage: 3
+            KNOCKBACK: 3
+            MENDING: 1
+            Soulbound: 1
+            Blasting: 2
+            Repairing: 3
+            Jagged Edge: 2
+          internal: H4sIAAAAAAAAAIXQsW7CMBAG4B+CkEHqUiGWju3MDFMViaVSKRKFkeEIR2Iltiv7svISndqNx+GtSAZQM6R4O/n833ceAgM8xiJe70rhhdvrg2YfhgCiCGqzeZsvXBBg+xJhUJfvTFXdnRYR+rFxpa0uoRR6n4UTKEPaZmT3Cg+32A8yjFHKlr1OJiRCST4nQylXmcsv9iTaWdQ56LU3owHyxyboe/YX1L0PGt9meOP82pVpZjmENlJLewPVWccNVOf03L+iXs8/9fm9D3u6TsqtS/Jdtf+Kgw5CNmn9sP/eABeoaHri5wEAAA==
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Disabling Axe
+          lore:
+          - §7Hemorrhage V
+          - §7Cripple Strike IV
+          - §7Armor Crush II
+          - §7Repairing III
+          - §7Soulbound I
+          - §7(+3.5 Damage from Sharpness)
+          - ''
+          - §kA weapon forged in an
+          - §kunknown land yet to be
+          - §kwielded.
+          enchants:
+            DURABILITY: 4
+            Hemorrhage: 5
+            DAMAGE_ALL: 6
+            Soulbound: 1
+            Cripple Strike: 4
+            FIRE_ASPECT: 2
+            Repairing: 3
+            Armor Crush: 2
+          internal: H4sIAAAAAAAAAIWOSwrCQBBESxPCRHAjeg2vIIFsBD8LyQFa08ZBZ0bGjmdRV+7E83kBk0UERbF3RRevXgeI0UtEvF6WwlOX67Vmf+gAaAdQWTZOp+4gwK0IENdxwlTl1uMaIEqMK231hFIIFzsnUIa03ZDNFbov7IwMo1+wZa9XQxKh1TYlQwVXzPmePYl2FjUH4e8y3oSS05tQ26dRIzS6n+u7/JcaNDvGHdmwlcWeOf+wajVW39vAE+PGPfxGAQAA
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1519
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §3§kExalted Axe of Combat
+          lore:
+          - §7Jagged Edge II
+          - §7Adrenaline IV
+          - §7Repairing III
+          - §7Soulbound I
+          - §7(+3.5 Damage from Sharpness)
+          - §7(+5 Damage from Jagged Edge)
+          - ''
+          - §kA weapon with the power
+          - §kof the universe. How will
+          - §kyou use it?
+          enchants:
+            Adrenaline: 4
+            DURABILITY: 3
+            DAMAGE_ALL: 6
+            Soulbound: 1
+            Repairing: 3
+            Jagged Edge: 2
+          internal: H4sIAAAAAAAAAK3OTQ4BQRAF4MeIzEhshFMQcQOR2Ej8LGQOUEwZHbpbZoq74AQO4BrOYekIehaExCyI2r3k5dVXAQLUeiKJmm2FRzZSC8VJWgHgefDDcNAf2VRQaF49BFkcMrlcPC48lHvabo24buCjNF1bga9JmSWZyEf1OTsmzajHbDhR8zaJ0HzVJ00xu83JhhMSZY2bgZvJL+MVhNb5HWT35Qeoe9pnd/gPqvAFanZ7R3UuP6Aajz/a7lizkemGOcpTfW4Dd3pGxazbAQAA

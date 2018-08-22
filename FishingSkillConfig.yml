@@ -1,0 +1,102 @@
+FishingConfig:
+  catchReward: 7.5
+FishingAbilities:
+  KelpFisher:
+    displayString: "&aKelp Fisher;%1$.2f%% chance of obtaining;a piece of kelp upon fishing."
+    itemStackIcon: "KELP"
+    abilityChance: "20:50,20:50"
+    abilityLevels: "1,1"
+  ExperienceFisher:
+    displayString: "&2Experience Fisher;Multiplies the base XP of;fishing by %2$d."
+    itemStackIcon: "EXPERIENCE_BOTTLE"
+    abilityChance: "25:100,75:100"
+    abilityLevels: "2,4"
+  AbundanceFisher:
+    displayString: "&eAbundance Fisher;%1$.2f%% chance of multiplying;yield when fishing by %2$d.;(Effect only works on fish.)"
+    itemStackIcon: "COD"
+    abilityChance: "40:25,100:50"
+    abilityLevels: "2,4"
+  BarbaricFisher:
+    displayString: "&9Barbaric Fisher;Killing fish mobs and squid;will grant fishing experience."
+    itemStackIcon: "WATER_BUCKET"
+    abilityChance: "45:100,45:100"
+    abilityLevels: "1,1"
+  CulinaryFisher:
+    displayString: "&3Culinary Fisher;Unlocks new fishing related;culinary recipes."
+    itemStackIcon: "BOWL"
+    abilityChance: "60:100,60:100"
+    abilityLevels: "1,1"
+  FieryFisher:
+    displayString: "&4Fiery Fisher;%1$.2f%% Chance of automatically;cooking fish you reel in.;(Only applies to fish that;can be cooked.)"
+    itemStackIcon: "BLAZE_POWDER"
+    abilityChance: "80:5,100:25"
+    abilityLevels: "1,1"
+  MagicFisher:
+    displayString: "&5Magic Fisher;%1$.2f%% chance of fishing a;random magical scroll."
+    itemStackIcon: "PAPER"
+    abilityChance: "100:1,100:1"
+    abilityLevels: "1,1"
+FishingRecipes:
+  MakiSushi:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: DRIED_KELP
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Maki Shushi
+      lore:
+      - §7Hearty II
+      - §7Saturation II
+      - §7Energizing II
+      enchants:
+        Hearty: 2
+        Energizing: 2
+        Saturation: 2
+  TemakiSushi:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: DRIED_KELP
+    amount: 3
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §4Temaki Sushi
+      lore:
+      - §7Hearty III
+      - §7Saturation IV
+      - §7Energizing III
+      enchants:
+        Hearty: 3
+        Energizing: 3
+        Saturation: 4
+  FishTacos:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: BREAD
+    amount: 2
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §eFish Tacos
+      lore:
+      - §7Hearty I
+      - §7Energizing I
+      enchants:
+        Hearty: 1
+        Energizing: 1
+  FishAndChips:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: COOKED_COD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Fish & Chips
+      lore:
+      - §7Saturation IV
+      - §7Energizing II
+      enchants:
+        Energizing: 2
+        Saturation: 4

@@ -1,0 +1,51 @@
+name: ArchesporeAdventure
+main: jp.archesporeadventure.main.ArchesporeAdventureMain
+version: 0.1
+api-version: 1.13
+loadbefore: [ArchesporeLoot]
+commands:
+  enchantitem:
+    description: Enchants an item
+    usage: /enchantitem
+  givemagicitem:
+    description: Gives the player a magic item
+    usage: /givemagicitem <player> <item name>
+  givemagicitemsall:
+    description: Gives you ALL magic items
+    usage: /giveallmagicitems
+  registermagicitem:
+    description: Registers the magic item you are holding with the given name
+    usage: /registermagicitem <item name>
+  testgen:
+    description: test generation
+    usage: /testgen
+  removegen:
+    description: remove generation
+    usage: /removegen
+  givelootpool:
+    description: gives the player a loot pool
+    usage: /givelootpool <loot pool>
+  addskilllevels:
+    description: adds levels to the player's skill
+    usage: /addskilllevels <player> <skill> <amount>
+  addskillexp:
+    description: adds exp to the player's skill
+    usage: /addskillexp <player> <skill> <amount>
+  customitem:
+    description: register's the player's held item as a custom item.
+    usage: /customitem
+  mining:
+    description: opens the player's mining menu
+    usage: /mining
+  woodcutting:
+    description: opens the player's woodcutting menu
+    usage: /woodcutting
+  herbalism:
+    description: opens the player's herbalism menu
+    usage: /herbalism
+  enchanting:
+    description: opens the player's enchanting menu
+    usage: /enchanting
+  fishing:
+    description: opens the player's fishing menu
+    usage: /fishing

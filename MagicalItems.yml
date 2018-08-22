@@ -1,0 +1,1224 @@
+MagicItems:
+  InfinityCookie:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Infinity Cookie
+      loc-name: 'null'
+      lore:
+      - §7Saturation I
+      - §7Hearty I
+      - §7Energizing I
+      - §d§kMagical Effect I
+      - ''
+      - A cookie that seems to
+      - never end, no matter how
+      - many times you eat it...
+      enchants:
+        Magical Effect: 1
+        Hearty: 1
+        Energizing: 1
+        Saturation: 1
+  PortableFarm:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: WHEAT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Portable Farm
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A piece of wheat that has
+      - the strange ability to
+      - multiply itself.
+      - (Stackable Effect)
+      enchants:
+        Magical Effect: 1
+  BottomlessBowl:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: BOWL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Bottomless Bowl
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A bowl that never fills
+      - no matter how much food
+      - you put in it. Allows you
+      - to eat food even at full
+      - hunger.
+      enchants:
+        Magical Effect: 1
+  SugarRush:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: SUGAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Sugar Rush
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - Gives a sweet taste to any
+      - food you eat. Grants attack
+      - speed and resistance upon
+      - eating any food.
+      enchants:
+        Magical Effect: 1
+  PhotosyntheticSeeds:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: WHEAT_SEEDS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Photosynthetic Seeds
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical seed that makes
+      - you feel nourished. Slowly
+      - fills your hunger and
+      - saturation.
+      - (Stackable Effect)
+      enchants:
+        Magical Effect: 1
+  HeartofaCannibal:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: ROSE_RED
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Heart of a Cannibal
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - Heart of a cannibalistic
+      - creature that radiates with
+      - energy. Has a chance to give
+      - the player hunger back
+      - upon attacking an entity.
+      - (Stackable Effect)
+      enchants:
+        Magical Effect: 1
+  ResistanceCrystal:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: QUARTZ
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Resistance Crystal
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical crystal that
+      - thickens an entity's skin.
+      - Reduces thorns and contact
+      - damage by half.
+      enchants:
+        Magical Effect: 1
+  FeatherOFalling:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: FEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Feather o' Falling
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted feather that
+      - lightens an entity. Prevents
+      - fall damage from exceeding
+      - half a heart.
+      enchants:
+        Magical Effect: 1
+  BoilingBlood:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Boiling Blood
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A ball of boiling blood.
+      - Prevents all fire damage
+      - and allows the user to swim
+      - in lava without damage.
+      enchants:
+        Magical Effect: 1
+  HolyMelon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: GLISTERING_MELON_SLICE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Holy Melon
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A melon with a holy aura.
+      - Reduces damage from poison
+      - and wither by half.
+      enchants:
+        Magical Effect: 1
+  ExplosivePowder:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: GUNPOWDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Explosive Powder
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted piece of
+      - gunpowder that protects
+      - an entity from explosions.
+      - Reduces damage from
+      - explosions by 1/3.
+      enchants:
+        Magical Effect: 1
+  ToughLeather:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: LEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Tough Leather
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - Leather that will never tear.
+      - Reduces ALL forms of damage
+      - by .5 (1/4 of a heart).
+      enchants:
+        Magical Effect: 1
+  SoothingDust:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: GLOWSTONE_DUST
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Soothing Dust
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A soothing, magical dust
+      - that increases natural
+      - health regen from 1/2 to
+      - 3/4 of a heart.
+      enchants:
+        Magical Effect: 1
+  LivelySunflower:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: SUNFLOWER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Lively Sunflower
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted sunflower that
+      - heals the player. Increases
+      - damage by 1/2 heart and
+      - reduces all damage taken
+      - by 1/2 heart. Only works
+      - during the day and when
+      - there are no blocks above
+      - the player.
+      enchants:
+        Magical Effect: 1
+  GemOfHope:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Gem of Hope - Disabled
+      loc-name: 'null'
+      lore:
+      - §cDisabled
+      - §d§kMagical Effect I
+      - ''
+      - A gem capable of turning
+      - experience into health.
+      - Quickly heals you using
+      - stored xp. Can be toggled
+      - by right-clicking.
+      enchants:
+        Magical Effect: 1
+  LuckyEmerald:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: EMERALD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Lucky Emerald
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - Turns life essence into
+      - emeralds. Has a 5% chance
+      - to drop an emerald upon
+      - killing an entity.
+      - (Stackable Chance)
+      enchants:
+        Magical Effect: 1
+  KnowledgeFragment:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Knowledge Fragment
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical scroll with the
+      - ability to extract extra
+      - knowledge from entities.
+      - Grants 33% extra xp when
+      - killing a mob.
+      - (Stackable Effect)
+      enchants:
+        Magical Effect: 1
+  Steroids:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: BLAZE_POWDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Steroids
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - Channels the life essence
+      - from one entity to another.
+      - Upon killing an entity,
+      - grants strength for 5
+      - seconds.
+      enchants:
+        Magical Effect: 1
+  BindingString:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: STRING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Binding String
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical web that binds
+      - targets. Has a 10% chance
+      - to slow a target for 2.5
+      - seconds when attacking.
+      - (Stackable Chance)
+      enchants:
+        Magical Effect: 1
+  BlindingSac:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: INK_SAC
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Blinding Sac
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted ink sac that
+      - blinds targets. Has a 10%
+      - chance to blind a target
+      - for 2.5 seconds when
+      - attacking.
+      - (Stackable Chance)
+      enchants:
+        Magical Effect: 1
+  ChaseDown:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: FURNACE_MINECART
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Chase Down
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - Grants a boost of speed
+      - during combat. When you
+      - attack an entity, gain
+      - speed for 1.5 seconds.
+      enchants:
+        Magical Effect: 1
+  HellishAura:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: NETHER_BRICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Hellish Aura - Disabled
+      loc-name: 'null'
+      lore:
+      - §cDisabled
+      - §d§kMagical Effect I
+      - ''
+      - A nether brick with a
+      - hellish aura. Damages
+      - neaby entites in a 4
+      - block radius by 1/2
+      - heart every 2.5 seconds.
+      - Can be toggled by
+      - right-clicking.
+      enchants:
+        Magical Effect: 1
+  NuggetOfStrength:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: GOLD_NUGGET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Nugget of Strength
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A nugget that surges with
+      - power. Grants .25 extra
+      - attack damage when under
+      - or equal to 50% health.
+      - (Stackable Effect)
+      enchants:
+        Magical Effect: 1
+  CounteringStone:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: FLINT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Countering Stone
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - Grants you the power to
+      - counter-attack upon being
+      - hit. Gives you a 7.5% chance
+      - of dealing 1/3 of your
+      - damage taken back to the
+      - attacker.
+      - (Stackable Chance)
+      enchants:
+        Magical Effect: 1
+  Rabbit'sFoot:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: RABBIT_FOOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Rabbit's Foot
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted Rabbit's Foot
+      - that gives you powers of the
+      - rabbit. Sneak before jumping
+      - to perform a super jump,
+      - and sneak before hitting
+      - the ground to reduce fall
+      - damage.
+      enchants:
+        Magical Effect: 1
+  EnderPearlMastery:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: ENDER_PEARL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Ender Pearl Mastery
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A special ender pearl that
+      - increases your affinity to
+      - the end. Stops all damage
+      - from ender pearls and gives
+      - you a small speed and
+      - resistance boost on teleport.
+      enchants:
+        Magical Effect: 1
+  SpeedSaddle:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: SADDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Speed Saddle
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A special saddle that
+      - increases your speed on
+      - horses by 40%.
+      enchants:
+        Magical Effect: 1
+  EyeOfNight:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: FERMENTED_SPIDER_EYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Eye of Night
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted spider eye that
+      - heals the player. Increases
+      - damage by 1/2 heart and
+      - reduces all damage taken
+      - by 1/2 heart. Only works
+      - during the night and when
+      - there are no blocks above
+      - the player.
+      enchants:
+        Magical Effect: 1
+  Miner'sBlessing:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: CLAY_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Miner's Blessing
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted clay ball that
+      - heals the player. Increases
+      - damage by 1/2 heart and
+      - reduces all damage taken
+      - by 1/2 heart. Only works
+      - underground at a sky light
+      - level of 0.
+      enchants:
+        Magical Effect: 1
+  SoulOfTheOcean:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: PRISMARINE_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Soul of the Ocean
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted prismarine shard
+      - that heals the player.
+      - Increases damage by 1/2
+      - heart and reduces all damage
+      - taken by 1/2 heart. Only works
+      - while the player is in water.
+      enchants:
+        Magical Effect: 1
+  Wolf'sBone:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: BONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Wolf's Bone
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted bone from a
+      - wolf. Prevents you from
+      - damaging your pets and
+      - increases the speed of all
+      - your pets within a 16-block
+      - radius.
+      enchants:
+        Magical Effect: 1
+  Rock:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: COAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Rock
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An ordinary rock, able to
+      - fit in a snowball. Causes
+      - snowballs to deal 2 damage.
+      enchants:
+        Magical Effect: 1
+  LightweightBottle:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: GLASS_BOTTLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Lightweight Bottle - Disabled
+      loc-name: 'null'
+      lore:
+      - §cDisabled
+      - §d§kMagical Effect I
+      - ''
+      - A potion bottle that's
+      - lighter than the rest.
+      - Causes throwable potions
+      - to travel futher. Can be
+      - toggled by right-clicking.
+      enchants:
+        Magical Effect: 1
+  MysteriousPotion:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §3Mysterious Potion
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A mysterious potion that
+      - never runs out. Drinking
+      - it will give you a random
+      - potion effect for 30 - 60
+      - seconds.
+      enchants:
+        Magical Effect: 1
+      ItemFlags:
+      - HIDE_POTION_EFFECTS
+      potion-type: minecraft:water
+  PortableCasino:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: GLOWSTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Portable Casino
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - Test your luck! For the
+      - cost of 1 level and 1
+      - gold ingot, you have a 20%
+      - chance to recieve a diamond.
+      - Can be used by right-clicking.
+      enchants:
+        Magical Effect: 1
+  BookshelfOfKnowledge:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: BOOKSHELF
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Bookshelf of Knowledge
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A collection of knowledge
+      - all stored in a single block
+      - increases xp for skills by
+      - 2.5%.
+      - (Stackable Effect, bonus xp
+      - amount caps at 7.5%)
+      enchants:
+        Magical Effect: 1
+  PlayerParticleTrail:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: REDSTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Player Particle Trail - Disabled
+      loc-name: 'null'
+      lore:
+      - §cDisabled
+      - §d§kMagical Effect I
+      - ''
+      - Gives your player a particle
+      - trail, purely aesthetic
+      - item. Can be toggled by
+      - right-clicking.
+      enchants:
+        Magical Effect: 1
+  ArrowFireworks:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: PRISMARINE_CRYSTALS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Arrow Fireworks - Disabled
+      loc-name: 'null'
+      lore:
+      - §cDisabled
+      - §d§kMagical Effect I
+      - ''
+      - Launches a random firework
+      - when you land an arrow,
+      - purely aesthetic item. Can
+      - be toggled by right-clicking.
+      enchants:
+        Magical Effect: 1
+  MobTears:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Mob Tears - Disabled
+      loc-name: 'null'
+      lore:
+      - §cDisabled
+      - §d§kMagical Effect I
+      - ''
+      - Plays a random hurt mob
+      - sound effect when you take
+      - damge, purely aesthetic item.
+      - Can be toggled by right-clicking.
+      enchants:
+        Magical Effect: 1
+  IronGenerator:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: IRON_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Iron Generator
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical block of iron
+      - that has the unique ability
+      - to duplicate.
+      enchants:
+        Magical Effect: 1
+  TransmutationTable:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: END_PORTAL_FRAME
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Transmutation Table - Disabled
+      loc-name: 'null'
+      lore:
+      - §cDisabled
+      - §d§kMagical Effect I
+      - ''
+      - A special tool that turns
+      - iron to gold and gold to
+      - emeralds over time. Can be
+      - toggled by right-clicking.
+      enchants:
+        Magical Effect: 1
+  Midas'Rod:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: BLAZE_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Midas' Rod
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical rod that turns
+      - iron nuggets into gold
+      - nuggets by using a bit of
+      - the player's health and
+      - food. Can be used by
+      - right-clicking.
+      enchants:
+        Magical Effect: 1
+  EnderShulker:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: SHULKER_SHELL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Ender Shulker
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A shulker shell that has
+      - the power of the end.
+      - Allows you to access your
+      - enderchest from anywhere.
+      enchants:
+        Magical Effect: 1
+  All-SeeingEye:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: ENDER_EYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3All-Seeing Eye - Disabled
+      loc-name: 'null'
+      lore:
+      - §cDisabled
+      - §d§kMagical Effect I
+      - ''
+      - An all-seeing eye. Gives
+      - you infinite night vision
+      - and reveals nearby entities
+      - within a 16 block radius
+      - when enabled. Can be toggled
+      - by right-clicking.
+      enchants:
+        Magical Effect: 1
+  FlowerOfPurification:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: DANDELION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Flower of Purification
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical flower with holy
+      - power. Can clear all potion
+      - effects, good and bad, for
+      - a single level. Can be used
+      - by right-clicking.
+      enchants:
+        Magical Effect: 1
+  Nature'sBlessing:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: OAK_SAPLING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Nature's Blessing
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A sapling enchanted by a
+      - druid. When used, places
+      - a buff field that grants
+      - all players inside speed,
+      - strength, haste, and
+      - regeneration for 30 seconds.
+      - Uses 2.5 hearts and 3 levels,
+      - can be used by right-clicking.
+      enchants:
+        Magical Effect: 1
+  BallOfSlime:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: SLIME_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Ball of Slime
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A ball of slime that devours
+      - items. Killing a mob will
+      - put the items directly into
+      - your inventory instead of
+      - dropping them.
+      enchants:
+        Magical Effect: 1
+  Enchanter'sStone:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: LAPIS_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3Enchanter's Stone
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical stone used by
+      - enchanters. Produces lapis,
+      - experience, and books over
+      - time.
+      enchants:
+        Magical Effect: 1
+  Stick:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §3§kStick
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A magical wand that allows
+      - for pseudo-flight. Right-click
+      - to summon a gust of wind that
+      - will push you towards where
+      - you are looking. An engraving
+      - is in the wand that says,
+      - '"Beware of fall damage!"'
+      enchants:
+        Magical Effect: 1
+  SkeletonSkull:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: SKELETON_SKULL
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §3§kSkeleton Skull
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted skeleton skull.
+      - Wearing this head will grant
+      - you the power of a skeleton,
+      - allowing you to shoot fully
+      - charged arrows just by
+      - right-clicking with a bow.
+      enchants:
+        Magical Effect: 1
+  WitherSkeletonSkull:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: WITHER_SKELETON_SKULL
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §3§kWither Skeleton Skull
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted wither skeleton
+      - skull. Wearing this head will
+      - grant you the power of a
+      - wither skeleton, increasing
+      - your damage, applying wither
+      - to hit entities, and granting
+      - immunity to all fire damage.
+      enchants:
+        Magical Effect: 1
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgZGHgCA31dPHNLy5JDrovpWTlncbCwAkS8klNLC7ZKSks5zYznouNgc0xN780r8RBgAEMOBhYgnPySxhYMlITUzgYeOHG+yXmpjKIpKfmpRZlJusllpQkJme7JOYmpqcyM3D6F6QWJZZk5udBjQAr5oC5iIEBAM0H0Y6rAAAA
+  ZombieHead:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: ZOMBIE_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §3§kZombie Skull
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted zombie head.
+      - Wearing this head will grant
+      - you the power of a zombie,
+      - negates poison damage, heals
+      - from instant damage, and
+      - provides a 1% damage reduction
+      - for each nearby living entity
+      - in a 12 block radius. (Max 50%)
+      enchants:
+        Magical Effect: 1
+      internal: H4sIAAAAAAAAAONiYOBkEHIsKSnKTCotSfXNT8lMy0wtKuZiYGBgYmHgCA31dPHNLy6ZbmG5TJDBU4eFgRMk5JOaWFwyl611/bY5JpPZGNgcc/NL80ocOBjAgIOBJTgnv4SBJSM1MYWDgRduvF9ibioDb3pqXmpRZrJeYlFufhEzA6d/QWpRYklmfh5UL1gVB8wpDEiu8Erb3ddZ6rkZ2RXr6/+ELpx0TgHhCgZiXCGG4oqQ/NL0jLzU4mLCzmEAADEqmDszAQAA
+  Archespore'sHead:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §3§kArchespore's Head
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - A replica skull of a
+      - legendary hero. Wearing
+      - this head will grant you
+      - a portion of the hero's
+      - power, attacking an entity
+      - that's below 25% health
+      - will instantly kill it.
+      enchants:
+        Magical Effect: 1
+      internal: H4sIAAAAAAAAAEWQya6jVhRFqVIivXrKZ2RmlWx6GNTANt3F5mJaw1UmdKa7dOZhmm/KR8bJJLOjfdaSztmfBPFJ/OHUE8a3Z/cocfZBfAcp8WfCCULMU8xPPuLJn0wssj+FjH1PacLFXMwmaRR9Ep9vqc+eX2U2/iA+vrLla3pm4ydBEN8+iB9OmbfRv8n3v0tlrw+BFRRd1ibLiM+aVJJOJM9VaGOlZtrjJA68YZC7AEv7yzW+HSdWfg7dhmlGt1hAQWdaqQfPKDr3NSrKiyRF2rnAe4uoaCCvrpBPzzmuGU08zRm5yOFxL576fH34dt35nfmyZ5YCXFYcaTlZ3fEuwObFXuxpisGIUqlLlrbKM82ZsqkvI71+uFpAxpsvlJMwxXpdFEKbuGHE7oeBE/tazGqm46MnFh50r6oF9oWdVfShaaaMzUh7eA4q+NiLSl/cCimk5LgxGwGefV+9Ju+/zhP9EG7pTn/sFPayakkl5Y4/RcvCOi0G2VZvN1U22uUCbnwhsT1fceg8UQwzN2t4qcgXCBUyBMGQy3F9v2H+3M42eZJ4mTnd7MsFyT1t3IUX5lV2eOr46n/VfK63Q/miU9GA29q5nn7s9lZfiJTHGId+rvaxf2BZ6G/FtaHCTlYfVLjwEq2NdF52YR6kNWJJ5ZDPXNtfDS2Hbc227MmH246sg/hmOV178papKFVx12Ue26N2Zobtai2AVOgYNU2vJ8Plq5XUzXHkMQk6DZ61Zn86UDVXg5k8HjTHDAYXRmbbIk6WT0NWParU1IalC1PnAsrjJt44zgym9REiK1nxvlrQU3LAIOrCbRpX06TcpPRGG5zwNO6N1y6VDs9y9hU60yj/yNY2RYvUhRRuZ8znXuxn+xDk7DH89UH87kd4yr79la36IbqTOKHtIg6OpVnJpLEdGSh5rLEZpOnKI2hPa0yhPlZ9HZ0BBxqDMqWihBs4QEqmDdcuTddjkOstULUr2AAqrPwKqUoByrlMNP2FGjwijy3iu1eapX5KGtihAM4xreP/GAq3caMc0kDHXuMv6R2v6G6VZmuv6d1732DjTLPJpPE3UPU8wPDqeMx7P5ZvZwRVV0aafUik7nWl/2evDdnHjV8ljdKkZ3ZCgfVKVZ9JNX9FjsAgySKNu9KEm14Yd4MyJIhNCWHTtSjj7SEXrAbl0ZCy1vAeLmGVsMhVKuiCGVb+u4P8gCSwmhIuDBXWRpWToCXFh/XrF0F8EL/BqMmIz+MzKbKx754ZQfwDwGmfRpEEAAA=
+      skull-owner: Archespore
+  CreeperHead:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1519
+    type: CREEPER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §3§kCreeper Skull
+      loc-name: 'null'
+      lore:
+      - §d§kMagical Effect I
+      - ''
+      - An enchanted creeper head.
+      - Wearing this head will grant
+      - you the power of a creeper,
+      - every 5 seconds the closest
+      - living entity to you within
+      - 12 block will be hit with
+      - an explosion.
+MagicScrolls:
+  Flurry_of_Snow:
+    Obfuscated: false
+    Lore:
+      - Launches a flurry of 50
+      - snowballs that slow and
+      - damage hit entities.
+  Barrage_of_Fire:
+    Obfuscated: false
+    Lore:
+      - Fires 50 barrages of fire
+      - arrows that ingnite hit
+      - entities.
+  Storm_of_Chaos:
+    Obfuscated: false
+    Lore:
+      - Creates an unstable thunder
+      - storm at the target area
+      - that periodically strikes
+      - lightning and explosions.
+  Blinding_Flare:
+    Obfuscated: false
+    Lore:
+      - Creates a blinding flash
+      - that ignites, blinds, and
+      - weaknes entities within a
+      - 16 block radius. The closer
+      - the entitiy, the longer the
+      - duration.
+  Scroll_of_Polymorphing:
+    Obfuscated: false
+    Lore:
+      - Turns nearby entities within
+      - a 8 block radius into sheep.
+  Rain_of_Wealth:
+    Obfuscated: false
+    Lore:
+      - Causes emeralds to rain on
+      - the player, drops a random
+      - amount of emeralds ranging
+      - from 8 - 64.
+  Ice_Block:
+    Obfuscated: false
+    Lore:
+      - Freezes you in place for
+      - 10 seconds and grants
+      - regeneration. While frozen,
+      - all damage is prevented.
+  Scroll_of_Life:
+    Obfuscated: false
+    Lore:
+      - Grants you a second wind,
+      - instantly restoring all
+      - health and hunger.
+  Blossom_of_Arrows:
+    Obfuscated: false
+    Lore:
+      - Fires arrows at all nearby
+      - entities with 12 blocks
+      - for the next 15 seconds.
+  Void_Walk:
+    Obfuscated: false
+    Lore:
+      - Teleports you to each
+      - nearby entity within 16
+      - blocks and damages them.
+      - Grants invincibility during
+      - the effect.
+  Scroll_of_Repairing:
+    Obfuscated: false
+    Lore:
+      - Instantly restores all
+      - durability of damaged
+      - items in your inventory.
+  Blackhole:
+    Obfuscated: false
+    Lore:
+      - Creates a blackhole at
+      - the target location that
+      - pulls in and weakens
+      - entities within a 12 block
+      - radius.
+  Explosive_Meteor:
+    Obfuscated: false
+    Lore:
+      - Creates a large, targetable
+      - fireball that creates a large
+      - explosion upon impact.
+  Imbue_Knowledge:
+    Obfuscated: false
+    Lore:
+      - Fills you with knowledge,
+      - grants a random amount of
+      - exp ranging from 698 - 1396.
+  Grenade_Toss:
+    Obfuscated: false
+    Lore:
+      - Tosses gernades towards a
+      - target that explode upon
+      - impact with an entity or
+      - after a short period.
+  Wind_Enchant:
+    Obfuscated: false
+    Lore:
+      - After accelerating for a
+      - short period, grants both
+      - movement and attack speed
+      - for ~30 seconds.
+  Artillery_Barrage:
+    Obfuscated: false
+    Lore:
+      - Creates an artillery barrage
+      - at the target location that
+      - explodes after 1.5 seconds.
+  Scroll_of_Returning:
+    Obfuscated: false
+    Lore:
+      - Teleports you to the nearest
+      - city after 8 seconds.
+  Call_of_the_Wild:
+    Obfuscated: false
+    Lore:
+      - Summons two tamed wolves
+      - with enchanced stats in
+      - health, attack, and movement
+      - speed.
+  Ground_Pound:
+    Obfuscated: false
+    Lore:
+      - Launches yourself into the
+      - air. Upon landing on the
+      - ground, creates a ground
+      - pound that damages and
+      - launches all entities within
+      - a 6 block radius.
+  Phase_Walk:
+    Obfuscated: false
+    Lore:
+      - Temporary enters you into
+      - the ethereal plane, allowing
+      - you to quickly pass through
+      - blocks and entities.
+  Implosion:
+    Obfuscated: false
+    Lore:
+      - Causes entities within a
+      - 12 block radius to be drawn
+      - towards you, and then explode,
+      - dealing damage to entities
+      - and greatly knocking them
+      - back.
+  Fireworks_Display:
+    Obfuscated: false
+    Lore:
+      - Creates a fireworks display
+      - where you are stading.
+      - Doesn't do anything else,
+      - but makes you look cool. :)
+  Ultimate_Scroll:
+    Obfuscated: true
+    Lore:
+      - §kA spell of unknown power.
+      - §kWhat effect could this spell
+      - §khold? Only one way to find
+      - §kout.
