@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
 import org.bukkit.Bukkit;
@@ -21,6 +22,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.metadata.FixedMetadataValue;
@@ -30,6 +32,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
 import jp.archesporeadventure.main.controllers.LootPoolController;
+import jp.archesporeadventure.main.controllers.MagicalItemsController;
 import jp.archesporeadventure.main.enchantments.CustomEnchantment;
 import jp.archesporeadventure.main.generation.itempools.DefaultPoolFiles;
 import jp.archesporeadventure.main.magicscrolls.MagicScrollController;
@@ -90,12 +93,12 @@ public class PlayerInteractListener implements Listener {
 					}
 				}
 				
-				else if (event.getItem().getType() == Material.MAP && event.getItem().containsEnchantment(Enchantment.LOOT_BONUS_MOBS) && player.getCooldown(Material.MAP) <= 0) {
+				else if (eventItem.getType() == Material.MAP && eventItem.containsEnchantment(Enchantment.LOOT_BONUS_MOBS) && player.getCooldown(Material.MAP) <= 0) {
 					if ( (event.getAction() == Action.RIGHT_CLICK_AIR) ||(event.getAction() == Action.RIGHT_CLICK_BLOCK) ) {
 						ItemStack treasureMap = event.getItem();
 						ItemMeta teasureMapMeta = treasureMap.getItemMeta();
 						if (!teasureMapMeta.hasLocalizedName()) {
-							ItemStack newTreasureMap = TreasureMapUtil.generateMap(Bukkit.getWorld("ServerWorld"), treasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS));
+							ItemStack newTreasureMap = TreasureMapUtil.generateMap(Bukkit.getWorld("ServerWorld"), treasureMap);
 							ItemStackUtil.removeAmount(treasureMap, 1);
 							player.sendMessage(ChatColor.GREEN + "You unroll the treasure map...");
 							if (player.getInventory().firstEmpty() == -1) {
@@ -128,6 +131,83 @@ public class PlayerInteractListener implements Listener {
 						}
 						event.setCancelled(true);
 						event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.ITEM_ARMOR_EQUIP_LEATHER, 1.0f, 1.0f);
+					}
+				}
+				
+				else if (eventItem.getType() == Material.CHEST && eventItem.containsEnchantment(Enchantment.LOOT_BONUS_BLOCKS) && player.getCooldown(Material.CHEST) <= 0) {
+					if ( (event.getAction() == Action.RIGHT_CLICK_AIR) ||(event.getAction() == Action.RIGHT_CLICK_BLOCK) ) {
+						List<ItemStack> lootedItems;
+						switch (eventItem.getEnchantmentLevel(Enchantment.LOOT_BONUS_BLOCKS)) {
+							case 1:
+								lootedItems = Arrays.asList(ArchesporeAdventureMain.getLootPoolController().getRegisteredLootPool("DEFAULT_GOLD").generateItems(1));
+								break;
+							case 2:
+								lootedItems = Arrays.asList(ArchesporeAdventureMain.getLootPoolController().getRegisteredLootPool("DEFAULT_DIAMOND").generateItems(1));
+								break;
+							case 3:
+								lootedItems = Arrays.asList(ArchesporeAdventureMain.getLootPoolController().getRegisteredLootPool("DEFAULT_EMERALD").generateItems(1));
+								break;
+							case 4:
+								lootedItems = new ArrayList<>();
+								for (int loopValue = 0; loopValue < 4; loopValue++) {
+									ItemStack generatedMap = new ItemStack(Material.MAP);
+									ItemMeta generatedMapMeta = generatedMap.getItemMeta();
+									generatedMapMeta.addEnchant(Enchantment.LOOT_BONUS_MOBS, ThreadLocalRandom.current().nextInt(4) + 1, true);
+									switch (generatedMapMeta.getEnchantLevel(Enchantment.LOOT_BONUS_MOBS)) {
+										case 1:
+											generatedMapMeta.setDisplayName(ChatColor.BLUE + "Treasure Map (Easy)");
+											break;
+										case 2:
+											generatedMapMeta.setDisplayName(ChatColor.YELLOW + "Treasure Map (Medium)");
+											break;
+										case 3:
+											generatedMapMeta.setDisplayName(ChatColor.DARK_RED + "Treasure Map (Hard)");
+											break;
+										case 4:
+											generatedMapMeta.setDisplayName(ChatColor.DARK_AQUA + "Treasure Map (Extreme)");
+											break;
+										default:
+											break;
+									}
+									generatedMapMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+									generatedMap.setItemMeta(generatedMapMeta);
+									lootedItems.add(generatedMap);
+								}
+								break;
+							case 5:
+								lootedItems = new ArrayList<>();
+								MagicalItemsController magicController = ArchesporeAdventureMain.getMagicItemController();
+								Set<String> magicalItems = magicController.magicalItemKeys();
+								int magicalScrollsAmount = magicController.getRegisteredScrollsAmount();
+								lootedItems.add(magicController.generateItem(magicalItems.toArray(new String[magicalItems.size()])[ThreadLocalRandom.current().nextInt(magicalItems.size())], false));
+								for (int loopValue = 0; loopValue < 4; loopValue++) {
+									lootedItems.add(magicController.generateScroll(ThreadLocalRandom.current().nextInt(magicalScrollsAmount) + 1));
+								}
+								break;
+							case 6:
+								lootedItems = new ArrayList<>();
+								LootPoolController lootPool = ArchesporeAdventureMain.getLootPoolController();
+								String[] allLootPools = lootPool.getLootPoolMap().keySet().toArray(new String[0]);
+								for (int loopValue = 0; loopValue < 24; loopValue++) {
+									lootedItems.add(lootPool.getRegisteredLootPool(allLootPools[ThreadLocalRandom.current().nextInt(allLootPools.length)]).generateItems(1)[0]);
+								}
+								break;
+							default:
+								lootedItems = Arrays.asList(ArchesporeAdventureMain.getLootPoolController().getRegisteredLootPool("DEFAULT_MISC").generateItems(1));
+								break;
+						}
+						Inventory playerInventory = player.getInventory();
+						for (ItemStack loot : lootedItems) {
+							if (playerInventory.firstEmpty() > 0) { 
+								playerInventory.addItem(loot);
+								player.playSound(player.getLocation(), Sound.ENTITY_ITEM_PICKUP, .25f, 2.0f);
+							}
+							else { player.getWorld().dropItemNaturally(player.getLocation(), loot); }
+						}
+						player.setCooldown(Material.CHEST, 60);
+						event.setCancelled(true);
+						event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.BLOCK_CHEST_OPEN, .75f, 1.0f);
+						ItemStackUtil.removeAmount(eventItem, 1);
 					}
 				}
 				

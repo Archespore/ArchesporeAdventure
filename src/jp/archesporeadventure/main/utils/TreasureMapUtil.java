@@ -16,13 +16,13 @@ public class TreasureMapUtil {
 	
 	/**
 	 * Generates a treasure map with the specified map level
-	 * @param treasureMapLevel the map level to generate
+	 * @param treasureMap the map to generate from
 	 * @param world the world to generate the map for.
 	 * @return the itemstack of the generated map
 	 */
-	public static ItemStack generateMap(World world, int treasureMapLevel) {
+	public static ItemStack generateMap(World world, ItemStack treasureMap) {
 		ItemStack newTreasureMap = new ItemStack(Material.MAP, 1);
-		ItemMeta newTeasureMapMeta = newTreasureMap.getItemMeta();
+		ItemMeta newTeasureMapMeta = treasureMap.getItemMeta();
 		//+1 is because the upper end is exclusive, meaning not included.
 		int xPos = (ThreadLocalRandom.current().nextInt(-1280, 1280 + 1));
 		int zPos = (ThreadLocalRandom.current().nextInt(-1280, 1280 + 1));
@@ -30,11 +30,11 @@ public class TreasureMapUtil {
 		newTeasureMapMeta.setLocalizedName(xPos + "," + yPos + "," + zPos);
 		List<String> mapLoreList = new ArrayList<>();
 		mapLoreList.add("");
-		if (newTreasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS) <= 1) {
+		if (treasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS) <= 1) {
 			mapLoreList.add(ChatColor.GRAY.toString() + "X: " + xPos);
 			mapLoreList.add(ChatColor.GRAY.toString() + "Z: " + zPos);
 		}
-		if (newTreasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS) <= 2) {
+		if (treasureMap.getEnchantmentLevel(Enchantment.LOOT_BONUS_MOBS) <= 2) {
 			mapLoreList.add(Math.min(mapLoreList.size(), 2), ChatColor.GRAY.toString() + "Y: " + yPos);
 			mapLoreList.add("");
 			mapLoreList.add(ChatColor.GRAY.toString() + "Biome: " + world.getBlockAt(xPos, yPos, zPos).getBiome());

@@ -13407,8 +13407,8 @@ ItemPools:
           display-name: §3Magical Items Supply Crate
           lore:
           - ''
-          - Use to get 2 random magical
-          - items and scrolls.
+          - Use to get a random magical
+          - items and 4 random scrolls.
           enchants:
             LOOT_BONUS_BLOCKS: 5
           blockMaterial: CHEST
