@@ -27,12 +27,14 @@ public class CulinaryFisherAbility extends SkillAbility {
 			CraftItemEvent craftEvent = (CraftItemEvent) event;
 			Player player = (Player) craftEvent.getWhoClicked();
 			ItemStack craftedItem = craftEvent.getCurrentItem();
-			if (((FishingSkillController)ArchesporeAdventureMain.getSkillController(SkillType.FISHING)).getRegisteredRecipes().contains(craftedItem) && ArchesporeAdventureMain.getPlayerSkillsController().getPlayerSkillStats(player, SkillType.FISHING).get(0) >= getMinimumLevel()) {
-				return true;
+			if (((FishingSkillController)ArchesporeAdventureMain.getSkillController(SkillType.FISHING)).getRegisteredRecipes().contains(craftedItem)) {
+				if (ArchesporeAdventureMain.getPlayerSkillsController().getPlayerSkillStats(player, SkillType.FISHING).get(0) >= getMinimumLevel()) {
+					return true;
+				}
+				craftEvent.setCancelled(true);
+				player.closeInventory();
+				player.sendMessage(ChatColor.RED + "You must be level " + getMinimumLevel() + " in fishing to craft that item!");
 			}
-			craftEvent.setCancelled(true);
-			player.closeInventory();
-			player.sendMessage(ChatColor.RED + "You must be level " + getMinimumLevel() + " in fishing to craft that item!");
 		}
 		return false;
 	}

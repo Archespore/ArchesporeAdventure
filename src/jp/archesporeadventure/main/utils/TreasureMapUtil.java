@@ -8,7 +8,7 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.MapMeta;
+import org.bukkit.inventory.meta.ItemMeta;
 
 import net.md_5.bungee.api.ChatColor;
 
@@ -22,7 +22,7 @@ public class TreasureMapUtil {
 	 */
 	public static ItemStack generateMap(World world, int treasureMapLevel) {
 		ItemStack newTreasureMap = new ItemStack(Material.MAP, 1);
-		MapMeta newTeasureMapMeta = (MapMeta)newTreasureMap.getItemMeta();
+		ItemMeta newTeasureMapMeta = newTreasureMap.getItemMeta();
 		//+1 is because the upper end is exclusive, meaning not included.
 		int xPos = (ThreadLocalRandom.current().nextInt(-1280, 1280 + 1));
 		int zPos = (ThreadLocalRandom.current().nextInt(-1280, 1280 + 1));
