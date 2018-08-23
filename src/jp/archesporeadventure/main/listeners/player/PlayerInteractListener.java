@@ -149,7 +149,7 @@ public class PlayerInteractListener implements Listener {
 								break;
 							case 4:
 								lootedItems = new ArrayList<>();
-								for (int loopValue = 0; loopValue < 4; loopValue++) {
+								for (int loopValue = 0; loopValue < 6; loopValue++) {
 									ItemStack generatedMap = new ItemStack(Material.MAP);
 									ItemMeta generatedMapMeta = generatedMap.getItemMeta();
 									generatedMapMeta.addEnchant(Enchantment.LOOT_BONUS_MOBS, ThreadLocalRandom.current().nextInt(4) + 1, true);
@@ -204,7 +204,7 @@ public class PlayerInteractListener implements Listener {
 							}
 							else { player.getWorld().dropItemNaturally(player.getLocation(), loot); }
 						}
-						player.setCooldown(Material.CHEST, 60);
+						player.setCooldown(Material.CHEST, 20);
 						event.setCancelled(true);
 						event.getPlayer().playSound(event.getPlayer().getLocation(), Sound.BLOCK_CHEST_OPEN, .75f, 1.0f);
 						ItemStackUtil.removeAmount(eventItem, 1);
