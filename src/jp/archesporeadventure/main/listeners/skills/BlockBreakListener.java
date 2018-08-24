@@ -50,17 +50,20 @@ public class BlockBreakListener implements Listener{
 						ItemStackUtil.damageItem(playerTool, minedOreInfo.getToolDamage());
 						if (ThreadLocalRandom.current().nextDouble(100) < harvestChance) {
 							
-							ItemStack[] itemsToDrop = eventBlock.getDrops().toArray(new ItemStack[0]);
-							if (playerTool.containsEnchantment(Enchantment.LOOT_BONUS_BLOCKS)) {
-								itemsToDrop[0].setAmount(ThreadLocalRandom.current().nextInt(playerTool.getEnchantmentLevel(Enchantment.LOOT_BONUS_BLOCKS) + 1));
-							}
-							
+							Material[] itemsToDrop = minedOreInfo.getBlockDrops();
 							boolean slotFree = true;
-							if (playerInventory.firstEmpty() != -1) {
-								playerInventory.addItem(itemsToDrop[0]);
-								slotFree = false;
+							for (Material drop : itemsToDrop) {
+								ItemStack itemDrop = new ItemStack(drop, 1);
+								if (playerTool.containsEnchantment(Enchantment.LOOT_BONUS_BLOCKS)) {
+									itemDrop.setAmount(ThreadLocalRandom.current().nextInt(playerTool.getEnchantmentLevel(Enchantment.LOOT_BONUS_BLOCKS) + 1));
+								}
+								
+								if (playerInventory.firstEmpty() != -1) {
+									playerInventory.addItem(itemDrop);
+									slotFree = false;
+								}
+								else { player.getWorld().dropItemNaturally(player.getLocation(), itemDrop); }
 							}
-							else { player.getWorld().dropItemNaturally(player.getLocation(), itemsToDrop[0]); }
 							if (slotFree == false) { player.playSound(player.getLocation(), Sound.ENTITY_ITEM_PICKUP, .25f, 2.0f); }
 							
 							ArchesporeAdventureMain.abilityEvent(AbilityActivation.BLOCK_BREAK, event);

@@ -17,6 +17,7 @@ public class MiningSkillOre {
 	private final int maximumLevel;
 	private final double minimumChance;
 	private final double chanceIncrease;
+	private final Material[] blockDrops;
 	private final double oreXPReward;
 	private final int toolDamage;
 	private final int defaultRefreshTime;
@@ -31,13 +32,14 @@ public class MiningSkillOre {
 	 * @param xpReward the amount of xp this ore rewards.
 	 * @param refreshTime the seconds it takes to refresh this ore.
 	 */
-	public MiningSkillOre(Material material, String menuDisplay, int minLevel, double minChance, int maxLevel, double maxChance, double xpReward, int durability, int refreshTime) {
+	public MiningSkillOre(Material material, String menuDisplay, int minLevel, double minChance, int maxLevel, double maxChance, Material[] itemDrops, double xpReward, int durability, int refreshTime) {
 		oreType = material;
 		displayName = menuDisplay;
 		minimumLevel = minLevel;
 		maximumLevel = maxLevel;
 		minimumChance = minChance;
 		chanceIncrease = (maxChance - minChance) / (maxLevel - minLevel);
+		blockDrops = itemDrops;
 		oreXPReward = xpReward;
 		toolDamage = durability;
 		defaultRefreshTime = refreshTime;
@@ -89,6 +91,14 @@ public class MiningSkillOre {
 	 */
 	public double getChanceIncrease() {
 		return chanceIncrease;
+	}
+	
+	/**
+	 * Gets the array of drops for this ore
+	 * @return the drops for this ore.
+	 */
+	public Material[] getBlockDrops() {
+		return blockDrops;
 	}
 	
 	/**

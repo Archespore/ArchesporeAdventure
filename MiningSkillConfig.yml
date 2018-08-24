@@ -2,54 +2,63 @@ MiningOres:
   STONE:
     displayString: "&7Stone"
     harvestChance: "0:50,10:100"
+    materialDrops: "COBBLESTONE"
     blockXPAmount: .25
     blockHardness: 1
     renewDuration: 5
   COAL_ORE:
     displayString: "&8Coal Ore"
     harvestChance: "0:50,20:100"
+    materialDrops: "COAL"
     blockXPAmount: 1
     blockHardness: 1
     renewDuration: 10
   IRON_ORE:
     displayString: "&fIron Ore"
     harvestChance: "10:25,40:100"
+    materialDrops: "IRON_ORE"
     blockXPAmount: 1.75
     blockHardness: 2
     renewDuration: 20
   LAPIS_ORE:
     displayString: "&9Lapis Ore"
     harvestChance: "20:25,60:100"
+    materialDrops: "LAPIS_ORE"
     blockXPAmount: 3.25
     blockHardness: 2
     renewDuration: 30
   REDSTONE_ORE:
     displayString: "&4Redstone Ore"
     harvestChance: "30:25,80:100"
+    materialDrops: "REDSTONE_ORE"
     blockXPAmount: 11.5
     blockHardness: 3
     renewDuration: 45
   GOLD_ORE:
     displayString: "&eGold Ore"
     harvestChance: "40:25,100:87.5"
+    materialDrops: "GOLD_ORE"
     blockXPAmount: 16.5
     blockHardness: 3
     renewDuration: 60
   EMERALD_ORE:
     displayString: "&aEmerald Ore"
     harvestChance: "50:25,100:75"
+    materialDrops: "EMERALD_ORE"
     blockXPAmount: 26
     blockHardness: 4
     renewDuration: 90
   DIAMOND_ORE:
     displayString: "&bDiamond Ore"
     harvestChance: "60:12.5,100:62.5"
+    materialDrops: "DIAMOND_ORE"
     blockXPAmount: 84
     blockHardness: 4
     renewDuration: 120
   OBSIDIAN:
     displayString: "&5Obsidian"
     harvestChance: "70:12.5,100:50"
+    materialDrops: "OBSIDIAN"
     blockXPAmount: 337
     blockHardness: 5
     renewDuration: 240

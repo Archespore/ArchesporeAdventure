@@ -124,8 +124,17 @@ public class MiningSkillController extends SkillController {
 			String[] oreHarvestInfo = oreSection.getString("harvestChance").split(",");
 			String[] minumumHarvestInfo = oreHarvestInfo[0].split(":");
 			String[] maximumHarvestInfo = oreHarvestInfo[1].split(":");
+			
+			String[] blockDrops = oreSection.getString("materialDrops").split(",");
+			Material[] itemDrops = new Material[blockDrops.length];
+			int arrayValue = 0;
+			for (String drop : blockDrops) {
+				itemDrops[arrayValue] = Material.valueOf(drop);
+				arrayValue++;
+			}
+			
 			MiningSkillOre registeredOre = new MiningSkillOre(Material.valueOf(configSection), displayName, Integer.valueOf(minumumHarvestInfo[0]), Double.valueOf(minumumHarvestInfo[1]), 
-					Integer.valueOf(maximumHarvestInfo[0]), Double.valueOf(maximumHarvestInfo[1]), oreSection.getDouble("blockXPAmount"), oreSection.getInt("blockHardness"), oreSection.getInt("renewDuration"));
+					Integer.valueOf(maximumHarvestInfo[0]), Double.valueOf(maximumHarvestInfo[1]), itemDrops, oreSection.getDouble("blockXPAmount"), oreSection.getInt("blockHardness"), oreSection.getInt("renewDuration"));
 			registerMiningOre(registeredOre);
 		}
 		
