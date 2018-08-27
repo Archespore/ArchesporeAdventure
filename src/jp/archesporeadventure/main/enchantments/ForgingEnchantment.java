@@ -15,6 +15,7 @@ import org.bukkit.inventory.ItemStack;
 
 import jp.archesporeadventure.main.enchantments.CustomEnchantment;
 import jp.archesporeadventure.main.utils.EnchantmentUtil;
+import jp.archesporeadventure.main.utils.ItemStackUtil;
 
 public class ForgingEnchantment extends SpecialEnchantment {
 	
@@ -60,7 +61,7 @@ public class ForgingEnchantment extends SpecialEnchantment {
 				for (int loopValue = 0; loopValue < armorItems.length; loopValue++) {
 					if (armorItems[loopValue] != null) {
 						if (ThreadLocalRandom.current().nextDouble(100) < (MAX_CHANCE_PER_ARMOR / this.getMaxLevel()) * enchantLevels.get(armorItems[loopValue])) {
-							armorItems[loopValue].setDurability((short) (armorItems[loopValue].getDurability() - 1));
+							ItemStackUtil.damageItem(armorItems[loopValue], 1);
 							effectActivated = true;
 						}
 					}

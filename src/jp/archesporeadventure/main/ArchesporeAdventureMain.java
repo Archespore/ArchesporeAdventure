@@ -48,14 +48,14 @@ import jp.archesporeadventure.main.listeners.player.PlayerToggleSneakListener;
 import jp.archesporeadventure.main.listeners.skills.BlockBreakListener;
 import jp.archesporeadventure.main.listeners.skills.CraftItemListener;
 import jp.archesporeadventure.main.listeners.skills.PlayerFishListener;
-import jp.archesporeadventure.main.menus.FishingMenuInventory;
-import jp.archesporeadventure.main.menus.MiningMenuInventory;
+import jp.archesporeadventure.main.menus.InventoryMenuController;
 import jp.archesporeadventure.main.skills.PlayerSkillController;
 import jp.archesporeadventure.main.skills.SkillController;
 import jp.archesporeadventure.main.skills.SkillType;
 import jp.archesporeadventure.main.skills.fishing.FishingSkillController;
 import jp.archesporeadventure.main.skills.mining.MiningSkillController;
 import jp.archesporeadventure.main.listeners.player.PlayerDeathListener;
+import jp.archesporeadventure.main.listeners.player.PlayerInteractEntityListener;
 import jp.archesporeadventure.main.listeners.player.PlayerInteractListener;
 import jp.archesporeadventure.main.tasks.TaskController;
 import net.md_5.bungee.api.ChatColor;
@@ -71,8 +71,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 	private static Map<World, WorldChestGenerator> openWorldChestGeneratorMap = new HashMap<>();
 	private static Map<SkillType, SkillController> skillControllerMap = new HashMap<>();
 	
-	private static MiningMenuInventory miningMenu;
-	private static FishingMenuInventory fishingMenu;
+	private static InventoryMenuController menuController;
 	
 	public void onEnable(){
 		
@@ -98,6 +97,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new InventoryClickListener(), this);
 		getServer().getPluginManager().registerEvents(new PlayerFishListener(), this);
 		getServer().getPluginManager().registerEvents(new CraftItemListener(), this);
+		getServer().getPluginManager().registerEvents(new PlayerInteractEntityListener(), this);
 		this.getCommand("enchantitem").setExecutor(new CommandEnchantItem());
 		this.getCommand("givemagicitem").setExecutor(new CommandGiveMagicItem());
 		this.getCommand("givemagicitemsall").setExecutor(new CommandGiveAllMagicItems());
@@ -126,8 +126,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 		
 		playerSkillsController = new PlayerSkillController(this);
 		
-		miningMenu = new MiningMenuInventory();
-		fishingMenu = new FishingMenuInventory();
+		menuController = new InventoryMenuController();
 		
 		openWorldChestGeneratorMap.put(Bukkit.getWorld("ServerWorld"), new WorldChestGenerator());
 		
@@ -167,12 +166,11 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 		return timeController;
 	}
 	
-	public static MiningMenuInventory getMiningMenu() {
-		return miningMenu;
-	}
-	
-	public static FishingMenuInventory getFishingMenu() {
-		return fishingMenu;
+	/**
+	 * Gets the menu controller for this plugin.
+	 */
+	public static InventoryMenuController getMenuController() {
+		return menuController;
 	}
 	
 	public static SkillController getSkillController(SkillType skillType) {

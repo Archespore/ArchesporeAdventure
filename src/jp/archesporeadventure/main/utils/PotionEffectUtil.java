@@ -1,15 +1,16 @@
 package jp.archesporeadventure.main.utils;
 
-import org.bukkit.craftbukkit.v1_13_R1.entity.CraftEntity;
+import org.bukkit.craftbukkit.v1_13_R2.entity.CraftEntity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 
-import net.minecraft.server.v1_13_R1.EntityLiving;
-import net.minecraft.server.v1_13_R1.NBTTagByte;
-import net.minecraft.server.v1_13_R1.NBTTagCompound;
-import net.minecraft.server.v1_13_R1.NBTTagInt;
-import net.minecraft.server.v1_13_R1.NBTTagList;
+import net.minecraft.server.v1_13_R2.Entity;
+import net.minecraft.server.v1_13_R2.EntityLiving;
+import net.minecraft.server.v1_13_R2.NBTTagByte;
+import net.minecraft.server.v1_13_R2.NBTTagCompound;
+import net.minecraft.server.v1_13_R2.NBTTagInt;
+import net.minecraft.server.v1_13_R2.NBTTagList;
 
 public class PotionEffectUtil {
 
@@ -75,7 +76,7 @@ public class PotionEffectUtil {
 		}
 		else {
 			//Get NMS entity
-			net.minecraft.server.v1_13_R1.Entity nmsEntity = ((CraftEntity) entity).getHandle();
+			Entity nmsEntity = ((CraftEntity) entity).getHandle();
 			
 			//Create a tag compound and copy existing nbt data to new tag
 			NBTTagCompound entityTag = new NBTTagCompound();

@@ -11,6 +11,7 @@ import org.bukkit.inventory.ItemStack;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
 import jp.archesporeadventure.main.generation.generators.chests.ChestGenerator;
+import jp.archesporeadventure.main.menus.InventoryMenuController;
 
 public class InventoryCloseListener implements Listener{
 
@@ -37,6 +38,10 @@ public class InventoryCloseListener implements Listener{
 					}
 				}
 			}
+		}
+		InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
+		if (menuController.getInventoryMenu(closedInventory) != null) {
+			menuController.removeInventoryMenu(closedInventory);
 		}
 	}
 }

@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 import jp.archesporeadventure.main.enchantments.CustomEnchantment;
+import jp.archesporeadventure.main.utils.ItemStackUtil;
 
 public class RepairEnchantment extends SpecialEnchantment {
 
@@ -44,9 +45,8 @@ public class RepairEnchantment extends SpecialEnchantment {
 					
 					//If the loop item contains the repair enchantment and is not full durability, we are going to repair it
 					Map<Enchantment, Integer> itemEnchantments = loopItem.getEnchantments();
-					if ( (itemEnchantments.containsKey(CustomEnchantment.REPAIR.getEnchant())) && (loopItem.getDurability() != 0) ){
-						
-						loopItem.setDurability((short) (loopItem.getDurability() - itemEnchantments.get(CustomEnchantment.REPAIR.getEnchant())));
+					if ( (itemEnchantments.containsKey(CustomEnchantment.REPAIR.getEnchant())) && (ItemStackUtil.getDurability(loopItem) != 0) ){
+						ItemStackUtil.damageItem(loopItem, -itemEnchantments.get(CustomEnchantment.REPAIR.getEnchant()));
 					}
 				}
 			}

@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffectType;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
@@ -19,7 +20,7 @@ import jp.archesporeadventure.main.skills.SkillType;
 import jp.archesporeadventure.main.skills.fishing.FishingSkillController;
 import net.md_5.bungee.api.ChatColor;
 
-public class FishingMenuInventory extends InventoryMenu {
+public class FishingMenuInventory implements InventoryMenu {
 	
 	public void populateInventory(Player player, Inventory inventory) {
 		int inventorySlot = 1;
@@ -52,8 +53,9 @@ public class FishingMenuInventory extends InventoryMenu {
 				Arrays.asList(ChatColor.GRAY + "Close the menu.")));
 	}
 
-	public void clickActions(Player player, Material material) {
-		if (material.equals(Material.BARRIER)) {
+	public void clickActions(Inventory inventory, Player player, ItemStack itemStack) {
+		Material itemMaterial = itemStack.getType();
+		if (itemMaterial.equals(Material.BARRIER)) {
 			player.closeInventory();
 		}
 	}

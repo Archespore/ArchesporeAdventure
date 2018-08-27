@@ -33,7 +33,9 @@ import org.bukkit.entity.Snowball;
 import org.bukkit.entity.Wolf;
 import org.bukkit.entity.Arrow.PickupStatus;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.Damageable;
 import org.bukkit.inventory.meta.FireworkMeta;
+import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.metadata.FixedMetadataValue;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
@@ -288,7 +290,12 @@ public class MagicScrollController {
 			//Scroll of Repairing
 			for (ItemStack item : player.getInventory()) {
 				if (item != null && EnchantmentTarget.BREAKABLE.includes(item.getType())) {
-					item.setDurability((short) 0);
+					ItemMeta itemMeta = item.getItemMeta();
+					if (itemMeta instanceof Damageable) {
+						Damageable itemDamage = (Damageable) itemMeta;
+						itemDamage.setDamage(0);
+						item.setItemMeta(itemMeta);
+					}
 				}
 			}
 			player.playSound(playerLocation, Sound.BLOCK_ANVIL_USE, .75f, .9f);

@@ -8,6 +8,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
+import jp.archesporeadventure.main.menus.FishingMenuInventory;
+import jp.archesporeadventure.main.menus.InventoryMenuController;
 
 public class CommandFishing implements CommandExecutor{
 
@@ -18,7 +20,9 @@ public class CommandFishing implements CommandExecutor{
 			Player player = (Player) sender;
 			
 			Inventory inventoryMenu = Bukkit.createInventory(null, 27, "Fishing Menu");
-			ArchesporeAdventureMain.getFishingMenu().populateInventory(player, inventoryMenu);
+			InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
+			menuController.registerInventoryMenu(inventoryMenu, new FishingMenuInventory());
+			menuController.getInventoryMenu(inventoryMenu).populateInventory(player, inventoryMenu);
 			
 			player.openInventory(inventoryMenu);
 		}

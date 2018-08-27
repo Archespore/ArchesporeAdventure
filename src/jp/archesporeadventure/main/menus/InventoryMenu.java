@@ -1,5 +1,6 @@
 package jp.archesporeadventure.main.menus;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.bukkit.Material;
@@ -10,18 +11,26 @@ import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-public abstract class InventoryMenu {
+public interface InventoryMenu {
+	
+	public void populateInventory(Player player, Inventory inventory);
 
-	public abstract void populateInventory(Player player, Inventory inventory);
+	public void clickActions(Inventory inventory, Player player, ItemStack itemStack);
 	
-	public abstract void clickActions(Player player, Material material);
-	
-	protected ItemStack createMenuItem(Material iconMaterial, String iconName, List<String> iconLore) {
-		return createMenuItem(iconMaterial, iconName, false, iconLore);
+	default ItemStack createMenuItem(Material iconMaterial, String iconName) {
+		return createMenuItem(iconMaterial, 1, iconName, false, new ArrayList<>());
 	}
 	
-	protected ItemStack createMenuItem(Material iconMaterial, String iconName, boolean enchanted, List<String> iconLore) {
-		ItemStack inventoryItem = new ItemStack(iconMaterial, 1);
+	default ItemStack createMenuItem(Material iconMaterial, String iconName, List<String> iconLore) {
+		return createMenuItem(iconMaterial, 1, iconName, false, iconLore);
+	}
+	
+	default ItemStack createMenuItem(Material iconMaterial, String iconName, boolean enchanted, List<String> iconLore) {
+		return createMenuItem(iconMaterial, 1, iconName, enchanted, iconLore);
+	}
+	
+	default ItemStack createMenuItem(Material iconMaterial, int itemAmount, String iconName, boolean enchanted, List<String> iconLore) {
+		ItemStack inventoryItem = new ItemStack(iconMaterial, itemAmount);
 		ItemMeta inventoryItemMeta = inventoryItem.getItemMeta();
 		inventoryItemMeta.setDisplayName(iconName);
 		inventoryItemMeta.setLore(iconLore);

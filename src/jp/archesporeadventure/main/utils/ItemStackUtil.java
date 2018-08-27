@@ -1,7 +1,8 @@
 package jp.archesporeadventure.main.utils;
 
-import org.bukkit.enchantments.EnchantmentTarget;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.Damageable;
+import org.bukkit.inventory.meta.ItemMeta;
 
 public class ItemStackUtil {
 
@@ -11,15 +12,34 @@ public class ItemStackUtil {
 	 * @param durability the amount of durability to remove.
 	 * @return returns a boolean on whether or not the item was destroyed after taking damage.
 	 */
-	public static boolean damageItem(ItemStack item, int durability){
-		if (item != null && EnchantmentTarget.BREAKABLE.includes(item)) {
-			item.setDurability((short)(durability + item.getDurability()));
-			if (item.getDurability() > item.getType().getMaxDurability()) {
+	public static boolean damageItem(ItemStack item, int durability) {
+		
+		ItemMeta itemMeta = item.getItemMeta();
+		if (itemMeta instanceof Damageable) {
+			Damageable itemDamage = (Damageable) itemMeta;
+			itemDamage.setDamage(durability + itemDamage.getDamage());
+			item.setItemMeta(itemMeta);
+			if (itemDamage.getDamage() > item.getType().getMaxDurability()) {
 				item.setAmount(0);
 				return true;
 			}
 		}
 		return false;
+	}
+	
+	/**
+	 * Gets the durability of an item
+	 * @param item item to get durability for
+	 * @return durability on item
+	 */
+	public static int getDurability(ItemStack item) {
+		
+		ItemMeta itemMeta = item.getItemMeta();
+		if (itemMeta instanceof Damageable) {
+			Damageable itemDamage = (Damageable) itemMeta;
+			return itemDamage.getDamage();
+		}
+		return 0;
 	}
 	
 	/**

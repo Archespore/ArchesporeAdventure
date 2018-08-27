@@ -13,6 +13,7 @@ import org.bukkit.event.Event;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.inventory.ItemStack;
 
+import jp.archesporeadventure.main.utils.ItemStackUtil;
 import jp.archesporeadventure.main.utils.ParticleUtil;
 
 public class ArmorCrushEnchantment extends SpecialEnchantment {
@@ -63,7 +64,7 @@ public class ArmorCrushEnchantment extends SpecialEnchantment {
 				for (int loopValue = 0; loopValue < defenderArmor.length; loopValue++) {
 					if (ThreadLocalRandom.current().nextDouble(0, 100) < effectProcChance) {
 						if (defenderArmor[loopValue] != null && defenderArmor[loopValue].getType() != Material.AIR) {
-							defenderArmor[loopValue].setDurability((short) (defenderArmor[loopValue].getDurability() + 1));
+							ItemStackUtil.damageItem(defenderArmor[loopValue], 1);
 							effectActivated = true;
 						}
 					}
