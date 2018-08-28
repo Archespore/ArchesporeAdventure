@@ -1,0 +1,88 @@
+SmeltingRecipes:
+  SMELT_STONE:
+    ItemResults: "STONE:4"
+    Ingredients: 
+      - "COBBLESTONE:4"
+      - "COAL:1"
+  SMELT_IRON:
+    ItemResults: "IRON_INGOT:1"
+    Ingredients: 
+      - "IRON_ORE:1"
+      - "COAL:1"
+  SMELT_LAPIS:
+    ItemResults: "LAPIS_LAZULI:1"
+    Ingredients: 
+      - "LAPIS_ORE:1"
+      - "COAL:2"
+  SMELT_REDSTONE:
+    ItemResults: "REDSTONE:1"
+    Ingredients: 
+      - "REDSTONE_ORE:1"
+      - "COAL:3"
+  SMELT_GOLD:
+    ItemResults: "GOLD_INGOT:1"
+    Ingredients: 
+      - "GOLD_ORE:1"
+      - "COAL:4"
+  SMELT_EMERALD:
+    ItemResults: "EMERALD:1"
+    Ingredients: 
+      - "EMERALD_ORE:1"
+      - "COAL:5"
+  SMELT_DIAMOND:
+    ItemResults: "DIAMOND:1"
+    Ingredients: 
+      - "DIAMOND_ORE:1"
+      - "COAL:6"
+CookingRecipes:
+  COOK_STEAK:
+    ItemResults: "COOKED_BEEF:1"
+    Ingredients: 
+      - "BEEF:1"
+      - "COAL:1"
+  COOK_PORKCHOP:
+    ItemResults: "COOKED_PORKCHOP:1"
+    Ingredients: 
+      - "PORKCHOP:1"
+      - "COAL:1"
+  COOK_MUTTON:
+    ItemResults: "COOKED_MUTTON:1"
+    Ingredients: 
+      - "MUTTON:1"
+      - "COAL:1"
+  COOK_CHICKEN:
+    ItemResults: "COOKED_CHICKEN:1"
+    Ingredients: 
+      - "CHICKEN:1"
+      - "COAL:1"
+  COOK_RABBIT:
+    ItemResults: "COOKED_RABBIT:1"
+    Ingredients: 
+      - "RABBIT:1"
+      - "COAL:1"
+  COOK_COD:
+    ItemResults: "COOKED_COD:1"
+    Ingredients: 
+      - "COD:1"
+      - "COAL:1"
+  COOK_SALMON:
+    ItemResults: "COOKED_SALMON:1"
+    Ingredients: 
+      - "SALMON:1"
+      - "COAL:1"
+  COOK_POTATO:
+    ItemResults: "BAKED_POTATO:1"
+    Ingredients: 
+      - "POTATO:1"
+      - "COAL:1"
+  COOK_KELP:
+    ItemResults: "DRIED_KELP:1"
+    Ingredients: 
+      - "KELP:1"
+      - "COAL:1"
+  COOK_GOLDENAPPLE:
+    ItemResults: "GOLDEN_APPLE:1"
+    Ingredients: 
+      - "APPLE:1"
+      - "GOLD_INGOT:1"
+      - "COAL:1"

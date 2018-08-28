@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
@@ -35,34 +34,57 @@ public class SmeltingMenuInventory implements InventoryMenu {
 
 	public void clickActions(Inventory inventory, Player player, ItemStack itemStack) {
 		Material itemMaterial = itemStack.getType();
+		InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
+		Inventory exchangeMenu;
 		switch(itemMaterial) {
 		case STONE:
-			Inventory exchangeMenu = Bukkit.createInventory(null, 9, "Select Amount");
-			ShapelessRecipe smeltingStone = new ShapelessRecipe(new NamespacedKey(ArchesporeAdventureMain.getPlugin(), "Smelt_Stone"), new ItemStack(Material.STONE, 1))
-					.addIngredient(Material.COBBLESTONE)
-					.addIngredient(Material.COAL);
-			InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
+			exchangeMenu = Bukkit.createInventory(null, 9, "Select Amount");
+			ShapelessRecipe smeltingStone = ArchesporeAdventureMain.getFurnaceController().getSmeltingRecipe("SMELT_STONE");
 			menuController.registerInventoryMenu(exchangeMenu, new InventoryExchangeMenu(smeltingStone));
 			menuController.getInventoryMenu(exchangeMenu).populateInventory(player, exchangeMenu);
 			player.openInventory(exchangeMenu);
 			break;
 		case IRON_ORE:
-			player.getInventory().addItem(new ItemStack(Material.IRON_INGOT, 1));
+			exchangeMenu = Bukkit.createInventory(null, 9, "Select Amount");
+			ShapelessRecipe smeltingIron = ArchesporeAdventureMain.getFurnaceController().getSmeltingRecipe("SMELT_IRON");
+			menuController.registerInventoryMenu(exchangeMenu, new InventoryExchangeMenu(smeltingIron));
+			menuController.getInventoryMenu(exchangeMenu).populateInventory(player, exchangeMenu);
+			player.openInventory(exchangeMenu);
 			break;
 		case LAPIS_ORE:
-			player.getInventory().addItem(new ItemStack(Material.LAPIS_LAZULI, 1));
+			exchangeMenu = Bukkit.createInventory(null, 9, "Select Amount");
+			ShapelessRecipe smeltingLapis = ArchesporeAdventureMain.getFurnaceController().getSmeltingRecipe("SMELT_LAPIS");
+			menuController.registerInventoryMenu(exchangeMenu, new InventoryExchangeMenu(smeltingLapis));
+			menuController.getInventoryMenu(exchangeMenu).populateInventory(player, exchangeMenu);
+			player.openInventory(exchangeMenu);
 			break;
 		case REDSTONE_ORE:
-			player.getInventory().addItem(new ItemStack(Material.REDSTONE, 1));
+			exchangeMenu = Bukkit.createInventory(null, 9, "Select Amount");
+			ShapelessRecipe smeltingRedstone = ArchesporeAdventureMain.getFurnaceController().getSmeltingRecipe("SMELT_REDSTONE");
+			menuController.registerInventoryMenu(exchangeMenu, new InventoryExchangeMenu(smeltingRedstone));
+			menuController.getInventoryMenu(exchangeMenu).populateInventory(player, exchangeMenu);
+			player.openInventory(exchangeMenu);
 			break;
 		case GOLD_ORE:
-			player.getInventory().addItem(new ItemStack(Material.GOLD_INGOT, 1));
+			exchangeMenu = Bukkit.createInventory(null, 9, "Select Amount");
+			ShapelessRecipe smeltingGold = ArchesporeAdventureMain.getFurnaceController().getSmeltingRecipe("SMELT_GOLD");
+			menuController.registerInventoryMenu(exchangeMenu, new InventoryExchangeMenu(smeltingGold));
+			menuController.getInventoryMenu(exchangeMenu).populateInventory(player, exchangeMenu);
+			player.openInventory(exchangeMenu);
 			break;
 		case EMERALD_ORE:
-			player.getInventory().addItem(new ItemStack(Material.EMERALD, 1));
+			exchangeMenu = Bukkit.createInventory(null, 9, "Select Amount");
+			ShapelessRecipe smeltingEmerald = ArchesporeAdventureMain.getFurnaceController().getSmeltingRecipe("SMELT_EMERALD");
+			menuController.registerInventoryMenu(exchangeMenu, new InventoryExchangeMenu(smeltingEmerald));
+			menuController.getInventoryMenu(exchangeMenu).populateInventory(player, exchangeMenu);
+			player.openInventory(exchangeMenu);
 			break;
 		case DIAMOND_ORE:
-			player.getInventory().addItem(new ItemStack(Material.DIAMOND, 1));
+			exchangeMenu = Bukkit.createInventory(null, 9, "Select Amount");
+			ShapelessRecipe smeltingDiamond = ArchesporeAdventureMain.getFurnaceController().getSmeltingRecipe("SMELT_DIAMOND");
+			menuController.registerInventoryMenu(exchangeMenu, new InventoryExchangeMenu(smeltingDiamond));
+			menuController.getInventoryMenu(exchangeMenu).populateInventory(player, exchangeMenu);
+			player.openInventory(exchangeMenu);
 			break;
 		case BARRIER:
 			player.closeInventory();

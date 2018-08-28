@@ -23,6 +23,7 @@ import jp.archesporeadventure.main.commands.magicitems.CommandGiveAllMagicItems;
 import jp.archesporeadventure.main.commands.magicitems.CommandGiveMagicItem;
 import jp.archesporeadventure.main.commands.magicitems.CommandRegisterMagicItem;
 import jp.archesporeadventure.main.controllers.EquipmentPoolController;
+import jp.archesporeadventure.main.controllers.FurnaceController;
 import jp.archesporeadventure.main.controllers.LootPoolController;
 import jp.archesporeadventure.main.controllers.MagicalItemsController;
 import jp.archesporeadventure.main.enchantments.CustomEnchantmentsController;
@@ -72,6 +73,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 	private static Map<SkillType, SkillController> skillControllerMap = new HashMap<>();
 	
 	private static InventoryMenuController menuController;
+	private static FurnaceController furnaceController;
 	
 	public void onEnable(){
 		
@@ -127,6 +129,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 		playerSkillsController = new PlayerSkillController(this);
 		
 		menuController = new InventoryMenuController();
+		furnaceController = new FurnaceController(this);
 		
 		openWorldChestGeneratorMap.put(Bukkit.getWorld("ServerWorld"), new WorldChestGenerator());
 		
@@ -171,6 +174,13 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 	 */
 	public static InventoryMenuController getMenuController() {
 		return menuController;
+	}
+	
+	/**
+	 * Gets the menu controller for this plugin.
+	 */
+	public static FurnaceController getFurnaceController() {
+		return furnaceController;
 	}
 	
 	public static SkillController getSkillController(SkillType skillType) {
