@@ -11,7 +11,7 @@ import org.bukkit.inventory.Inventory;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
 import jp.archesporeadventure.main.menus.InventoryMenuController;
-import jp.archesporeadventure.main.menus.SmeltingMenuInventory;
+import jp.archesporeadventure.main.menus.blocks.furnace.FurnaceMenuInventory;
 
 public class PlayerInteractEntityListener implements Listener {
 
@@ -22,11 +22,11 @@ public class PlayerInteractEntityListener implements Listener {
 		Entity eventEntity = event.getRightClicked();
 		if (eventEntity != null && eventEntity.getType().equals(EntityType.MINECART_FURNACE)) {
 			event.setCancelled(true);
-			Inventory smeltingInventory = Bukkit.createInventory(null, 9, "Smelting Menu");
+			Inventory furnaceInventory = Bukkit.createInventory(null, 9, "Furnace Menu");
 			InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
-			menuController.registerInventoryMenu(smeltingInventory, new SmeltingMenuInventory(smeltingInventory));
-			menuController.getInventoryMenu(smeltingInventory).populateInventory(player);
-			player.openInventory(smeltingInventory);
+			menuController.registerInventoryMenu(furnaceInventory, new FurnaceMenuInventory(furnaceInventory));
+			menuController.getInventoryMenu(furnaceInventory).populateInventory(player);
+			player.openInventory(furnaceInventory);
 		}
 	}
 }

@@ -8,8 +8,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
-import jp.archesporeadventure.main.menus.FishingMenuInventory;
 import jp.archesporeadventure.main.menus.InventoryMenuController;
+import jp.archesporeadventure.main.menus.skills.FishingMenuInventory;
 
 public class CommandFishing implements CommandExecutor{
 

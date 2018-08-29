@@ -9,7 +9,7 @@ import org.bukkit.inventory.Inventory;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
 import jp.archesporeadventure.main.menus.InventoryMenuController;
-import jp.archesporeadventure.main.menus.MiningMenuInventory;
+import jp.archesporeadventure.main.menus.skills.MiningMenuInventory;
 
 public class CommandMining implements CommandExecutor{
 

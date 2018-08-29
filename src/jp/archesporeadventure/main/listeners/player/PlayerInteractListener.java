@@ -37,7 +37,7 @@ import jp.archesporeadventure.main.enchantments.CustomEnchantment;
 import jp.archesporeadventure.main.generation.itempools.DefaultPoolFiles;
 import jp.archesporeadventure.main.magicscrolls.MagicScrollController;
 import jp.archesporeadventure.main.menus.InventoryMenuController;
-import jp.archesporeadventure.main.menus.SmeltingMenuInventory;
+import jp.archesporeadventure.main.menus.blocks.furnace.FurnaceMenuInventory;
 import jp.archesporeadventure.main.utils.ItemStackUtil;
 import jp.archesporeadventure.main.utils.LivingEntityUtil;
 import jp.archesporeadventure.main.utils.MagicalItemsUtil;
@@ -66,11 +66,11 @@ public class PlayerInteractListener implements Listener {
 		if (interactAction.equals(Action.RIGHT_CLICK_AIR) || interactAction.equals(Action.RIGHT_CLICK_BLOCK)) {
 			if (event.getClickedBlock() != null && event.getClickedBlock().getType().equals(Material.FURNACE)) {
 				event.setCancelled(true);
-				Inventory smeltingInventory = Bukkit.createInventory(null, 9, "Smelting Menu");
+				Inventory furnaceInventory = Bukkit.createInventory(null, 9, "Furnace Menu");
 				InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
-				menuController.registerInventoryMenu(smeltingInventory, new SmeltingMenuInventory(smeltingInventory));
-				menuController.getInventoryMenu(smeltingInventory).populateInventory(player);
-				player.openInventory(smeltingInventory);
+				menuController.registerInventoryMenu(furnaceInventory, new FurnaceMenuInventory(furnaceInventory));
+				menuController.getInventoryMenu(furnaceInventory).populateInventory(player);
+				player.openInventory(furnaceInventory);
 			}
 			if (eventItem != null) {
 				if (eventItem.getType().isEdible() || eventItem.getType().equals(Material.POTION)) {

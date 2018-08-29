@@ -1,4 +1,4 @@
-package jp.archesporeadventure.main.menus;
+package jp.archesporeadventure.main.menus.skills;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -15,6 +15,7 @@ import org.bukkit.potion.PotionEffectType;
 
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
 import jp.archesporeadventure.main.abilities.SkillAbility;
+import jp.archesporeadventure.main.menus.InventoryMenu;
 import jp.archesporeadventure.main.skills.PlayerSkillController;
 import jp.archesporeadventure.main.skills.SkillType;
 import jp.archesporeadventure.main.skills.fishing.FishingSkillController;

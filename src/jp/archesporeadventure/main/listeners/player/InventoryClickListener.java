@@ -22,7 +22,7 @@ public class InventoryClickListener implements Listener {
 		Inventory eventInventory = event.getInventory();
 		InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
 		InventoryMenu menuType = menuController.getInventoryMenu(eventInventory);
-		if (menuType != null) {
+		if (menuType != null && eventItem != null) {
 			event.setCancelled(true);
 			menuType.clickActions(eventInventory, player, eventItem);
 			player.updateInventory();
