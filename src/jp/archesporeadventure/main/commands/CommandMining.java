@@ -21,8 +21,8 @@ public class CommandMining implements CommandExecutor{
 			
 			Inventory inventoryMenu = Bukkit.createInventory(null, 36, "Mining Menu");
 			InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
-			menuController.registerInventoryMenu(inventoryMenu, new MiningMenuInventory());
-			menuController.getInventoryMenu(inventoryMenu).populateInventory(player, inventoryMenu);
+			menuController.registerInventoryMenu(inventoryMenu, new MiningMenuInventory(inventoryMenu));
+			menuController.getInventoryMenu(inventoryMenu).populateInventory(player);
 			
 			player.openInventory(inventoryMenu);
 		}

@@ -2,9 +2,7 @@ package jp.archesporeadventure.main.controllers;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -18,8 +16,8 @@ import jp.archesporeadventure.main.ArchesporeAdventureMain;
 
 public class FurnaceController {
 
-	private Map<String, ShapelessRecipe> registeredSmeltingRecipes = new HashMap<>();
-	private Map<String, ShapelessRecipe> registeredCookingRecipes = new HashMap<>();
+	private List<ShapelessRecipe> registeredSmeltingRecipes = new ArrayList<>();
+	private List<ShapelessRecipe> registeredCookingRecipes = new ArrayList<>();
 	
 	private File configFile;
 	private FileConfiguration configFileYML;
@@ -32,12 +30,12 @@ public class FurnaceController {
 		loadFileConfigurations();
 	}
 	
-	public ShapelessRecipe getSmeltingRecipe(String name) {
-		return registeredSmeltingRecipes.get(name);
+	public List<ShapelessRecipe> getSmeltingRecipes() {
+		return registeredSmeltingRecipes;
 	}
 	
-	public ShapelessRecipe getCookingRecipe(String name) {
-		return registeredCookingRecipes.get(name);
+	public List<ShapelessRecipe> getCookingRecipes() {
+		return registeredCookingRecipes;
 	}
 	
 	private void loadFiles() {
@@ -67,7 +65,7 @@ public class FurnaceController {
 			for (String[] ingredients : recipeIngredients) {
 				furnaceRecipe.addIngredient(Integer.parseInt(ingredients[1]), Material.valueOf(ingredients[0]));
 			}
-			registeredSmeltingRecipes.put(recipeName, furnaceRecipe);
+			registeredSmeltingRecipes.add(furnaceRecipe);
 		}
 		for (String recipeName : cookingSection.getKeys(false)) {
 			ConfigurationSection recipeSection = cookingSection.getConfigurationSection(recipeName);
@@ -80,7 +78,7 @@ public class FurnaceController {
 			for (String[] ingredients : recipeIngredients) {
 				furnaceRecipe.addIngredient(Integer.parseInt(ingredients[1]), Material.valueOf(ingredients[0]));
 			}
-			registeredCookingRecipes.put(recipeName, furnaceRecipe);
+			registeredCookingRecipes.add(furnaceRecipe);
 		}
 	}
 }

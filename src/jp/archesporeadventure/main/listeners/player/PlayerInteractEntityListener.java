@@ -24,8 +24,8 @@ public class PlayerInteractEntityListener implements Listener {
 			event.setCancelled(true);
 			Inventory smeltingInventory = Bukkit.createInventory(null, 9, "Smelting Menu");
 			InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
-			menuController.registerInventoryMenu(smeltingInventory, new SmeltingMenuInventory());
-			menuController.getInventoryMenu(smeltingInventory).populateInventory(player, smeltingInventory);
+			menuController.registerInventoryMenu(smeltingInventory, new SmeltingMenuInventory(smeltingInventory));
+			menuController.getInventoryMenu(smeltingInventory).populateInventory(player);
 			player.openInventory(smeltingInventory);
 		}
 	}

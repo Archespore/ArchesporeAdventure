@@ -22,9 +22,13 @@ import jp.archesporeadventure.main.skills.mining.MiningSkillController;
 import jp.archesporeadventure.main.skills.mining.MiningSkillOre;
 import net.md_5.bungee.api.ChatColor;
 
-public class MiningMenuInventory implements InventoryMenu {
+public class MiningMenuInventory extends InventoryMenu {
 	
-	public void populateInventory(Player player, Inventory inventory) {
+	public MiningMenuInventory(Inventory inventory) {
+		super(inventory);
+	}
+
+	public void populateInventory(Player player) {
 		int inventorySlot = 0;
 		boolean silkTouchBonus = player.getInventory().getItemInMainHand().containsEnchantment(Enchantment.SILK_TOUCH);
 		boolean luckBonus = player.hasPotionEffect(PotionEffectType.LUCK);
@@ -40,7 +44,7 @@ public class MiningMenuInventory implements InventoryMenu {
 			if (harvestChance >= 0) { menuItemLore = Arrays.asList(ChatColor.GRAY + "Chance to harvest: " + String.format("%.2f", miningOre.getChanceForPlayer(player)) + "%"); }
 			else { menuItemLore = Arrays.asList(ChatColor.RED + "You are not a high enough", ChatColor.RED + "level for this ore.", ChatColor.RED.toString() + ChatColor.BOLD + "Level Required: " + miningOre.getMinimumLevel()); }
 			
-			inventory.setItem(inventorySlot, createMenuItem(miningOre.getOreMaterial(), miningOre.getDisplayName(), silkTouchBonus || luckBonus, menuItemLore));
+			inventoryMenu.setItem(inventorySlot, createMenuItem(miningOre.getOreMaterial(), miningOre.getDisplayName(), silkTouchBonus || luckBonus, menuItemLore));
 			inventorySlot++;
 		}
 		
@@ -58,15 +62,15 @@ public class MiningMenuInventory implements InventoryMenu {
 			}
 			else { menuItemLore = Arrays.asList(ChatColor.RED + "You are not a high enough", ChatColor.RED + "level for this ability.", ChatColor.RED.toString() + ChatColor.BOLD + "Level Required: " + ability.getMinimumLevel()); }
 			
-			inventory.setItem(inventorySlot, createMenuItem(ability.getAbilityIcon(), ability.getDisplayName(), luckBonus, menuItemLore));
+			inventoryMenu.setItem(inventorySlot, createMenuItem(ability.getAbilityIcon(), ability.getDisplayName(), luckBonus, menuItemLore));
 			inventorySlot++;
 		}
 		
-		inventory.setItem(30, createMenuItem(Material.DIAMOND_PICKAXE, ChatColor.DARK_AQUA + "Mining Level", 
+		inventoryMenu.setItem(30, createMenuItem(Material.DIAMOND_PICKAXE, ChatColor.DARK_AQUA + "Mining Level", 
 				Arrays.asList(ChatColor.GRAY + "Mining Level: " + skillController.getPlayerSkillStats(player, SkillType.MINING).get(0).intValue())));
-		inventory.setItem(31, createMenuItem(Material.BOOK, ChatColor.DARK_GREEN + "Mining XP", 
+		inventoryMenu.setItem(31, createMenuItem(Material.BOOK, ChatColor.DARK_GREEN + "Mining XP", 
 				Arrays.asList(ChatColor.GRAY + "Mining EXP: " + new DecimalFormat("0.0#").format(skillController.getPlayerSkillStats(player, SkillType.MINING).get(1)) + " / " + skillController.getXPToLevel(player, SkillType.MINING))));
-		inventory.setItem(32, createMenuItem(Material.BARRIER, ChatColor.RED + "Close Menu", 
+		inventoryMenu.setItem(32, createMenuItem(Material.BARRIER, ChatColor.RED + "Close Menu", 
 				Arrays.asList(ChatColor.GRAY + "Close the menu.")));
 	}
 

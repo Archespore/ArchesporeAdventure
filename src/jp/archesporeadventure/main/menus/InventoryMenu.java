@@ -11,25 +11,35 @@ import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-public interface InventoryMenu {
+public abstract class InventoryMenu {
 	
-	public void populateInventory(Player player, Inventory inventory);
+	protected Inventory inventoryMenu;
+	
+	public InventoryMenu(Inventory inventory) {
+		inventoryMenu = inventory;
+	}
+	
+	public abstract void populateInventory(Player player);
 
-	public void clickActions(Inventory inventory, Player player, ItemStack itemStack);
+	public abstract void clickActions(Inventory inventory, Player player, ItemStack itemStack);
 	
-	default ItemStack createMenuItem(Material iconMaterial, String iconName) {
+	public void openInventoryMenu(Player player) {
+		player.openInventory(inventoryMenu);
+	}
+	
+	public ItemStack createMenuItem(Material iconMaterial, String iconName) {
 		return createMenuItem(iconMaterial, 1, iconName, false, new ArrayList<>());
 	}
 	
-	default ItemStack createMenuItem(Material iconMaterial, String iconName, List<String> iconLore) {
+	public ItemStack createMenuItem(Material iconMaterial, String iconName, List<String> iconLore) {
 		return createMenuItem(iconMaterial, 1, iconName, false, iconLore);
 	}
 	
-	default ItemStack createMenuItem(Material iconMaterial, String iconName, boolean enchanted, List<String> iconLore) {
+	public ItemStack createMenuItem(Material iconMaterial, String iconName, boolean enchanted, List<String> iconLore) {
 		return createMenuItem(iconMaterial, 1, iconName, enchanted, iconLore);
 	}
 	
-	default ItemStack createMenuItem(Material iconMaterial, int itemAmount, String iconName, boolean enchanted, List<String> iconLore) {
+	public ItemStack createMenuItem(Material iconMaterial, int itemAmount, String iconName, boolean enchanted, List<String> iconLore) {
 		ItemStack inventoryItem = new ItemStack(iconMaterial, itemAmount);
 		ItemMeta inventoryItemMeta = inventoryItem.getItemMeta();
 		inventoryItemMeta.setDisplayName(iconName);

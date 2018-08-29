@@ -10,25 +10,26 @@ import org.bukkit.inventory.ShapelessRecipe;
 
 import net.md_5.bungee.api.ChatColor;
 
-public class InventoryExchangeMenu implements InventoryMenu {
+public class InventoryExchangeMenu extends InventoryMenu {
 	
 	private final ShapelessRecipe recipe;
 
-	public InventoryExchangeMenu(ShapelessRecipe shapelessRecipe) {
+	public InventoryExchangeMenu(Inventory inventory, ShapelessRecipe shapelessRecipe) {
+		super(inventory);
 		recipe = shapelessRecipe;
 	}
 
-	public void populateInventory(Player player, Inventory inventory) {
+	public void populateInventory(Player player) {
 		int inventorySlot = 0;
 		
 		for (int loopValue = 0; loopValue < 4; loopValue++) {
 			Double stackAmount = Math.pow(4, loopValue);
-			inventory.setItem(inventorySlot, createMenuItem(recipe.getResult().getType(), stackAmount.intValue(), ChatColor.GREEN + "Create " + stackAmount.intValue(), false,
+			inventoryMenu.setItem(inventorySlot, createMenuItem(recipe.getResult().getType(), stackAmount.intValue(), ChatColor.GREEN + "Create " + stackAmount.intValue(), false,
 					Arrays.asList(ChatColor.GRAY + "Create this item.")));
 			inventorySlot += 2;
 		}
 
-		inventory.setItem(8, createMenuItem(Material.BARRIER, ChatColor.RED + "Close Menu", 
+		inventoryMenu.setItem(8, createMenuItem(Material.BARRIER, ChatColor.RED + "Close Menu", 
 				Arrays.asList(ChatColor.GRAY + "Close the menu.")));
 	}
 

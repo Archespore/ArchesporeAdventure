@@ -16,20 +16,20 @@ import jp.archesporeadventure.main.ArchesporeAdventureMain;
 import jp.archesporeadventure.main.controllers.FurnaceController;
 import net.md_5.bungee.api.ChatColor;
 
-public class SmeltingMenuInventory extends InventoryMenu {
+public class CookingMenuInventory extends InventoryMenu {
 	
 	private FurnaceController furnaceController = ArchesporeAdventureMain.getFurnaceController();
 	private Map<Material, ShapelessRecipe> recipeMap = new HashMap<>();
 	
-	public SmeltingMenuInventory(Inventory inventory) {
+	public CookingMenuInventory(Inventory inventory) {
 		super(inventory);
 	}
 
 	public void populateInventory(Player player) {
 		int inventorySlot = 0;
-		for (ShapelessRecipe smeltingRecipe : furnaceController.getSmeltingRecipes()) {
+		for (ShapelessRecipe smeltingRecipe : furnaceController.getCookingRecipes()) {
 			Material recipeResult = smeltingRecipe.getResult().getType();
-			inventoryMenu.setItem(inventorySlot, createMenuItem(recipeResult, ChatColor.GRAY + "Smelt " + StringUtils.capitalize(recipeResult.toString().toLowerCase().replace('_', ' '))));
+			inventoryMenu.setItem(inventorySlot, createMenuItem(recipeResult, ChatColor.GOLD + "Cook " + StringUtils.capitalize(recipeResult.toString().toLowerCase().replace('_', ' '))));
 			recipeMap.put(recipeResult, smeltingRecipe);
 			inventorySlot++;
 		}
@@ -53,4 +53,5 @@ public class SmeltingMenuInventory extends InventoryMenu {
 			player.openInventory(inventoryMenu);
 		}
 	}
+
 }

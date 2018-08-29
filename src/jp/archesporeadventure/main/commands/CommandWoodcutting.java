@@ -21,8 +21,8 @@ public class CommandWoodcutting implements CommandExecutor{
 			
 			Inventory inventoryMenu = Bukkit.createInventory(null, 36, "Woodcutting Menu");
 			InventoryMenuController menuController = ArchesporeAdventureMain.getMenuController();
-			menuController.registerInventoryMenu(inventoryMenu, new FishingMenuInventory());
-			menuController.getInventoryMenu(inventoryMenu).populateInventory(player, inventoryMenu);
+			menuController.registerInventoryMenu(inventoryMenu, new FishingMenuInventory(inventoryMenu));
+			menuController.getInventoryMenu(inventoryMenu).populateInventory(player);
 			
 			player.openInventory(inventoryMenu);
 		}

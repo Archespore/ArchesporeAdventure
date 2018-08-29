@@ -20,9 +20,13 @@ import jp.archesporeadventure.main.skills.SkillType;
 import jp.archesporeadventure.main.skills.fishing.FishingSkillController;
 import net.md_5.bungee.api.ChatColor;
 
-public class FishingMenuInventory implements InventoryMenu {
+public class FishingMenuInventory extends InventoryMenu {
 	
-	public void populateInventory(Player player, Inventory inventory) {
+	public FishingMenuInventory(Inventory inventory) {
+		super(inventory);
+	}
+
+	public void populateInventory(Player player) {
 		int inventorySlot = 1;
 		boolean luckBonus = player.hasPotionEffect(PotionEffectType.LUCK);
 		FishingSkillController fishingController = (FishingSkillController) ArchesporeAdventureMain.getSkillController(SkillType.FISHING);
@@ -41,15 +45,15 @@ public class FishingMenuInventory implements InventoryMenu {
 			}
 			else { menuItemLore = Arrays.asList(ChatColor.RED + "You are not a high enough", ChatColor.RED + "level for this ability.", ChatColor.RED.toString() + ChatColor.BOLD + "Level Required: " + ability.getMinimumLevel()); }
 			
-			inventory.setItem(inventorySlot, createMenuItem(ability.getAbilityIcon(), ability.getDisplayName(), luckBonus, menuItemLore));
+			inventoryMenu.setItem(inventorySlot, createMenuItem(ability.getAbilityIcon(), ability.getDisplayName(), luckBonus, menuItemLore));
 			inventorySlot++;
 		}
 
-		inventory.setItem(21, createMenuItem(Material.FISHING_ROD, ChatColor.DARK_AQUA + "Fishing Level", 
+		inventoryMenu.setItem(21, createMenuItem(Material.FISHING_ROD, ChatColor.DARK_AQUA + "Fishing Level", 
 				Arrays.asList(ChatColor.GRAY + "Fishing Level: " + skillController.getPlayerSkillStats(player, SkillType.FISHING).get(0).intValue())));
-		inventory.setItem(22, createMenuItem(Material.BOOK, ChatColor.DARK_GREEN + "Fishing XP", 
+		inventoryMenu.setItem(22, createMenuItem(Material.BOOK, ChatColor.DARK_GREEN + "Fishing XP", 
 				Arrays.asList(ChatColor.GRAY + "Fishing EXP: " + new DecimalFormat("0.0#").format(skillController.getPlayerSkillStats(player, SkillType.FISHING).get(1)) + " / " + skillController.getXPToLevel(player, SkillType.FISHING))));
-		inventory.setItem(23, createMenuItem(Material.BARRIER, ChatColor.RED + "Close Menu", 
+		inventoryMenu.setItem(23, createMenuItem(Material.BARRIER, ChatColor.RED + "Close Menu", 
 				Arrays.asList(ChatColor.GRAY + "Close the menu.")));
 	}
 
