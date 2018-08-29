@@ -1,9 +1,13 @@
 package jp.archesporeadventure.main.menus.blocks.furnace;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -31,7 +35,21 @@ public class SmeltingMenuInventory extends InventoryMenu {
 		int inventorySlot = 0;
 		for (ShapelessRecipe smeltingRecipe : furnaceController.getSmeltingRecipes()) {
 			Material recipeResult = smeltingRecipe.getResult().getType();
-			inventoryMenu.setItem(inventorySlot, createMenuItem(recipeResult, ChatColor.GRAY + "Smelt " + recipeResult.toString().toLowerCase().replace('_', ' ')));
+			List<String> itemLore = new ArrayList<>();
+			List<Material> countedItems = new ArrayList<>();
+			itemLore.add(ChatColor.GRAY.toString() + "Ingredients:");
+			
+			smeltingRecipe.getIngredientList().forEach( ingredient -> {
+				
+				Material ingredientMaterial = ingredient.getType();
+				if (!countedItems.contains(ingredientMaterial)) {
+					countedItems.add(ingredientMaterial);
+					int ingredientAmount = smeltingRecipe.getIngredientList().stream().filter(itemStack -> itemStack.getType().equals(ingredient.getType())).collect(Collectors.toList()).size();
+					itemLore.add(ChatColor.GRAY.toString() + ChatColor.ITALIC + " - " + ingredientAmount + " x " + StringUtils.capitalize(ingredient.getType().toString().toLowerCase().replace('_', ' ')));
+				}
+			});
+
+			inventoryMenu.setItem(inventorySlot, createMenuItem(recipeResult, ChatColor.DARK_RED + "Smelt " + recipeResult.toString().toLowerCase().replace('_', ' '), itemLore));
 			recipeMap.put(recipeResult, smeltingRecipe);
 			inventorySlot++;
 		}

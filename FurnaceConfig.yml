@@ -84,5 +84,5 @@ CookingRecipes:
     ItemResults: "GOLDEN_APPLE:1"
     Ingredients: 
       - "APPLE:1"
-      - "GOLD_INGOT:1"
+      - "GOLD_INGOT:4"
       - "COAL:1"

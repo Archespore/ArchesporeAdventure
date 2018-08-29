@@ -20,7 +20,7 @@ public class FurnaceMenuInventory extends InventoryMenu {
 	}
 
 	public void populateInventory(Player player) {
-		inventoryMenu.setItem(0, createMenuItem(Material.FURNACE, ChatColor.GRAY + "Smelting Menu"));
+		inventoryMenu.setItem(0, createMenuItem(Material.FURNACE, ChatColor.DARK_RED + "Smelting Menu"));
 		inventoryMenu.setItem(1, createMenuItem(Material.BOWL, ChatColor.GOLD + "Cooking Menu"));
 		
 		inventoryMenu.setItem(8, createMenuItem(Material.BARRIER, ChatColor.RED + "Close Menu", 
