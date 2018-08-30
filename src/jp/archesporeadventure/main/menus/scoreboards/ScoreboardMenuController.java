@@ -23,13 +23,13 @@ public class ScoreboardMenuController {
 		objective.setDisplaySlot(DisplaySlot.SIDEBAR);
 		
 		Score blankLine = objective.getScore(ChatColor.MAGIC.toString() + "");
-		blankLine.setScore(15);
+		blankLine.setScore(3);
 		
 		Score renownRecord = objective.getScore(ChatColor.BOLD + "» Player Renown");
-		renownRecord.setScore(14);
+		renownRecord.setScore(2);
 		
 		Score renownScore = objective.getScore(ChatColor.GRAY + "  " + ArchesporeAdventureMain.getPlayerSkillsController().getPlayerRenown(player) + " Renown");
-		renownScore.setScore(13);
+		renownScore.setScore(1);
 		
 		player.setScoreboard(newSidebarScoreboard);
 		scoreboardMap.put(player, newSidebarScoreboard);
@@ -43,7 +43,7 @@ public class ScoreboardMenuController {
 			if (score.matches(".*\\d+\\sRenown$")) {
 				playerScoreboard.resetScores(score);
 				Score renownScore = objective.getScore(ChatColor.GRAY + "  " + ArchesporeAdventureMain.getPlayerSkillsController().getPlayerRenown(player) + " Renown");
-				renownScore.setScore(13);
+				renownScore.setScore(1);
 			}
 		}
 			

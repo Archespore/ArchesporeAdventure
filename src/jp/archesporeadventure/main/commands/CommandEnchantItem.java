@@ -11,12 +11,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 
 import jp.archesporeadventure.main.enchantments.CustomEnchantment;
+import jp.archesporeadventure.main.utils.EnchantmentUtil;
 import net.md_5.bungee.api.ChatColor;
 
-//TODO: Add a list of enchants and make it set lore of enchant display name
 public class CommandEnchantItem implements CommandExecutor, TabCompleter{
 
 	//This command is used to add custom enchantments to items since we can't with the vanilla command.
@@ -39,28 +38,8 @@ public class CommandEnchantItem implements CommandExecutor, TabCompleter{
 					//Make sure the argument is a valid enchantment type
 					for(CustomEnchantment enchantment : CustomEnchantment.values()){
 						if (enchantment.toString().equals(args[0].toUpperCase())) {
-							List<String> itemLore;
 							//If the enchantment is valid, add it to the item and set the validEnchant to true
-							itemToEnchant.addUnsafeEnchantment(CustomEnchantment.valueOf(args[0].toUpperCase()).getEnchant(), Integer.parseInt(args[1]));
-							if ( ( (args.length >= 3) && (args[2].toUpperCase().equals("TRUE")) ) || (args.length <= 2) ){
-								ItemMeta itemMeta = itemToEnchant.getItemMeta();
-								if (itemMeta.hasLore()){
-									itemLore = itemMeta.getLore();
-								}
-								else{
-									itemLore = new ArrayList<String>();
-								}
-								String enchantLoreColor = ChatColor.GRAY.toString();
-								if (CustomEnchantment.valueOf(args[0].toUpperCase()).getEnchant().isCursed()) {
-									enchantLoreColor = ChatColor.RED.toString();
-								}
-								if (CustomEnchantment.valueOf(args[0].toUpperCase()).equals(CustomEnchantment.MAGICAL)) {
-									enchantLoreColor = ChatColor.LIGHT_PURPLE.toString() + ChatColor.MAGIC.toString();
-								}
-								itemLore.add(enchantLoreColor + CustomEnchantment.valueOf(args[0].toUpperCase()).getEnchant().getName() + " " + CustomEnchantment.getDisplayLevels().get(Integer.parseInt(args[1]) - 1));
-								itemMeta.setLore(itemLore);
-								itemToEnchant.setItemMeta(itemMeta);
-							}
+							EnchantmentUtil.addSpecialEnchantment(itemToEnchant, CustomEnchantment.valueOf(args[0].toUpperCase()).getEnchant(), Integer.parseInt(args[1]), true);
 							sender.sendMessage(ChatColor.GREEN + "Added enchantment " + args[0].toUpperCase() + " to the item.");
 							validEnchant = true;
 						}

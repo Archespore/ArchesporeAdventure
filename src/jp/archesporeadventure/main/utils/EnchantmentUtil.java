@@ -10,9 +10,11 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.enchantments.EnchantmentTarget;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 
 import jp.archesporeadventure.main.enchantments.CustomEnchantment;
 import jp.archesporeadventure.main.enchantments.SpecialEnchantment;
+import net.md_5.bungee.api.ChatColor;
 
 public class EnchantmentUtil {
 	
@@ -64,6 +66,32 @@ public class EnchantmentUtil {
 				}
 			}
 		}
+	}
+	
+	/**
+	 * Adds the specified enchantment to the specified item.
+	 * @param item the item to add the enchantment to
+	 * @param enchantment the enchantment to add to the item
+	 * @param enchantLevel the enchantment level to add
+	 * @param ignoreLevelCaps should we ignore the level caps for the enchantment
+	 */
+	public static void addSpecialEnchantment(ItemStack item, SpecialEnchantment enchantment, int enchantLevel, boolean ignoreLevelCaps) {
+		if (!ignoreLevelCaps) { enchantLevel = Math.min(enchantLevel, enchantment.getMaxLevel()); }
+		item.addUnsafeEnchantment(enchantment, enchantLevel);
+		
+		List<String> itemLore;
+		ItemMeta itemMeta = item.getItemMeta();
+		
+		if (itemMeta.hasLore()) { itemLore = itemMeta.getLore(); }
+		else { itemLore = new ArrayList<String>(); }
+		
+		String enchantLoreColor = ChatColor.GRAY.toString();
+		if (enchantment.isCursed()) { enchantLoreColor = ChatColor.RED.toString(); }
+		else if (enchantment.equals(CustomEnchantment.MAGICAL.getEnchant())) { enchantLoreColor = ChatColor.LIGHT_PURPLE.toString() + ChatColor.MAGIC.toString(); }
+		
+		itemLore.add(enchantLoreColor + enchantment.getName() + " " + CustomEnchantment.getDisplayLevels().get(enchantLevel));
+		itemMeta.setLore(itemLore);
+		item.setItemMeta(itemMeta);
 	}
 	
 	/**
