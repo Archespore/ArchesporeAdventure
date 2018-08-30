@@ -38,7 +38,7 @@ import jp.archesporeadventure.main.listeners.combat.ShootBowListener;
 import jp.archesporeadventure.main.listeners.entity.EntityDismountListener;
 import jp.archesporeadventure.main.listeners.entity.EntityMountListener;
 import jp.archesporeadventure.main.listeners.entity.EntityRegainHealthListener;
-import jp.archesporeadventure.main.listeners.entity.EntitySpawnListener;
+import jp.archesporeadventure.main.listeners.entity.CreatureSpawnListener;
 import jp.archesporeadventure.main.listeners.player.InventoryClickListener;
 import jp.archesporeadventure.main.listeners.player.InventoryCloseListener;
 import jp.archesporeadventure.main.listeners.player.InventoryOpenListener;
@@ -95,7 +95,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 		getServer().getPluginManager().registerEvents(new PlayerToggleSneakListener(), this);
 		getServer().getPluginManager().registerEvents(new PlayerTeleportListener(), this);
 		getServer().getPluginManager().registerEvents(new EntityRegainHealthListener(), this);
-		getServer().getPluginManager().registerEvents(new EntitySpawnListener(), this);
+		getServer().getPluginManager().registerEvents(new CreatureSpawnListener(), this);
 		getServer().getPluginManager().registerEvents(new InventoryCloseListener(), this);
 		getServer().getPluginManager().registerEvents(new InventoryOpenListener(), this);
 		getServer().getPluginManager().registerEvents(new BlockBreakListener(), this);
@@ -138,6 +138,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 		openWorldChestGeneratorMap.put(Bukkit.getWorld("ServerWorld"), new WorldChestGenerator());
 		
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "ArchesporeAdventure is enabled!");
+		Bukkit.getWorld("ServerWorld").setTime(0);
 	}
 	
 	public void onDisable(){

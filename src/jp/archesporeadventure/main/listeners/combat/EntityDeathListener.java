@@ -65,17 +65,18 @@ public class EntityDeathListener implements Listener {
 				event.getDrops().clear();
 			}
 			
-			if (eventEntity.hasMetadata("MOBLEVEL")) {
-				eventKiller.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(ChatColor.RED.toString() + ChatColor.BOLD + "You killed a level " + eventEntity.getMetadata("MOBLEVEL").get(0).asInt() + " mob."));
+			if (eventEntity.hasPotionEffect(PotionEffectType.LUCK)) {
+				eventKiller.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(ChatColor.RED.toString() + ChatColor.BOLD + "You killed a level " + eventEntity.getPotionEffect(PotionEffectType.LUCK).getAmplifier() + " mob."));
+				if (eventEntity instanceof Animals) {
+					ArchesporeAdventureMain.getPlayerSkillsController().addPlayerRenown(eventKiller, 1);
+				}
+				else if (eventEntity instanceof Monster) {
+					ArchesporeAdventureMain.getPlayerSkillsController().addPlayerRenown(eventKiller, eventEntity.getPotionEffect(PotionEffectType.LUCK).getAmplifier());
+				}
 			}
 			
 			ArchesporeAdventureMain.abilityEvent(AbilityActivation.ENTITY_KILL, event);
-			if (eventEntity instanceof Animals) {
-				ArchesporeAdventureMain.getPlayerSkillsController().addPlayerRenown(eventKiller, 1);
-			}
-			else if (eventEntity instanceof Monster && eventEntity.hasMetadata("MOBLEVEL")) {
-				ArchesporeAdventureMain.getPlayerSkillsController().addPlayerRenown(eventKiller, eventEntity.getMetadata("MOBLEVEL").get(0).asInt());
-			}
+
 		}
 	}
 }
