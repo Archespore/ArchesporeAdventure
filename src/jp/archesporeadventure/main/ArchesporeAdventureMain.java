@@ -50,6 +50,7 @@ import jp.archesporeadventure.main.listeners.skills.BlockBreakListener;
 import jp.archesporeadventure.main.listeners.skills.CraftItemListener;
 import jp.archesporeadventure.main.listeners.skills.PlayerFishListener;
 import jp.archesporeadventure.main.menus.InventoryMenuController;
+import jp.archesporeadventure.main.menus.scoreboards.ScoreboardMenuController;
 import jp.archesporeadventure.main.skills.PlayerSkillController;
 import jp.archesporeadventure.main.skills.SkillController;
 import jp.archesporeadventure.main.skills.SkillType;
@@ -74,6 +75,8 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 	
 	private static InventoryMenuController menuController;
 	private static FurnaceController furnaceController;
+	
+	private static ScoreboardMenuController scoreboardController;
 	
 	public void onEnable(){
 		
@@ -130,6 +133,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 		
 		menuController = new InventoryMenuController();
 		furnaceController = new FurnaceController(this);
+		scoreboardController = new ScoreboardMenuController();
 		
 		openWorldChestGeneratorMap.put(Bukkit.getWorld("ServerWorld"), new WorldChestGenerator());
 		
@@ -181,6 +185,13 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 	 */
 	public static FurnaceController getFurnaceController() {
 		return furnaceController;
+	}
+	
+	/**
+	 * Gets the scoreboard controller for this plugin.
+	 */
+	public static ScoreboardMenuController getScoreboardController() {
+		return scoreboardController;
 	}
 	
 	public static SkillController getSkillController(SkillType skillType) {

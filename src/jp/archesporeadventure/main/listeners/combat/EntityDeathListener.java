@@ -1,7 +1,9 @@
 package jp.archesporeadventure.main.listeners.combat;
 
 import org.bukkit.Material;
+import org.bukkit.entity.Animals;
 import org.bukkit.entity.LivingEntity;
+import org.bukkit.entity.Monster;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -17,6 +19,8 @@ import jp.archesporeadventure.main.utils.LivingEntityUtil;
 import jp.archesporeadventure.main.utils.MagicalItemsUtil;
 import jp.archesporeadventure.main.utils.PotionEffectUtil;
 import net.md_5.bungee.api.ChatColor;
+import net.md_5.bungee.api.ChatMessageType;
+import net.md_5.bungee.api.chat.TextComponent;
 
 public class EntityDeathListener implements Listener {
 
@@ -62,10 +66,16 @@ public class EntityDeathListener implements Listener {
 			}
 			
 			if (eventEntity.hasMetadata("MOBLEVEL")) {
-				eventKiller.sendMessage(ChatColor.DARK_GREEN + "You killed a level " + eventEntity.getMetadata("MOBLEVEL").get(0).asInt() + " mob.");
+				eventKiller.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(ChatColor.RED.toString() + ChatColor.BOLD + "You killed a level " + eventEntity.getMetadata("MOBLEVEL").get(0).asInt() + " mob."));
 			}
 			
 			ArchesporeAdventureMain.abilityEvent(AbilityActivation.ENTITY_KILL, event);
+			if (eventEntity instanceof Animals) {
+				ArchesporeAdventureMain.getPlayerSkillsController().addPlayerRenown(eventKiller, 1);
+			}
+			else if (eventEntity instanceof Monster && eventEntity.hasMetadata("MOBLEVEL")) {
+				ArchesporeAdventureMain.getPlayerSkillsController().addPlayerRenown(eventKiller, eventEntity.getMetadata("MOBLEVEL").get(0).asInt());
+			}
 		}
 	}
 }

@@ -30,8 +30,8 @@ public class BarbaricFisherAbility extends SkillAbility {
 			Player player = deathEvent.getEntity().getKiller();
 			PlayerSkillController playerSkillController = ArchesporeAdventureMain.getPlayerSkillsController();
 			FishingSkillController fishingController = (FishingSkillController) ArchesporeAdventureMain.getSkillController(SkillType.FISHING);
-			if (playerSkillController.getPlayerSkillStats(player, SkillType.FISHING).get(0) >= getMinimumLevel() && (killedEntityType.equals(EntityType.COD) || killedEntityType.equals(EntityType.SALMON) || killedEntityType.equals(EntityType.PUFFERFISH) || killedEntityType.equals(EntityType.TROPICAL_FISH))) {
-				playerSkillController.addPlayerEXP(player, SkillType.FISHING, fishingController.getCatchXPReward() * fishingController.getSkillAbility("ExperienceFisher").getAbilityLevelForPlayer(player), true);
+			if (playerSkillController.getPlayerSkillStats(player, SkillType.FISHING).get(0) >= getMinimumLevel() && (killedEntityType.equals(EntityType.SQUID) || killedEntityType.equals(EntityType.COD) || killedEntityType.equals(EntityType.SALMON) || killedEntityType.equals(EntityType.PUFFERFISH) || killedEntityType.equals(EntityType.TROPICAL_FISH))) {
+				playerSkillController.addPlayerEXP(player, SkillType.FISHING, fishingController.getCatchXPReward() * fishingController.getSkillAbility("Experience Fisher").getAbilityLevelForPlayer(player), true);
 				return true;
 			}
 		}

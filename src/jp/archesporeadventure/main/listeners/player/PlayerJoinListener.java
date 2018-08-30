@@ -19,5 +19,6 @@ public class PlayerJoinListener implements Listener {
 		player.getAttribute(Attribute.GENERIC_ATTACK_SPEED).setBaseValue(24.0);
 		player.setGameMode(GameMode.SURVIVAL);
 		ArchesporeAdventureMain.getPlayerSkillsController().addPlayerToController(player);
+		ArchesporeAdventureMain.getScoreboardController().createSidebarScoreboard(player);
 	}
 }

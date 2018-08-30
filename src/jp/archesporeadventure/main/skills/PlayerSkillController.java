@@ -28,6 +28,7 @@ public class PlayerSkillController {
 	private ArchesporeAdventureMain plugin;
 
 	private Map<Player, Map<SkillType, List<Double>>> playerSkillMap = new HashMap<>();
+	private Map<Player, Integer> playerRenown = new HashMap<>();
 	private Set<String> skillNamesSet = new HashSet<>();
 	
 	private File playerSkillsFile;
@@ -60,6 +61,28 @@ public class PlayerSkillController {
 			skillMap.put(skill, skillStats);
 		}
 		playerSkillMap.put(player, skillMap);
+		
+		playerRenown.put(player, playerSkillsYML.getInt("Players." + player.getUniqueId() + "." + "Renown", 0));
+	}
+	
+	/**
+	 * Adds a specified amount of renown to a player
+	 * @param player player to add renown to.
+	 */
+	public void addPlayerRenown(Player player, int amount) {
+		if (playerRenown.containsKey(player)) { 
+			playerRenown.put(player, playerRenown.get(player) + amount);
+			ArchesporeAdventureMain.getScoreboardController().updateScoreboard(player);
+		}
+	}
+	
+	/**
+	 * Gets the current renown of the specified player
+	 * @param player the player to get
+	 * @return the renown of the player
+	 */
+	public int getPlayerRenown(Player player) {
+		return playerRenown.get(player);
 	}
 	
 	/**
@@ -158,6 +181,7 @@ public class PlayerSkillController {
 				xpFormat.setRoundingMode(RoundingMode.CEILING);
 				playerSkillsYML.set("Players." + player.getUniqueId() + "." + skill.toString() + ".Level", playerSkillMap.get(player).get(skill).get(0));
 				playerSkillsYML.set("Players." + player.getUniqueId() + "." + skill.toString() + ".EXP", Double.valueOf(xpFormat.format(playerSkillMap.get(player).get(skill).get(1))));
+				playerSkillsYML.set("Players." + player.getUniqueId() + "." + "Renown", playerRenown.get(player));
 			}
 		}
 		try { playerSkillsYML.save(playerSkillsFile); } 
