@@ -27,6 +27,7 @@ import jp.archesporeadventure.main.controllers.FurnaceController;
 import jp.archesporeadventure.main.controllers.LootPoolController;
 import jp.archesporeadventure.main.controllers.MagicalItemsController;
 import jp.archesporeadventure.main.enchantments.CustomEnchantmentsController;
+import jp.archesporeadventure.main.generation.generators.boss.BossGenerator;
 import jp.archesporeadventure.main.generation.generators.chests.ChestGenerator;
 import jp.archesporeadventure.main.generation.generators.chests.WorldChestGenerator;
 import jp.archesporeadventure.main.listeners.combat.DamageByEntityListener;
@@ -70,6 +71,7 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 	private static LootPoolController lootPoolController;
 	private static EquipmentPoolController equipmentPoolController;
 	private static PlayerSkillController playerSkillsController;
+	private static BossGenerator bossGenerator;
 	private static Map<World, WorldChestGenerator> openWorldChestGeneratorMap = new HashMap<>();
 	private static Map<SkillType, SkillController> skillControllerMap = new HashMap<>();
 	
@@ -135,10 +137,10 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 		furnaceController = new FurnaceController(this);
 		scoreboardController = new ScoreboardMenuController();
 		
+		bossGenerator = new BossGenerator();
 		openWorldChestGeneratorMap.put(Bukkit.getWorld("ServerWorld"), new WorldChestGenerator());
 		
 		getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "ArchesporeAdventure is enabled!");
-		Bukkit.getWorld("ServerWorld").setTime(0);
 	}
 	
 	public void onDisable(){
@@ -193,6 +195,10 @@ public class ArchesporeAdventureMain extends JavaPlugin {
 	 */
 	public static ScoreboardMenuController getScoreboardController() {
 		return scoreboardController;
+	}
+	
+	public static BossGenerator getBossGenerator() {
+		return bossGenerator;
 	}
 	
 	public static SkillController getSkillController(SkillType skillType) {

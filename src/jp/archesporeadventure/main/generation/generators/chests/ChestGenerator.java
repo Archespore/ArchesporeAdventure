@@ -5,8 +5,6 @@ import java.util.Map;
 
 import org.bukkit.Location;
 
-import jp.archesporeadventure.main.generation.chests.GeneratedChest;
-
 public class ChestGenerator {
 
 	protected Map<Location, GeneratedChest> generatedChests = new HashMap<>();

@@ -15,6 +15,7 @@ import org.bukkit.potion.PotionEffectType;
 import io.netty.util.internal.ThreadLocalRandom;
 import jp.archesporeadventure.main.ArchesporeAdventureMain;
 import jp.archesporeadventure.main.abilities.SkillAbility.AbilityActivation;
+import jp.archesporeadventure.main.generation.generators.boss.BossGenerator;
 import jp.archesporeadventure.main.utils.LivingEntityUtil;
 import jp.archesporeadventure.main.utils.MagicalItemsUtil;
 import jp.archesporeadventure.main.utils.PotionEffectUtil;
@@ -78,5 +79,8 @@ public class EntityDeathListener implements Listener {
 			ArchesporeAdventureMain.abilityEvent(AbilityActivation.ENTITY_KILL, event);
 
 		}
+		
+		BossGenerator bossGenerator = ArchesporeAdventureMain.getBossGenerator();
+		if (bossGenerator.isBoss(eventEntity)) { bossGenerator.removeBoss(eventEntity, false); }
 	}
 }

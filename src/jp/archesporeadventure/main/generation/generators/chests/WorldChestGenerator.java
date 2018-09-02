@@ -5,7 +5,6 @@ import java.util.concurrent.ThreadLocalRandom;
 import org.bukkit.Location;
 import org.bukkit.World;
 
-import jp.archesporeadventure.main.generation.chests.GeneratedChest;
 import jp.archesporeadventure.main.generation.itempools.LootPool;
 
 public class WorldChestGenerator extends ChestGenerator {

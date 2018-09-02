@@ -2,7 +2,6 @@ name: ArchesporeAdventure
 main: jp.archesporeadventure.main.ArchesporeAdventureMain
 version: 0.1
 api-version: 1.13
-loadbefore: [ArchesporeLoot]
 commands:
   enchantitem:
     description: Enchants an item

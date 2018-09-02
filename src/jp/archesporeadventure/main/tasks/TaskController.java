@@ -52,6 +52,7 @@ public class TaskController {
 				BlackholeController.blackholeEffect(tickCount);
 				ArtilleryBarrageController.artilleryEffect(tickCount);
 				((MiningSkillController) ArchesporeAdventureMain.getSkillController(SkillType.MINING)).refreshOres(tickCount);
+				ArchesporeAdventureMain.getBossGenerator().bossTick(tickCount);
 				tickCount++;
 			}
 		}.runTaskTimer(ArchesporeAdventureMain.getPlugin(), 0, 1);

@@ -15,9 +15,12 @@ import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 import org.bukkit.event.inventory.InventoryType;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffectType;
+import org.bukkit.scheduler.BukkitRunnable;
 
+import jp.archesporeadventure.main.ArchesporeAdventureMain;
 import jp.archesporeadventure.main.enchantments.CustomEnchantment;
 import jp.archesporeadventure.main.enchantments.SpecialEnchantment;
+import jp.archesporeadventure.main.generation.generators.boss.BossGenerator;
 import jp.archesporeadventure.main.utils.EnchantmentUtil;
 import jp.archesporeadventure.main.utils.LivingEntityUtil;
 import jp.archesporeadventure.main.utils.MagicalItemsUtil;
@@ -168,6 +171,15 @@ public class EntityDamageListener implements Listener{
 					}
 				}
 			}
+			
+			new BukkitRunnable() {
+				
+				public void run() {
+					BossGenerator bossGenerator = ArchesporeAdventureMain.getBossGenerator();
+					if (bossGenerator.isBoss(eventLivingDefender)) { bossGenerator.getBoss(eventLivingDefender).updateBarProgress(); }
+				}
+				
+			}.runTask(ArchesporeAdventureMain.getPlugin());
 		}
 	}
 }
