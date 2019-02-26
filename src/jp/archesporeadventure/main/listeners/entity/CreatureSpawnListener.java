@@ -25,7 +25,7 @@ public class CreatureSpawnListener implements Listener{
 	
 	@EventHandler
 	public void livingEntitySpawn(CreatureSpawnEvent event){
-		if (event.getEntityType().isAlive()){
+		if (event.getEntityType().isAlive() && !event.getEntity().hasMetadata("BOSS")){
 			if (event.getEntity().getLocation().getBlock().getLightFromSky() <= 0){
 				event.setCancelled(true);
 				return;

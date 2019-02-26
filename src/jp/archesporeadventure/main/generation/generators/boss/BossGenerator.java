@@ -1,6 +1,9 @@
 package jp.archesporeadventure.main.generation.generators.boss;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.bukkit.Bukkit;
@@ -10,6 +13,9 @@ import org.bukkit.boss.BarColor;
 import org.bukkit.boss.BarStyle;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
+import org.bukkit.metadata.FixedMetadataValue;
+
+import jp.archesporeadventure.main.ArchesporeAdventureMain;
 
 public class BossGenerator {
 
@@ -19,6 +25,7 @@ public class BossGenerator {
 		if (entity.isAlive()) {
 			LivingEntity bossEntity = (LivingEntity)location.getWorld().spawnEntity(location, entity);
 			aliveBossMobs.put(bossEntity, new BossEntity(bossEntity, Bukkit.createBossBar("Boss", BarColor.RED, BarStyle.SEGMENTED_10)));
+			bossEntity.setMetadata("BOSS", new FixedMetadataValue(ArchesporeAdventureMain.getPlugin(), true));
 		}
 	}
 	
@@ -61,7 +68,7 @@ public class BossGenerator {
 				for (int loopValue = 0; loopValue < 128; loopValue++) {
 					double angle = Math.toRadians((360.0/128.0) * loopValue);
 					
-					bossLocation.getWorld().spawnParticle(Particle.SPELL_WITCH, bossLocation.clone().add(Math.cos(angle) * 16, .1, Math.sin(angle) * 16), 0, 0, 0, 2);
+					bossLocation.getWorld().spawnParticle(Particle.SMOKE_NORMAL, bossLocation.clone().add(Math.cos(angle) * 16, .1, Math.sin(angle) * 16), 2, 0, 0, 0, 0);
 				}
 			}
 		}

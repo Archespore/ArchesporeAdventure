@@ -160,7 +160,7 @@ public class PlayerSkillController {
 		List<Double> skillStats = getPlayerSkillStats(player, skill);
 		double xpNeededToLevel = getXPToLevel(player, skill);
 		if (skillStats.get(1) >= xpNeededToLevel) {
-			player.sendTitle(ChatColor.GREEN + "Level Up!", ChatColor.GOLD + StringUtils.capitalize(skill.toString().toLowerCase()) + " Level: " + skillStats.get(0).intValue() + " → " + (skillStats.get(0).intValue() + 1), 10, 60, 10);
+			player.sendTitle(ChatColor.GREEN + "Level Up!", ChatColor.GOLD + StringUtils.capitalize(skill.toString().toLowerCase()) + " Level: " + skillStats.get(0).intValue() + " -> " + (skillStats.get(0).intValue() + 1), 10, 60, 10);
 			player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0f, .75f);
 			addPlayerLevel(player, skill, 1);
 			addPlayerEXP(player, skill, -xpNeededToLevel, false);
